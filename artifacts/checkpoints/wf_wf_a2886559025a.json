@@ -1,0 +1,18 @@
+{
+  "workflow_id": "wf_a2886559025a",
+  "task_id": "task_1bd9e1674d10",
+  "execution_generation": 1,
+  "status": "RUNNING",
+  "completed_node_ids": [
+    "s1"
+  ],
+  "pending_node_ids": [],
+  "failed_node_ids": [],
+  "running_node_ids": [],
+  "node_states": {},
+  "retry_counts": {},
+  "resource_state": {},
+  "dag_state": {},
+  "timestamp": 1792485447.6092513,
+  "signature": "8645e83b1843f2f74ddc7b23c7fe6c3a57821a189a6d750d854d42615ea20661"
+}

@@ -1,0 +1,274 @@
+{
+  "status": "PASS",
+  "reason": "Completed all target tasks safely.",
+  "tasks_attempted": 25,
+  "tasks_completed": 25,
+  "tasks_target": 25,
+  "memory_growth_mb": 0.15,
+  "initial_rss_mb": 35.39,
+  "final_rss_mb": 35.54,
+  "system_ram_percent_start": 87.0,
+  "system_ram_percent_end": 92.2,
+  "initial_process_count": 366,
+  "final_process_count": 366,
+  "process_count_delta": 0,
+  "gpu_metrics": {
+    "gpu_available": true,
+    "total_vram_mb": 4096,
+    "used_vram_mb": 0,
+    "free_vram_mb": 3962,
+    "vram_percent": 0.0
+  },
+  "task_details": [
+    {
+      "task_id": "stab_task_01",
+      "status": "PASS",
+      "duration_sec": 0.003,
+      "checkpoint": "wf_stab_task_01.json",
+      "cpu_percent": 46.8,
+      "ram_percent": 87.0,
+      "rss_mb": 35.22,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_02",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_02.json",
+      "cpu_percent": 41.9,
+      "ram_percent": 90.6,
+      "rss_mb": 35.5,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_03",
+      "status": "PASS",
+      "duration_sec": 0.003,
+      "checkpoint": "wf_stab_task_03.json",
+      "cpu_percent": 54.1,
+      "ram_percent": 91.1,
+      "rss_mb": 35.52,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_04",
+      "status": "PASS",
+      "duration_sec": 0.003,
+      "checkpoint": "wf_stab_task_04.json",
+      "cpu_percent": 30.0,
+      "ram_percent": 91.6,
+      "rss_mb": 35.52,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_05",
+      "status": "PASS",
+      "duration_sec": 0.0021,
+      "checkpoint": "wf_stab_task_05.json",
+      "cpu_percent": 61.1,
+      "ram_percent": 92.1,
+      "rss_mb": 35.45,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_06",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_06.json",
+      "cpu_percent": 63.9,
+      "ram_percent": 91.8,
+      "rss_mb": 35.49,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_07",
+      "status": "PASS",
+      "duration_sec": 0.0011,
+      "checkpoint": "wf_stab_task_07.json",
+      "cpu_percent": 47.2,
+      "ram_percent": 92.1,
+      "rss_mb": 35.5,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_08",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_08.json",
+      "cpu_percent": 5.8,
+      "ram_percent": 92.3,
+      "rss_mb": 35.5,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_09",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_09.json",
+      "cpu_percent": 3.4,
+      "ram_percent": 92.3,
+      "rss_mb": 35.51,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_10",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_10.json",
+      "cpu_percent": 10.7,
+      "ram_percent": 92.2,
+      "rss_mb": 35.47,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_11",
+      "status": "PASS",
+      "duration_sec": 0.001,
+      "checkpoint": "wf_stab_task_11.json",
+      "cpu_percent": 3.7,
+      "ram_percent": 92.2,
+      "rss_mb": 35.49,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_12",
+      "status": "PASS",
+      "duration_sec": 0.001,
+      "checkpoint": "wf_stab_task_12.json",
+      "cpu_percent": 13.3,
+      "ram_percent": 92.2,
+      "rss_mb": 35.5,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_13",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_13.json",
+      "cpu_percent": 2.8,
+      "ram_percent": 92.2,
+      "rss_mb": 35.52,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_14",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_14.json",
+      "cpu_percent": 4.9,
+      "ram_percent": 92.2,
+      "rss_mb": 35.46,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_15",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_15.json",
+      "cpu_percent": 6.2,
+      "ram_percent": 92.2,
+      "rss_mb": 35.5,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_16",
+      "status": "PASS",
+      "duration_sec": 0.0019,
+      "checkpoint": "wf_stab_task_16.json",
+      "cpu_percent": 14.8,
+      "ram_percent": 92.1,
+      "rss_mb": 35.52,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_17",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_17.json",
+      "cpu_percent": 7.4,
+      "ram_percent": 92.1,
+      "rss_mb": 35.53,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_18",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_18.json",
+      "cpu_percent": 12.5,
+      "ram_percent": 92.3,
+      "rss_mb": 35.53,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_19",
+      "status": "PASS",
+      "duration_sec": 0.001,
+      "checkpoint": "wf_stab_task_19.json",
+      "cpu_percent": 18.8,
+      "ram_percent": 92.2,
+      "rss_mb": 35.5,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_20",
+      "status": "PASS",
+      "duration_sec": 0.001,
+      "checkpoint": "wf_stab_task_20.json",
+      "cpu_percent": 13.3,
+      "ram_percent": 92.1,
+      "rss_mb": 35.52,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_21",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_21.json",
+      "cpu_percent": 13.8,
+      "ram_percent": 92.1,
+      "rss_mb": 35.53,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_22",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_22.json",
+      "cpu_percent": 9.1,
+      "ram_percent": 92.1,
+      "rss_mb": 35.54,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_23",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_23.json",
+      "cpu_percent": 12.8,
+      "ram_percent": 92.1,
+      "rss_mb": 35.48,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_24",
+      "status": "PASS",
+      "duration_sec": 0.002,
+      "checkpoint": "wf_stab_task_24.json",
+      "cpu_percent": 10.8,
+      "ram_percent": 92.1,
+      "rss_mb": 35.52,
+      "vram_used_mb": 0
+    },
+    {
+      "task_id": "stab_task_25",
+      "status": "PASS",
+      "duration_sec": 0.001,
+      "checkpoint": "wf_stab_task_25.json",
+      "cpu_percent": 31.2,
+      "ram_percent": 92.3,
+      "rss_mb": 35.53,
+      "vram_used_mb": 0
+    }
+  ]
+}

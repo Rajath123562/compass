@@ -1,0 +1,2405 @@
+{
+  "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+  "timestamp": 1789892309.2893417,
+  "task_id": "wf_C",
+  "step_id": "step_1",
+  "monitor_id": 0,
+  "dpi_scaling": 1.0,
+  "screenshot_path": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\artifacts\\phase7_screenshots\\window_1789892309041.png",
+  "screenshot_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+  "window_hwnd": 4917118,
+  "window_title": "openclaw.txt - Notepad",
+  "window_bounds": {
+    "left": 100,
+    "top": 100,
+    "right": 900,
+    "bottom": 700,
+    "width": 800,
+    "height": 600,
+    "coordinate_space": "screen_physical"
+  },
+  "evidence_count": 56,
+  "evidence_items": [
+    {
+      "evidence_id": "3d945c9c-a563-4abe-b1a7-645c45fdfa8b",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 100,
+        "top": 100,
+        "right": 900,
+        "bottom": 700,
+        "width": 800,
+        "height": 600,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "openclaw.txt - Notepad",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "9e6a5de6-ebf4-4ad6-ac98-8551469035a4",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Window"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4917118]",
+        "control_type": "Window",
+        "class_name": "Notepad"
+      },
+      "correlation_ids": [
+        "a4d87f5c-fcf5-495a-8a7e-ba2ac3788ca0",
+        "0086603f-7ec5-4308-b0fc-31f230ba961a"
+      ],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "bb31fdae-3047-4dd2-8eb8-9f2583988bf4",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 106,
+        "top": 174,
+        "right": 893,
+        "bottom": 661,
+        "width": 787,
+        "height": 487,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "a995fe3f-f875-4e1f-b141-67373c6274ca",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 858522]",
+        "control_type": "Pane",
+        "class_name": "NotepadTextBox"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "02a7730e-5e92-4306-871e-0a6b3c3fe928",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 106,
+        "top": 174,
+        "right": 893,
+        "bottom": 661,
+        "width": 787,
+        "height": 487,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Text editor",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "9f9588ce-85ae-43df-a33c-47d8a85154fd",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Document"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 597020]",
+        "control_type": "Document",
+        "class_name": "RichEditD2DPT"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "ccf821f0-addd-4dca-a9ac-455b028ce4cc",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "3e86bbcc-f864-455b-9578-150c30c11566",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Unknown(0)"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "0::",
+        "control_type": "Unknown(0)",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "49556aea-c75b-4fe8-90d6-2bd1a6c833ec",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 146,
+        "top": 110,
+        "right": 433,
+        "bottom": 142,
+        "width": 287,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "6798160d-6c33-4c8b-a3d2-0d5c793a2949",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2955108]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "3f789737-8794-4fd3-a818-97628567e9f0",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 146,
+        "top": 110,
+        "right": 433,
+        "bottom": 142,
+        "width": 287,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "b88e86a1-8068-4420-b5db-f2ed3ce3bfe2",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2951654]",
+        "control_type": "Pane",
+        "class_name": "InputSiteWindowClass"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "9352c3f7-f43c-4b70-b27b-fc2b2f5a179d",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 146,
+        "top": 110,
+        "right": 433,
+        "bottom": 142,
+        "width": 287,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "40efabdf-1f3b-444f-8113-dfacb8edfcdf",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Tab"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "Tabs",
+        "runtime_id": "[42, 2951654, 4, 1]",
+        "control_type": "Tab",
+        "class_name": "Microsoft.UI.Xaml.Controls.TabView"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "e791c70c-2c82-4454-93a7-612925cf2a90",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 106,
+        "top": 142,
+        "right": 893,
+        "bottom": 175,
+        "width": 787,
+        "height": 33,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "992750c8-0d6e-4ddc-a9ad-58fd342b738c",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 3477780]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "5edf5021-31b0-4f82-833b-e5e01bee45ec",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 106,
+        "top": 142,
+        "right": 893,
+        "bottom": 175,
+        "width": 787,
+        "height": 33,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "43266b3a-b809-4a2f-b8c0-9d084b4b98df",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478]",
+        "control_type": "Pane",
+        "class_name": "InputSiteWindowClass"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "254494eb-ea33-433d-83ca-396eda14320f",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 106,
+        "top": 142,
+        "right": 265,
+        "bottom": 174,
+        "width": 159,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "c6a9d207-df7c-411d-b40e-f83e578aeb5d",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "MenuBar"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "MenuBar",
+        "runtime_id": "[42, 4392478, 4, 2]",
+        "control_type": "MenuBar",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "2e9b5d74-9bcf-4ec0-8598-101d88bfcf29",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 335,
+        "top": 142,
+        "right": 392,
+        "bottom": 174,
+        "width": 57,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Headings",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "20370ede-a130-4ffe-bf0e-3f7bff107ac7",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 3]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "194e6f1c-86e3-4314-8434-b69b29203391",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 392,
+        "top": 142,
+        "right": 449,
+        "bottom": 174,
+        "width": 57,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Lists",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "01db54ca-be5c-49d4-8784-f84e649c650d",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 4]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "f370e829-3001-49a6-b2c0-6ac1b8d27e7a",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 449,
+        "top": 142,
+        "right": 481,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Bold (Ctrl+B)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "c3e1fe56-fd39-4458-9ab0-a5e2d964e60f",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 5]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "488fd6fb-f6fc-47cc-b211-67ce40f1c5b3",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 481,
+        "top": 142,
+        "right": 513,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Italic (Ctrl+I)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "8d2b8397-ae33-452a-8e99-1557fb4e63fb",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 6]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "40a72034-504d-45b0-a3ef-156110669b4a",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 513,
+        "top": 142,
+        "right": 544,
+        "bottom": 174,
+        "width": 31,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Strikethrough (Ctrl+Shift+X)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "8d2e9780-5300-4a73-b668-d55d5c2db998",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 7]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "c4ccf762-32d2-4096-92aa-13ec4c3909bf",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 545,
+        "top": 142,
+        "right": 577,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Link (Ctrl+K)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d1ffad04-cc8a-4f47-aeac-d80bd3d61626",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 8]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "78d7594a-c4c1-49b3-9813-0be46d8eaba0",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 577,
+        "top": 142,
+        "right": 633,
+        "bottom": 174,
+        "width": 56,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Table",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "0e248692-21fd-41c3-8b63-779f9e25f107",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.238021,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 9]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "73d67196-c330-42f4-8dbd-e9dd2e33d1d6",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 633,
+        "top": 142,
+        "right": 665,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Clear formatting (Ctrl+Space)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "26e6e24f-41c3-406a-8be9-31e340641420",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4392478, 4, 10]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [
+        "05c13187-1f78-4524-b90b-faba84a72ffe",
+        "91fc86b8-496b-48a0-b421-9ded7dae94e6"
+      ],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "aff018e7-542e-4323-8fea-d341d0dbbe55",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 726,
+        "top": 142,
+        "right": 783,
+        "bottom": 174,
+        "width": 57,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Writing tools",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d508d562-0e4c-474f-b837-ece83643148a",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "RewriteDropDownButton",
+        "runtime_id": "[42, 4392478, 4, 11]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "258c6dfe-b7ca-42d7-a471-3b75095ddb0f",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 786,
+        "top": 142,
+        "right": 816,
+        "bottom": 172,
+        "width": 30,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "What's new",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "0380d02d-45c0-4a4d-80c5-e8fa1a387b88",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "FREButton",
+        "runtime_id": "[42, 4392478, 4, 12]",
+        "control_type": "Button",
+        "class_name": "Button"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "a1060d38-6ed2-4a1a-9ec8-a06891fa7f68",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 821,
+        "top": 142,
+        "right": 851,
+        "bottom": 174,
+        "width": 30,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "User avatar",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "8df3fb50-a658-447f-95cc-ff6283082992",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "AvatarButton",
+        "runtime_id": "[42, 4392478, 4, 13]",
+        "control_type": "Button",
+        "class_name": "Button"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "68edd02c-859b-40c4-bf8d-5741e956b760",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 855,
+        "top": 142,
+        "right": 885,
+        "bottom": 174,
+        "width": 30,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Settings",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "6aec97df-2da2-486f-aa42-f56fd093157d",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "SettingsButton",
+        "runtime_id": "[42, 4392478, 4, 15]",
+        "control_type": "Button",
+        "class_name": "Button"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "c4ec116b-4a96-4527-ac51-a2ccc2e50b9d",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "896d8fec-a23b-4bfd-89ff-a9b33ef16b35",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Window"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "PrivacyTeachingTip",
+        "runtime_id": "[42, 4392478, 4, 16]",
+        "control_type": "Window",
+        "class_name": "Microsoft.UI.Xaml.Controls.TeachingTip"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "2a622345-64e0-4a35-a020-cb1d4e85842f",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "48334753-33a2-452f-b82a-a0c23c680ccc",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "PsDownloadDetailTeachingTip",
+        "runtime_id": "[42, 4392478, 4, 17]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Xaml.Controls.TeachingTip"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "f91df144-3914-4f81-bca2-2068281c86e5",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Local AI model must complete downloading to use this feature while signed out.",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "894aa645-1c61-47a0-ac3d-db114584be39",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "PsDownloadLightTeachingTip",
+        "runtime_id": "[42, 4392478, 4, 18]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Xaml.Controls.TeachingTip"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "49fb9bce-a12c-4132-82cd-e5455baaa5a9",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 106,
+        "top": 662,
+        "right": 893,
+        "bottom": 694,
+        "width": 787,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "7717feee-92cd-4e0b-b3a3-2d8cca167023",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 1902238]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "29dc1b18-c2a0-4ef4-9ff5-550b3e9b8873",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 106,
+        "top": 662,
+        "right": 893,
+        "bottom": 694,
+        "width": 787,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "afd9508b-89d3-41b4-a3fa-a80da1bc441a",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2364568]",
+        "control_type": "Pane",
+        "class_name": "InputSiteWindowClass"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "468cd25e-83ae-4fa8-a0e3-f7d60f4c9738",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 122,
+        "top": 670,
+        "right": 190,
+        "bottom": 686,
+        "width": 68,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Line 1,\nColumn 36",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d96a032e-bdc8-4f6c-b729-81de5dc73d3a",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2364568, 4, 19]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "b8ea27b4-6ab6-4753-adb1-c0d4a67638df",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 211,
+        "top": 670,
+        "right": 283,
+        "bottom": 686,
+        "width": 72,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "35 characters",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "3444370f-fca2-4496-99da-0ca1ec67c3d5",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2364568, 4, 20]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "18847b4b-5c4f-4875-b672-778b18aafd65",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 365,
+        "top": 662,
+        "right": 427,
+        "bottom": 694,
+        "width": 62,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Plain text",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "04a36876-decf-448e-88dc-1fe92a15cb55",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2364568, 4, 21]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "cefea42d-b7a1-43e9-94f3-e9d3afe54f2e",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 531,
+        "top": 670,
+        "right": 562,
+        "bottom": 686,
+        "width": 31,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Zoom",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "f9733a19-7501-4985-8dd4-8b461923d116",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2364568, 4, 22]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "557c3e0b-eca8-4cb6-b59f-eab124387e5d",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 599,
+        "top": 670,
+        "right": 690,
+        "bottom": 686,
+        "width": 91,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": " Windows (CRLF)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "6d4137c6-df98-4378-8803-c9a9d0d6f570",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2364568, 4, 23]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "ba8b0866-69f2-45a6-be67-e0746b38add6",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 758,
+        "top": 670,
+        "right": 794,
+        "bottom": 686,
+        "width": 36,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": " UTF-8",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "e55af8a7-4f9a-4786-ab4b-0f38f4ea6b74",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2364568, 4, 24]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "274f4301-8409-4155-b3bc-5999b11f3672",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "openclaw.txt - Notepad",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "ab9cce8b-e77f-49a0-9b34-513cd64906ce",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "TitleBar"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4917118, 3, -2147483647, 4917118, -2, 0]",
+        "control_type": "TitleBar",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "a8d16e55-fe53-48d5-89ed-3fb14bc3041e",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 107,
+        "top": 107,
+        "right": 129,
+        "bottom": 129,
+        "width": 22,
+        "height": 22,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "System",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "abe30c61-f89e-4782-a769-4440e27bcbdf",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "MenuBar"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "MenuBar",
+        "runtime_id": "[42, 4917118, 3, -2147483646, 25744, 19796271, 0]",
+        "control_type": "MenuBar",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "8f01c323-521b-4f41-9841-1b4e753054cb",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 107,
+        "top": 107,
+        "right": 129,
+        "bottom": 129,
+        "width": 22,
+        "height": 22,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "System",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "e7fdc71e-3034-4424-bc57-5daa1d62bad4",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "MenuItem"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[]",
+        "control_type": "MenuItem",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "e5c7249e-acf0-439f-acb2-2da268a0f25b",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 751,
+        "top": 101,
+        "right": 799,
+        "bottom": 131,
+        "width": 48,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Minimize",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d3b7304c-1c86-41ca-900d-a8f191e0901d",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4917118, 3, -2147483647, 4917118, -2, 2]",
+        "control_type": "Button",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "402e2230-ed2e-40fb-9f86-04dc37bb9ba2",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 799,
+        "top": 101,
+        "right": 846,
+        "bottom": 131,
+        "width": 47,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Maximize",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "be000261-a301-448e-99ab-6c35adca79ac",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4917118, 3, -2147483647, 4917118, -2, 3]",
+        "control_type": "Button",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "2cbb9eb3-7b93-48f9-8c0f-3976aa312dd5",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 846,
+        "top": 101,
+        "right": 894,
+        "bottom": 131,
+        "width": 48,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Close",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "5788e5a6-21aa-478e-8fd5-4e1c73d597fc",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892309.2390168,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "hwnd": 4917118,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 4917118, 3, -2147483647, 4917118, -2, 5]",
+        "control_type": "Button",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "046747be-8455-423a-b3e4-c190bbbf46a6",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 126,
+        "top": 167,
+        "right": 151,
+        "bottom": 180,
+        "width": 25,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "File",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "2044ba21-16fd-41b6-8853-c48e25d85433",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 0
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "8f9f31c7-8d1d-4882-89a6-f6dc1b2751a5",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 126,
+        "top": 167,
+        "right": 151,
+        "bottom": 180,
+        "width": 25,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "File",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "cd057dc3-049d-477c-b615-d733369ec366",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 0
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "a4d87f5c-fcf5-495a-8a7e-ba2ac3788ca0",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 179,
+        "top": 127,
+        "right": 268,
+        "bottom": 141,
+        "width": 89,
+        "height": 14,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "openclaw.txt",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "43ecb604-5d57-463c-a771-03799e2f493f",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "3d945c9c-a563-4abe-b1a7-645c45fdfa8b",
+        "0086603f-7ec5-4308-b0fc-31f230ba961a"
+      ],
+      "metadata": {
+        "type": "word",
+        "line_index": 1
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "0086603f-7ec5-4308-b0fc-31f230ba961a",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 179,
+        "top": 127,
+        "right": 268,
+        "bottom": 141,
+        "width": 89,
+        "height": 14,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "openclaw.txt",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "6e807aff-2d13-4a0b-85f8-0aa399da8042",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "3d945c9c-a563-4abe-b1a7-645c45fdfa8b",
+        "a4d87f5c-fcf5-495a-8a7e-ba2ac3788ca0"
+      ],
+      "metadata": {
+        "type": "line",
+        "line_index": 1
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "7a1dd181-90ce-4bb7-8689-1141911d30c4",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 189,
+        "top": 167,
+        "right": 218,
+        "bottom": 180,
+        "width": 29,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Edit",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "a541c5d6-852f-4dc0-9a7f-53d8d9149354",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 2
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "424912e4-bacd-40cf-a875-1b325588b5f9",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 252,
+        "top": 167,
+        "right": 289,
+        "bottom": 180,
+        "width": 37,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "View",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "3ad234ea-5610-4ae4-b821-c0ee99fcdaff",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 2
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "ec793df1-f0e6-4d1f-86b0-f7e80f8ed75b",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 189,
+        "top": 167,
+        "right": 289,
+        "bottom": 180,
+        "width": 100,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Edit View",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "cd25f053-66c3-4c95-8996-68f039079f4f",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 2
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "61ca6ebe-1f91-446e-99f0-fd80389aae11",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 550,
+        "top": 164,
+        "right": 561,
+        "bottom": 180,
+        "width": 11,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "B",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "e0909252-f432-4c36-97a5-e46ef431c319",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 3
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "7c9e784c-c6cc-48d7-bb68-ce494dbe46c5",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 550,
+        "top": 164,
+        "right": 561,
+        "bottom": 180,
+        "width": 11,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "B",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "1cadaf5e-c454-4bcc-86f6-4d45dd466373",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 3
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "05c13187-1f78-4524-b90b-faba84a72ffe",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 628,
+        "top": 164,
+        "right": 644,
+        "bottom": 180,
+        "width": 16,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "S",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "99445085-60b3-4c4b-8c61-b319b0ca5287",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "73d67196-c330-42f4-8dbd-e9dd2e33d1d6",
+        "91fc86b8-496b-48a0-b421-9ded7dae94e6"
+      ],
+      "metadata": {
+        "type": "word",
+        "line_index": 4
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "91fc86b8-496b-48a0-b421-9ded7dae94e6",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 628,
+        "top": 164,
+        "right": 644,
+        "bottom": 180,
+        "width": 16,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "S",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "f5622d5c-fc6f-45b2-89a3-f7ec1c428c3c",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "73d67196-c330-42f4-8dbd-e9dd2e33d1d6",
+        "05c13187-1f78-4524-b90b-faba84a72ffe"
+      ],
+      "metadata": {
+        "type": "line",
+        "line_index": 4
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "205df058-94f3-4b41-8de7-39cdf4f34539",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 129,
+        "top": 217,
+        "right": 318,
+        "bottom": 230,
+        "width": 189,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "sk-63cc9136498ebeg\u00f8",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "c5cfda0f-8eeb-4f60-b3a1-47e42990d7a2",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 5
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "4c5a3030-6d76-4bf2-8171-1258abdb3414",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 129,
+        "top": 217,
+        "right": 318,
+        "bottom": 230,
+        "width": 189,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "sk-63cc9136498ebeg\u00f8",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "6366bd57-b3c5-4145-9195-6ea907a686ab",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 5
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "762ef897-9ca2-4e06-adf5-fb1aa5bf3548",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 320,
+        "top": 217,
+        "right": 387,
+        "bottom": 230,
+        "width": 67,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "-b54eba",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "0b9e7b27-4b80-4b6a-a76f-98822b5975be",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 6
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "3301deaf-fde6-43db-888a-152a790b29bd",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 320,
+        "top": 217,
+        "right": 387,
+        "bottom": 230,
+        "width": 67,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "-b54eba",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "65690e21-f955-4cd0-9e6d-87d11576809e",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 6
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "04316131-c2a6-43de-b39f-199bcd26540c",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 390,
+        "top": 213,
+        "right": 479,
+        "bottom": 235,
+        "width": 89,
+        "height": 22,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "-639fa28eI",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "d7be56bd-a8ee-47ce-ad09-c68223cd8949",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 7
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "12f75ed7-9eaf-4dfd-bfca-097c4115ba3f",
+      "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+      "task_id": "wf_C",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "openclaw.txt - Notepad",
+      "window_title": "openclaw.txt - Notepad",
+      "hwnd": 4917118,
+      "bounding_box": {
+        "left": 390,
+        "top": 213,
+        "right": 479,
+        "bottom": 235,
+        "width": 89,
+        "height": 22,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "-639fa28eI",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "56d250bc-f2b3-4957-8ee5-b4e9cd5fd202",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892309.281353,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "2630ce1bc8a68af71566a0f327cb817fdced9f26a12ddf95927f189b4289d5fc",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 7
+      },
+      "is_untrusted": true
+    }
+  ],
+  "metadata": {
+    "capture_latency_ms": 262.9,
+    "uia_count": 39,
+    "ocr_count": 17,
+    "visual_count": 0
+  }
+}

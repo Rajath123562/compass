@@ -1,0 +1,5 @@
+{
+  "sanitized_goal": "Goal containing [REDACTED_API_KEY] and Bearer [REDACTED_SECRET]",
+  "redacted_key": true,
+  "redacted_bearer": true
+}

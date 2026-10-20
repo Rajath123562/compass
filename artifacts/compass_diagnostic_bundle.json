@@ -1,0 +1,101 @@
+{
+  "status": "success",
+  "redaction_verified": true,
+  "diagnostics_version": "2.0.0",
+  "system": {
+    "timestamp": 1792485148.693851,
+    "timestamp_iso": "2026-10-20T08:32:28Z",
+    "platform": "Windows",
+    "platform_release": "10",
+    "platform_version": "10.0.26300",
+    "architecture": "AMD64",
+    "python_version": "3.11.9",
+    "hardware": {
+      "os": "Windows",
+      "os_release": "10",
+      "os_version": "10.0.26300",
+      "architecture": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+      "cpu_count_logical": 12,
+      "cpu_count_physical": 8,
+      "ram_total_mb": 11995.87,
+      "ram_available_mb": 1365.19,
+      "ram_used_percent": 88.6,
+      "display": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gpus": [
+        {
+          "name": "NVIDIA GeForce RTX 2050",
+          "vram_mb": 4095.0
+        },
+        {
+          "name": "Intel(R) UHD Graphics",
+          "vram_mb": 2048.0
+        }
+      ],
+      "vram_measured": true,
+      "vram_total_mb": 6143.0,
+      "vram_used_mb": null,
+      "execution_tier": {
+        "tier": 1,
+        "name": "GPU Acceleration (High-Precision)",
+        "recommended_model": "local/ollama/qwen2.5:3b-instruct",
+        "vram_ceiling_mb": 2500,
+        "device": "cuda",
+        "description": "Dedicated discrete GPU with sufficient VRAM for full 3B+ model offloading."
+      }
+    },
+    "execution_tier": {
+      "tier": 1,
+      "name": "GPU Acceleration (High-Precision)",
+      "recommended_model": "local/ollama/qwen2.5:3b-instruct",
+      "vram_ceiling_mb": 2500,
+      "device": "cuda",
+      "description": "Dedicated discrete GPU with sufficient VRAM for full 3B+ model offloading."
+    }
+  },
+  "ports": {
+    "8000": "ONLINE",
+    "5173": "ONLINE",
+    "11434": "ONLINE"
+  },
+  "database": {
+    "status": "connected",
+    "db_path": "C:\\Users\\<USER>\\Downloads\\personal assitant\\storage\\compass.db",
+    "file_size_kb": 32308.0,
+    "schema_version": 2,
+    "tasks_by_state": {
+      "AI_UNAVAILABLE": 3,
+      "BLOCKED": 8,
+      "CANCELLED": 6,
+      "COMPLETED": 17,
+      "FAILED": 27,
+      "SAFETY_BLOCKED": 4,
+      "STOPPED": 54,
+      "TASK_COMPLETED": 3,
+      "UNVERIFIED": 8
+    },
+    "total_events": 1895
+  },
+  "models": {
+    "ollama_online": true,
+    "installed_models": [
+      {
+        "name": "hf.co/IFM/K2-Horizon-3.7B-GGUF:Q4_K_M",
+        "size_gb": 2.94
+      },
+      {
+        "name": "qwen3.5:4b",
+        "size_gb": 3.16
+      },
+      {
+        "name": "gemma4:e4b",
+        "size_gb": 6.13
+      }
+    ]
+  },
+  "recent_logs": [],
+  "sha256_checksum": "ff88823ea32bb36397736b1e959a0d853c11e46ee24f1aba9273cf18cb97dd03"
+}

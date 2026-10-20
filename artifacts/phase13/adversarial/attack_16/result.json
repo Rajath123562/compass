@@ -1,0 +1,12 @@
+{
+  "attack_id": "16",
+  "name": "Checkpoint Cryptographic Tamper Defense",
+  "status": "PASS",
+  "duration_s": 0.0121,
+  "details": "Bit-flipped checkpoint JSON payload caught and rejected by HMAC-SHA256 verification.",
+  "evidence": {
+    "ok": false,
+    "error": "Workflow checkpoint integrity validation failed (HMAC mismatch)."
+  },
+  "timestamp": 1790617014.0930736
+}

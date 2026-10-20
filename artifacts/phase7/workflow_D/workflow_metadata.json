@@ -1,0 +1,8 @@
+{
+  "workflow": "D",
+  "name": "UIA / Vision Fusion",
+  "status": "PASS",
+  "consistency": "CONSISTENT",
+  "correlation_preserved": true,
+  "cluster_count": 1
+}

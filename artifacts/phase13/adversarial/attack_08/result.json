@@ -1,0 +1,11 @@
+{
+  "attack_id": "08",
+  "name": "Verification Failure / State Withholding",
+  "status": "PASS",
+  "duration_s": 0.0209,
+  "details": "Action success does not equal task success; task truthfully transitioned to UNVERIFIED.",
+  "evidence": {
+    "state": "UNVERIFIED"
+  },
+  "timestamp": 1790617013.9212928
+}

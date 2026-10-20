@@ -1,0 +1,12 @@
+{
+  "attack_id": "17",
+  "name": "Application Crash HWND Reconciliation",
+  "status": "PASS",
+  "duration_s": 2.228,
+  "details": "Killed Notepad process reconciled window handle drift (old HWND=70892, new HWND=70950).",
+  "evidence": {
+    "old_hwnd": 70892,
+    "new_hwnd": 70950
+  },
+  "timestamp": 1790617016.3221095
+}

@@ -1,0 +1,9 @@
+{
+  "target": {
+    "name": "Settings Option",
+    "available_patterns": [
+      "InvokePattern",
+      "TogglePattern"
+    ]
+  }
+}

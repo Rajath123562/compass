@@ -1,0 +1,205 @@
+{
+  "workflow_id": "wf-audit-1792402477662",
+  "task_id": "task_52d77aeb88b1",
+  "goal": "Autonomous System Health & Telemetry Audit",
+  "start_time": 1792402477.851241,
+  "end_time": 1792402478.625824,
+  "node_traces": [
+    {
+      "step_id": "check_resources",
+      "goal": "Sample host CPU, memory, and disk health metrics",
+      "start_time": 1792402477.9499965,
+      "end_time": 1792402478.0333543,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.083
+    },
+    {
+      "step_id": "capture_desktop",
+      "goal": "Capture current foreground window and active controls",
+      "start_time": 1792402478.1813123,
+      "end_time": 1792402478.2693236,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.088
+    },
+    {
+      "step_id": "verify_state",
+      "goal": "Perform OCR and checksum verification on desktop state",
+      "start_time": 1792402478.4012203,
+      "end_time": 1792402478.4834158,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.082
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792402477.851241,
+      "payload": {
+        "task_id": "task_52d77aeb88b1",
+        "goal": "Autonomous System Health & Telemetry Audit"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792402477.8523312,
+      "payload": {
+        "goal": "Autonomous System Health & Telemetry Audit",
+        "node_count": 3
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792402477.8807476,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792402477.9499965,
+      "payload": {
+        "node_id": "check_resources",
+        "goal": "Sample host CPU, memory, and disk health metrics"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792402477.9499965,
+      "payload": {
+        "node_id": "check_resources",
+        "goal": "Sample host CPU, memory, and disk health metrics",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792402478.0333543,
+      "payload": {
+        "node_id": "check_resources",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792402478.0333543,
+      "payload": {
+        "node_id": "check_resources",
+        "result": {
+          "output": "Executed action noop for node check_resources"
+        }
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792402478.1813123,
+      "payload": {
+        "node_id": "capture_desktop",
+        "goal": "Capture current foreground window and active controls"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792402478.1813123,
+      "payload": {
+        "node_id": "capture_desktop",
+        "goal": "Capture current foreground window and active controls",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792402478.2693236,
+      "payload": {
+        "node_id": "capture_desktop",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792402478.2693236,
+      "payload": {
+        "node_id": "capture_desktop",
+        "result": {
+          "output": "Executed action noop for node capture_desktop"
+        }
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792402478.4012203,
+      "payload": {
+        "node_id": "verify_state",
+        "goal": "Perform OCR and checksum verification on desktop state"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792402478.4012203,
+      "payload": {
+        "node_id": "verify_state",
+        "goal": "Perform OCR and checksum verification on desktop state",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792402478.4834158,
+      "payload": {
+        "node_id": "verify_state",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792402478.4851735,
+      "payload": {
+        "node_id": "verify_state",
+        "result": {
+          "output": "Executed action noop for node verify_state"
+        }
+      }
+    },
+    {
+      "event": "workflow_completed",
+      "timestamp": 1792402478.625824,
+      "payload": {
+        "status": "COMPLETED"
+      }
+    }
+  ],
+  "final_status": "COMPLETED",
+  "total_duration_s": 0.775
+}

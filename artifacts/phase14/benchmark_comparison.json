@@ -1,0 +1,69 @@
+{
+  "timestamp": 1790691385.5046248,
+  "comparison": [
+    {
+      "metric": "planning_latency_ms",
+      "baseline": 0.905,
+      "optimized": 1.205,
+      "diff": 0.3,
+      "pct_change": 33.1,
+      "verdict": "SLOWER"
+    },
+    {
+      "metric": "database_op_latency_ms",
+      "baseline": 9.825,
+      "optimized": 15.207,
+      "diff": 5.382,
+      "pct_change": 54.8,
+      "verdict": "SLOWER"
+    },
+    {
+      "metric": "safety_latency_ms",
+      "baseline": 0.009,
+      "optimized": 0.008,
+      "diff": -0.001,
+      "pct_change": -11.1,
+      "verdict": "FASTER"
+    },
+    {
+      "metric": "action_latency_ms",
+      "baseline": 60.516,
+      "optimized": 69.152,
+      "diff": 8.636,
+      "pct_change": 14.3,
+      "verdict": "SLOWER"
+    },
+    {
+      "metric": "e2e_single_step_latency_ms",
+      "baseline": 64.782,
+      "optimized": 65.897,
+      "diff": 1.115,
+      "pct_change": 1.7,
+      "verdict": "SLOWER"
+    },
+    {
+      "metric": "replanning_latency_ms",
+      "baseline": 0.68,
+      "optimized": 1.155,
+      "diff": 0.475,
+      "pct_change": 69.9,
+      "verdict": "SLOWER"
+    },
+    {
+      "metric": "stop_latency_ms",
+      "baseline": 13.426,
+      "optimized": 45.694,
+      "diff": 32.268,
+      "pct_change": 240.3,
+      "verdict": "ACCEPTABLE"
+    },
+    {
+      "metric": "rss_growth_15_cycles_mb",
+      "baseline": 1.16,
+      "optimized": 1.49,
+      "diff": 0.33,
+      "pct_change": 0.0,
+      "verdict": "STABLE"
+    }
+  ]
+}

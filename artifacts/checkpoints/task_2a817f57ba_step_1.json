@@ -1,0 +1,23 @@
+{
+  "task_id": "task_2a817f57ba",
+  "step_id": "step_1",
+  "completed_step_ids": [
+    "step_1"
+  ],
+  "verified_state": {
+    "step_id": "step_1",
+    "status": "VERIFIED"
+  },
+  "current_application": "Untitled - Notepad",
+  "expected_window_title": "Untitled - Notepad",
+  "expected_hwnd": null,
+  "timestamp": 1792140746.7345564,
+  "observation_id": null,
+  "evidence_ids": [],
+  "evidence_fingerprint": null,
+  "perception_state": null,
+  "monitor_dpi_context": {},
+  "workflow_id": null,
+  "execution_generation": 1,
+  "signature": "a43e3e5c9e4186a238b4a99720269f4a8a981bb0effb71635fbe75f81909dc23"
+}

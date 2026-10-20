@@ -1,0 +1,12 @@
+{
+  "attack_id": "11",
+  "name": "State Machine Terminal Immutability",
+  "status": "PASS",
+  "duration_s": 0.021,
+  "details": "Illegal transition from terminal TASK_COMPLETED rejected; terminal state strictly immutable.",
+  "evidence": {
+    "rejected": true,
+    "current_state": "TASK_COMPLETED"
+  },
+  "timestamp": 1790617013.9453015
+}

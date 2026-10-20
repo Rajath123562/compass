@@ -1,0 +1,157 @@
+{
+  "workflow_id": "wf_cbbbc5042c6f",
+  "task_id": "task_dd125f13ac6e",
+  "goal": "retry exhaust test",
+  "start_time": 1792342504.0283253,
+  "end_time": 1792342504.41989,
+  "node_traces": [
+    {
+      "step_id": "A",
+      "goal": "Always failing step",
+      "start_time": 1792342504.0637288,
+      "end_time": 1792342504.2792528,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "FAILED",
+      "verification_details": "TIMEOUT",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "FAILED",
+      "duration_s": 0.216
+    },
+    {
+      "step_id": "A",
+      "goal": "Always failing step",
+      "start_time": 1792342504.2412496,
+      "end_time": null,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": null,
+      "verification_details": null,
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "RUNNING",
+      "duration_s": 0.0
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342504.02933,
+      "payload": {
+        "task_id": "task_dd125f13ac6e",
+        "goal": "retry exhaust test"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342504.02933,
+      "payload": {
+        "goal": "retry exhaust test",
+        "node_count": 2
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792342504.0451858,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342504.0637288,
+      "payload": {
+        "node_id": "A",
+        "goal": "Always failing step"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342504.0637288,
+      "payload": {
+        "node_id": "A",
+        "goal": "Always failing step",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_retrying",
+      "timestamp": 1792342504.0647278,
+      "payload": {
+        "node_id": "A",
+        "status": "RETRYING",
+        "verification_status": "FAILED"
+      }
+    },
+    {
+      "event": "node_retry",
+      "timestamp": 1792342504.0647278,
+      "payload": {
+        "node_id": "A",
+        "attempt": 1,
+        "max_attempts": 2,
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342504.2412496,
+      "payload": {
+        "node_id": "A",
+        "goal": "Always failing step"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342504.2412496,
+      "payload": {
+        "node_id": "A",
+        "goal": "Always failing step",
+        "attempt": 2
+      }
+    },
+    {
+      "event": "node_failed",
+      "timestamp": 1792342504.2792528,
+      "payload": {
+        "node_id": "A",
+        "status": "FAILED",
+        "verification_status": "FAILED"
+      }
+    },
+    {
+      "event": "node_failed",
+      "timestamp": 1792342504.2792528,
+      "payload": {
+        "node_id": "A",
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "event": "node_blocked",
+      "timestamp": 1792342504.2983005,
+      "payload": {
+        "node_id": "B",
+        "reason": "Dependency A failed"
+      }
+    },
+    {
+      "event": "workflow_failed",
+      "timestamp": 1792342504.41989,
+      "payload": {
+        "status": "FAILED"
+      }
+    }
+  ],
+  "final_status": "FAILED",
+  "total_duration_s": 0.392
+}

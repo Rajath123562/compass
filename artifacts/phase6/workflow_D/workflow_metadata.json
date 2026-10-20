@@ -1,0 +1,9 @@
+{
+  "workflow": "D",
+  "name": "Unexpected UI change requiring re-perception (Modal detection)",
+  "status": "PASS",
+  "duration_ms": 0.12,
+  "has_modal_dialog": true,
+  "active_dialog_title": "Confirm Replace",
+  "verification": "VERIFIED (Modal dialog identified with zero vision hallucination)"
+}

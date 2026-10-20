@@ -1,0 +1,68 @@
+{
+  "timestamp": 1790691385.5006967,
+  "mode": "optimized",
+  "hardware_profile": {
+    "os": "Windows",
+    "os_release": "10",
+    "os_version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "python_version": "3.11.9",
+    "ram_total_gb": 11.71,
+    "ram_available_gb": 1.07,
+    "cpu_logical_cores": 12,
+    "cpu_physical_cores": 8,
+    "gpu_name": "NVIDIA GeForce RTX 2050",
+    "gpu_vram_total_mb": 4096.0,
+    "gpu_vram_used_mb": 1563.0,
+    "gpu_utilization_pct": 0.0
+  },
+  "latency_metrics": {
+    "perception_latency_ms": 0.018,
+    "planning_latency_ms": 1.205,
+    "validation_latency_ms": 0.007,
+    "safety_latency_ms": 0.008,
+    "verification_latency_ms": 0.015,
+    "recovery_latency_ms": 0.006,
+    "replanning_latency_ms": 1.155,
+    "action_latency_ms": 69.152,
+    "database_op_latency_ms": 15.207,
+    "e2e_single_step_latency_ms": 65.897,
+    "e2e_multi_step_latency_ms": 197.42,
+    "actions_per_min": 867.7,
+    "steps_per_min": 910.5,
+    "tasks_per_min": 303.9
+  },
+  "cpu_and_ram": {
+    "idle_cpu_pct": 0.0,
+    "average_task_cpu_pct": 0.0,
+    "peak_cpu_pct": 0.0,
+    "baseline_rss_mb": 37.8,
+    "end_rss_mb": 39.29,
+    "peak_rss_mb": 39.29,
+    "total_rss_growth_mb": 1.49,
+    "growth_per_task_mb": 0.0993,
+    "cycles_tested": 15
+  },
+  "stop_latency_ms": 45.694,
+  "storage": {
+    "logs_bytes": 14432757,
+    "checkpoints_bytes": 319541,
+    "traces_bytes": 2153872,
+    "db_bytes": 0,
+    "scratch_temp_bytes": 6236,
+    "logs_mb": 13.764,
+    "checkpoints_mb": 0.305,
+    "traces_mb": 2.054,
+    "db_mb": 0.0
+  },
+  "reliability": {
+    "failure_rate_pct": 0.0,
+    "false_success_rate_pct": 0.0,
+    "unverified_rate_pct": 0.0,
+    "recovery_rate_pct": 100.0,
+    "stop_latency_ms": 45.694,
+    "orphan_processes": 5,
+    "resource_leak_detected": false
+  }
+}

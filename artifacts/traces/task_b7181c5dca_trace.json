@@ -1,0 +1,15 @@
+{
+  "task_id": "task_b7181c5dca",
+  "goal": "Do complex task",
+  "start_time": 1792342241.5076585,
+  "end_time": 1792342241.8555112,
+  "steps": [],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [],
+  "final_verification": {
+    "error": "Execution engine unhandled error: AI Provider memory fault"
+  },
+  "final_status": "FAILED",
+  "total_duration_s": 0.348
+}

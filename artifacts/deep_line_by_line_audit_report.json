@@ -1,0 +1,1321 @@
+{
+  "count": 188,
+  "issues": [
+    {
+      "file": "conftest.py",
+      "line": 45,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/compass_assure.py",
+      "line": 307,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/compass_assure.py",
+      "line": 334,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/finding_schema.py",
+      "line": 86,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/inventory_builder.py",
+      "line": 182,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/inventory_builder.py",
+      "line": 90,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/inventory_builder.py",
+      "line": 106,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/inventory_builder.py",
+      "line": 123,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/inventory_builder.py",
+      "line": 229,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 299,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 113,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 125,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 216,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 208,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 178,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 203,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 213,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 345,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_harness.py",
+      "line": 333,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_suite.py",
+      "line": 466,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/real_product_suite.py",
+      "line": 496,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/tools/api_security_tester.py",
+      "line": 37,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/tools/release_gate.py",
+      "line": 66,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/tools/release_gate.py",
+      "line": 117,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/tools/release_gate.py",
+      "line": 77,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "assurance/tools/secret_scanner.py",
+      "line": 206,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 142,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 234,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 272,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 396,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 580,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 173,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 405,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/action_dispatcher.py",
+      "line": 455,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "automation/safety.py",
+      "line": 398,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "backend/app/routers/tasks.py",
+      "line": 67,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "backend/app/routers/tasks.py",
+      "line": 80,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "backend/app/services/task_service.py",
+      "line": 106,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "docs/ACTION_EXECUTION.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "104 chars"
+    },
+    {
+      "file": "docs/AI_MODEL_ARCHITECTURE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "114 chars"
+    },
+    {
+      "file": "docs/API_REFERENCE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "98 chars"
+    },
+    {
+      "file": "docs/BENCHMARKS.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "92 chars"
+    },
+    {
+      "file": "docs/CHANGELOG.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "90 chars"
+    },
+    {
+      "file": "docs/CONFIGURATION.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "98 chars"
+    },
+    {
+      "file": "docs/DEMO_SCENARIOS.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "100 chars"
+    },
+    {
+      "file": "docs/DEVELOPER_GUIDE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "102 chars"
+    },
+    {
+      "file": "docs/FAQ.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "78 chars"
+    },
+    {
+      "file": "docs/FEATURES.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "88 chars"
+    },
+    {
+      "file": "docs/GLOSSARY.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "88 chars"
+    },
+    {
+      "file": "docs/OPEN_SOURCE_INTEGRATIONS.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "120 chars"
+    },
+    {
+      "file": "docs/PERCEPTION_SYSTEM.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "106 chars"
+    },
+    {
+      "file": "docs/PERFORMANCE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "94 chars"
+    },
+    {
+      "file": "docs/PLANNING_ENGINE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "102 chars"
+    },
+    {
+      "file": "docs/PRIVACY.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "86 chars"
+    },
+    {
+      "file": "docs/RECOVERY_AND_ADAPTATION.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "118 chars"
+    },
+    {
+      "file": "docs/REQUIREMENTS_SPECIFICATION.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "124 chars"
+    },
+    {
+      "file": "docs/SAFETY_ARCHITECTURE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "110 chars"
+    },
+    {
+      "file": "docs/SIH_PRESENTATION_REFERENCE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "124 chars"
+    },
+    {
+      "file": "docs/TROUBLESHOOTING.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "102 chars"
+    },
+    {
+      "file": "docs/USER_GUIDE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "92 chars"
+    },
+    {
+      "file": "docs/VERIFICATION_SYSTEM.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "110 chars"
+    },
+    {
+      "file": "docs/adr/ADR-001-CORE-LIFECYCLE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "86 chars"
+    },
+    {
+      "file": "docs/adr/ADR-002-PERCEPTION-ARCHITECTURE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "95 chars"
+    },
+    {
+      "file": "docs/adr/ADR-003-UNIVERSAL-APPLICATION-SUPPORT.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "101 chars"
+    },
+    {
+      "file": "docs/adr/ADR-004-NO-HARD-CODED-COORDINATES.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "97 chars"
+    },
+    {
+      "file": "docs/adr/ADR-005-SAFETY-ARCHITECTURE.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "91 chars"
+    },
+    {
+      "file": "docs/adr/ADR-006-VERIFICATION-FIRST.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "90 chars"
+    },
+    {
+      "file": "docs/adr/ADR-007-LOCAL-FIRST-AI.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "86 chars"
+    },
+    {
+      "file": "docs/adr/ADR-008-OPEN-SOURCE-INTEGRATION.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "95 chars"
+    },
+    {
+      "file": "docs/adr/ADR-009-RECOVERY-AND-ADAPTATION.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "95 chars"
+    },
+    {
+      "file": "docs/adr/ADR-010-RESOURCE-GOVERNOR.md",
+      "line": 1,
+      "severity": "P2",
+      "type": "STUB_DOC",
+      "detail": "89 chars"
+    },
+    {
+      "file": "overlay/launcher.py",
+      "line": 139,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "overlay/win32_helper.py",
+      "line": 36,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/coordinate_mapper.py",
+      "line": 137,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/coordinate_mapper.py",
+      "line": 179,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/ocr_engine.py",
+      "line": 130,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/ocr_engine.py",
+      "line": 488,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/perception_security.py",
+      "line": 162,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/screen_capture.py",
+      "line": 230,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/screen_capture.py",
+      "line": 299,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/screen_capture.py",
+      "line": 531,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/service.py",
+      "line": 200,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 213,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 183,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 153,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 572,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 570,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 464,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 480,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 497,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 504,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 510,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 517,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "perception/uia_inspector.py",
+      "line": 524,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_controller.py",
+      "line": 101,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_controller.py",
+      "line": 698,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_controller.py",
+      "line": 859,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 1295,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 1257,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 1215,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 1227,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 376,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 395,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 918,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 523,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_engine.py",
+      "line": 594,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/execution_trace.py",
+      "line": 183,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/human_approval.py",
+      "line": 516,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/multi_step_verifier.py",
+      "line": 86,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/multi_step_verifier.py",
+      "line": 76,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/planner_service.py",
+      "line": 87,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/planner_service.py",
+      "line": 97,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/resource_governor.py",
+      "line": 241,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/resource_governor.py",
+      "line": 279,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/resource_governor.py",
+      "line": 239,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/stale_guard.py",
+      "line": 195,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/verification_engine.py",
+      "line": 95,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/verification_engine.py",
+      "line": 154,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/workflow_orchestrator.py",
+      "line": 118,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/workflow_orchestrator.py",
+      "line": 231,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/workflow_orchestrator.py",
+      "line": 151,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/workflow_scheduler.py",
+      "line": 82,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "planner/workflow/recovery.py",
+      "line": 78,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "providers/hardware_detector.py",
+      "line": 87,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "providers/omniroute_provider.py",
+      "line": 129,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "providers/omniroute_provider.py",
+      "line": 167,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "providers/omniroute_provider.py",
+      "line": 361,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scratch/check_sizes.py",
+      "line": 14,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scratch/cold_start.py",
+      "line": 14,
+      "severity": "P2",
+      "type": "BARE_EXCEPT",
+      "detail": "Bare except:"
+    },
+    {
+      "file": "scratch/cold_start_safe.py",
+      "line": 14,
+      "severity": "P2",
+      "type": "BARE_EXCEPT",
+      "detail": "Bare except:"
+    },
+    {
+      "file": "scratch/cold_start_safe.py",
+      "line": 37,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scratch/sim_pack.py",
+      "line": 67,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/audit_phase2_verification.py",
+      "line": 538,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/audit_phase2_verification.py",
+      "line": 42,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/audit_phase3_acceptance.py",
+      "line": 46,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/audit_phase4_acceptance.py",
+      "line": 103,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/audit_phase4_acceptance.py",
+      "line": 75,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/audit_security_secrets.py",
+      "line": 86,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/benchmark_phase14.py",
+      "line": 59,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/benchmark_phase14.py",
+      "line": 395,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/benchmark_phase14.py",
+      "line": 77,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/build_repository_inventory.py",
+      "line": 43,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/export_diagnostic_bundle.py",
+      "line": 40,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/export_diagnostic_bundle.py",
+      "line": 48,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/export_diagnostic_bundle.py",
+      "line": 136,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/measure_baseline.py",
+      "line": 141,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/measure_baseline.py",
+      "line": 130,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/package_source_distribution.py",
+      "line": 83,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase10_tests.py",
+      "line": 318,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase10_tests.py",
+      "line": 355,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase10_tests.py",
+      "line": 139,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase11_tests.py",
+      "line": 40,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase12_tests.py",
+      "line": 40,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase1_tests.py",
+      "line": 38,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase1_tests.py",
+      "line": 35,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase2_tests.py",
+      "line": 52,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase2_tests.py",
+      "line": 49,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase2_tests.py",
+      "line": 297,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/run_phase2_tests.py",
+      "line": 391,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/start_compass.py",
+      "line": 138,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/start_compass.py",
+      "line": 115,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/start_compass.py",
+      "line": 120,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/start_compass.py",
+      "line": 135,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/start_compass.py",
+      "line": 379,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/stop_compass.py",
+      "line": 52,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/stop_compass.py",
+      "line": 70,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/stop_compass.py",
+      "line": 102,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/stop_compass.py",
+      "line": 49,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/stop_compass.py",
+      "line": 68,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_adversarial_phase13.py",
+      "line": 521,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_adversarial_phase13.py",
+      "line": 531,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase10.py",
+      "line": 57,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase10.py",
+      "line": 266,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase12.py",
+      "line": 80,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase5.py",
+      "line": 92,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase5.py",
+      "line": 132,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase5.py",
+      "line": 64,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase5.py",
+      "line": 169,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase5.py",
+      "line": 284,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase5.py",
+      "line": 359,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase6.py",
+      "line": 53,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase6.py",
+      "line": 89,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase7.py",
+      "line": 72,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase7.py",
+      "line": 119,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase8.py",
+      "line": 65,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase8.py",
+      "line": 671,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_real_windows_phase8.py",
+      "line": 730,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    },
+    {
+      "file": "scripts/test_stability_phase10.py",
+      "line": 68,
+      "severity": "P2",
+      "type": "SILENT_EXCEPT_PASS",
+      "detail": "except ...: pass"
+    }
+  ]
+}

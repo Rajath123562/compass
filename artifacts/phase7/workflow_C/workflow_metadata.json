@@ -1,0 +1,49 @@
+{
+  "workflow": "C",
+  "name": "Visual Target Grounding",
+  "status": "PASS",
+  "grounded_target": {
+    "target_id": "d12bfe40-7bde-4cff-bbb6-74f683202164",
+    "name": "File",
+    "bounding_box": {
+      "left": 126,
+      "top": 167,
+      "right": 151,
+      "bottom": 180,
+      "width": 25,
+      "height": 13,
+      "coordinate_space": "screen_physical"
+    },
+    "center_point": [
+      138,
+      173
+    ],
+    "confidence": 0.765,
+    "resolution_method": "ocr_text",
+    "evidence_ids": [
+      "046747be-8455-423a-b3e4-c190bbbf46a6"
+    ],
+    "consistency": "OCR_ONLY",
+    "application": "openclaw.txt - Notepad",
+    "window_title": "openclaw.txt - Notepad",
+    "hwnd": 4917118,
+    "is_stale": false,
+    "observation_id": "e1a8ddf8-7eaf-47e9-b838-ef3b04b10fc2",
+    "task_id": "wf_C",
+    "step_id": "step_1",
+    "monitor_id": 0,
+    "monitor_topology_fingerprint": "",
+    "dpi_context": 1.0,
+    "coordinate_space": "screen_physical",
+    "target_state": "active",
+    "evidence_fingerprint": "68e5c8bd5c9f5983",
+    "created_at": 1789892309.2955701,
+    "reasons": [
+      "Exact OCR match: file"
+    ]
+  },
+  "center_point": [
+    138,
+    173
+  ]
+}

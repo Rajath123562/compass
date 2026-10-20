@@ -1,0 +1,8 @@
+{
+  "workflow": "B",
+  "name": "Two-step task (Notepad launch & text typing)",
+  "status": "PASS",
+  "duration_ms": 2611.91,
+  "hwnd": 1313668,
+  "verification": "VERIFIED (Text typed into foreground window)"
+}

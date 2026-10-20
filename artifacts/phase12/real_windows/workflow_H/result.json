@@ -1,0 +1,6 @@
+{
+  "target_hwnd": 99999999,
+  "is_fresh": false,
+  "stale_reason": "Target window HWND 99999999 was closed or destroyed.",
+  "blocked_safely": true
+}

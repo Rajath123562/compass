@@ -1,0 +1,20 @@
+{
+  "task_id": "task_0f5453410b",
+  "goal": "Open app and run",
+  "start_time": 1792328447.9221764,
+  "end_time": 1792328447.9886882,
+  "steps": [],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [
+    {
+      "timestamp": 1792328447.9886882,
+      "reason": "STOP before understanding"
+    }
+  ],
+  "final_verification": {
+    "reason": "STOP before understanding"
+  },
+  "final_status": "CANCELLED",
+  "total_duration_s": 0.067
+}

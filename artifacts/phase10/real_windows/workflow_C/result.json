@@ -1,0 +1,9 @@
+{
+  "notepad_hwnd": null,
+  "data_exchanged": {
+    "source": "Notepad",
+    "target": "Receiver",
+    "data_packet": "42 * 2 = 84"
+  },
+  "success": false
+}

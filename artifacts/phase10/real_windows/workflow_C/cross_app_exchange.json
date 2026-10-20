@@ -1,0 +1,5 @@
+{
+  "source": "Notepad",
+  "target": "Receiver",
+  "data_packet": "42 * 2 = 84"
+}

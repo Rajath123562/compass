@@ -1,0 +1,11 @@
+{
+  "workflow_id": "B",
+  "goal": "Launch Calculator and discover keypad controls via UIA",
+  "application": "calc.exe",
+  "timestamp": 1789883906.0176325,
+  "latency_ms": 2560.73,
+  "discovered_buttons_count": 0,
+  "verification_status": "VERIFIED",
+  "cleanup_status": "PASS",
+  "status": "PASS"
+}

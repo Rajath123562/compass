@@ -1,0 +1,11 @@
+{
+  "workflow_id": "A",
+  "goal": "Type test string into Windows Notepad",
+  "application": "notepad.exe",
+  "timestamp": 1789883903.453903,
+  "latency_ms": 8011.98,
+  "action_success": true,
+  "verification_status": "VERIFIED",
+  "cleanup_status": "PASS",
+  "status": "PASS"
+}

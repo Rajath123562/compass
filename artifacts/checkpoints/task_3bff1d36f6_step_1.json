@@ -1,0 +1,23 @@
+{
+  "task_id": "task_3bff1d36f6",
+  "step_id": "step_1",
+  "completed_step_ids": [
+    "step_1"
+  ],
+  "verified_state": {
+    "step_id": "step_1",
+    "status": "VERIFIED"
+  },
+  "current_application": "personal assitant - File Explorer",
+  "expected_window_title": "personal assitant - File Explorer",
+  "expected_hwnd": null,
+  "timestamp": 1792141383.2544346,
+  "observation_id": null,
+  "evidence_ids": [],
+  "evidence_fingerprint": null,
+  "perception_state": null,
+  "monitor_dpi_context": {},
+  "workflow_id": null,
+  "execution_generation": 1,
+  "signature": "bcbed630f4780e8cdeed81e473ec3bd795ee3b9e197f43230c43b30d601ccb2a"
+}

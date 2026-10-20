@@ -1,0 +1,10 @@
+{
+  "workflow": "H",
+  "name": "Unexpected Dialog",
+  "status": "PASS",
+  "dialog_detected": true,
+  "transitions": [
+    "window_changed",
+    "dialog_appeared"
+  ]
+}

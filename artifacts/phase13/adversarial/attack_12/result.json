@@ -1,0 +1,12 @@
+{
+  "attack_id": "12",
+  "name": "Emergency STOP Preemption Latency",
+  "status": "PASS",
+  "duration_s": 0.034,
+  "details": "Emergency STOP halted task in 34.01ms before action dispatch.",
+  "evidence": {
+    "state": "STOPPED",
+    "latency_ms": 34.01
+  },
+  "timestamp": 1790617013.9793084
+}

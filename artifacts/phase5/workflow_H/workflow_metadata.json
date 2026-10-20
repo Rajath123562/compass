@@ -1,0 +1,11 @@
+{
+  "workflow_id": "H",
+  "goal": "Verify instant STOP interception and zero-residue task cleanup",
+  "application": "compass_core",
+  "timestamp": 1789883910.7659009,
+  "total_latency_ms": 109.0,
+  "stop_latency_ms": 27.98,
+  "stop_interception_success": true,
+  "final_state": "STOPPED",
+  "status": "PASS"
+}

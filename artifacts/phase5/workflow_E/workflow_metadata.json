@@ -1,0 +1,11 @@
+{
+  "workflow_id": "E",
+  "goal": "Detect target coordinate drift and re-align bounds via Stage 1",
+  "application": "generic_desktop",
+  "timestamp": 1789883910.580404,
+  "latency_ms": 44.0,
+  "stage": "STAGE_1_REPERCEIVE",
+  "strategy": "COORDINATE_REALIGN",
+  "realign_success": true,
+  "status": "PASS"
+}

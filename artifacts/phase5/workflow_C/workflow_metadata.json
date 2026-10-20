@@ -1,0 +1,10 @@
+{
+  "workflow_id": "C",
+  "goal": "Open Downloads folder in File Explorer and verify window presence",
+  "application": "explorer.exe",
+  "timestamp": 1789883909.0354936,
+  "latency_ms": 3015.93,
+  "verification_status": "UNCERTAIN",
+  "cleanup_status": "PASS",
+  "status": "PASS"
+}

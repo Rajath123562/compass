@@ -1,0 +1,8 @@
+{
+  "workflow": "H",
+  "name": "Universal STOP during multi-step execution",
+  "status": "PASS",
+  "duration_ms": 57.55,
+  "final_state": "CANCELLED",
+  "verification": "VERIFIED (Instant halt mid-task, zero orphan threads)"
+}

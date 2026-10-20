@@ -1,0 +1,90 @@
+{
+  "total": 12,
+  "passed": 10,
+  "results": [
+    {
+      "workflow": "A",
+      "name": "Simple Task (Notepad & UIA Verification)",
+      "status": "FAIL",
+      "duration_s": 6.36,
+      "detail": "Failed to launch or locate Notepad window"
+    },
+    {
+      "workflow": "B",
+      "name": "Multi-Step File Workflow (Author -> Save -> Hash)",
+      "status": "PASS",
+      "duration_s": 0.23,
+      "detail": "Workflow B: Multi-step file authoring verified on disk via SHA256."
+    },
+    {
+      "workflow": "C",
+      "name": "Cross-Application Workflow (Notepad to Calculator)",
+      "status": "FAIL",
+      "duration_s": 6.37,
+      "detail": "Workflow C: Cross-application coordination verified (hwnd=None)."
+    },
+    {
+      "workflow": "D",
+      "name": "Browser Workflow (Safe Local HTTP Interaction)",
+      "status": "PASS",
+      "duration_s": 2.07,
+      "detail": "Workflow D: Safe web interaction verified (HTTP 200)."
+    },
+    {
+      "workflow": "E",
+      "name": "Visual UI Workflow (WinRT OCR Multimodal Grounding)",
+      "status": "PASS",
+      "duration_s": 2.48,
+      "detail": "Workflow E: Visual perception & OCR grounding verified (available=True)."
+    },
+    {
+      "workflow": "F",
+      "name": "Unexpected UI Change (Safe State Drift Adaptation)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "detail": "Workflow F: Unexpected UI change successfully detected and adapted."
+    },
+    {
+      "workflow": "G",
+      "name": "Failure Recovery (3-Stage Bounded Recovery)",
+      "status": "PASS",
+      "duration_s": 0.01,
+      "detail": "Workflow G: 3-stage failure recovery executed (strategy=REOBSERVE_TARGET)."
+    },
+    {
+      "workflow": "H",
+      "name": "Universal STOP Interruption (Immediate Freeze)",
+      "status": "PASS",
+      "duration_s": 0.05,
+      "detail": "Workflow H: Universal STOP immediately froze workflow (status=STOPPED)."
+    },
+    {
+      "workflow": "I",
+      "name": "Consequential Action Approval Boundary",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "detail": "Workflow I: Consequential action approval boundary enforced."
+    },
+    {
+      "workflow": "J",
+      "name": "End-to-End SIH Demonstration Workflow",
+      "status": "PASS",
+      "duration_s": 0.23,
+      "detail": "Workflow J: End-to-end SIH demonstration completed and independently verified."
+    },
+    {
+      "workflow": "K",
+      "name": "Long Multi-Step Task (5 Verified Milestones)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "detail": "Workflow K: Long multi-step task with 5 verified milestones completed."
+    },
+    {
+      "workflow": "L",
+      "name": "AI Unavailable Fallback (Deterministic Mode)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "detail": "Workflow L: Deterministic fallback operated safely when AI model was offline."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "initial_state": {
+    "window_title": "Document - Notepad",
+    "element_count": 10
+  },
+  "changed_state": {
+    "window_title": "Save As Dialog",
+    "element_count": 25
+  },
+  "state_drift_detected": true,
+  "adaptive_reperception_triggered": true
+}

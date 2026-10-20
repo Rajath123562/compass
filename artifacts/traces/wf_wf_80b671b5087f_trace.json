@@ -1,0 +1,35 @@
+{
+  "workflow_id": "wf_80b671b5087f",
+  "task_id": "task_b84461968427",
+  "goal": "Workflow to be stopped",
+  "start_time": 1792328461.5706084,
+  "end_time": 1792328461.62861,
+  "node_traces": [],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792328461.5706084,
+      "payload": {
+        "task_id": "task_b84461968427",
+        "goal": "Workflow to be stopped"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792328461.5706084,
+      "payload": {
+        "goal": "Workflow to be stopped",
+        "node_count": 1
+      }
+    },
+    {
+      "event": "workflow_stopped",
+      "timestamp": 1792328461.62861,
+      "payload": {
+        "status": "STOPPED"
+      }
+    }
+  ],
+  "final_status": "STOPPED",
+  "total_duration_s": 0.058
+}

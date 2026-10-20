@@ -1,0 +1,47 @@
+{
+  "workflow": "B",
+  "name": "OCR-Only Recovery",
+  "status": "PASS",
+  "resolution_method": "ocr_text",
+  "confidence": 0.765,
+  "target": {
+    "target_id": "cbffd288-e4fb-48f4-9b73-b2a25dd5c473",
+    "name": "Custom Button",
+    "bounding_box": {
+      "left": 80,
+      "top": 117,
+      "right": 147,
+      "bottom": 125,
+      "width": 67,
+      "height": 8,
+      "coordinate_space": "screen_physical"
+    },
+    "center_point": [
+      113,
+      121
+    ],
+    "confidence": 0.765,
+    "resolution_method": "ocr_text",
+    "evidence_ids": [
+      "cb654a40-ade2-480c-850c-c74e40e6f3c7"
+    ],
+    "consistency": "OCR_ONLY",
+    "application": "Desktop",
+    "window_title": "Desktop",
+    "hwnd": 0,
+    "is_stale": false,
+    "observation_id": "786e8bb8-1682-4463-8e8d-b6172dcaaa46",
+    "task_id": "wf_B",
+    "step_id": "step_1",
+    "monitor_id": 0,
+    "monitor_topology_fingerprint": "",
+    "dpi_context": 1.0,
+    "coordinate_space": "screen_physical",
+    "target_state": "active",
+    "evidence_fingerprint": "62ee340b7df17a58",
+    "created_at": 1789892305.7205765,
+    "reasons": [
+      "Exact OCR match: custom button"
+    ]
+  }
+}

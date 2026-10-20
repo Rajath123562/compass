@@ -1,0 +1,43 @@
+{
+  "task_id": "task_09a3790e76",
+  "goal": "Open Notepad then type text",
+  "start_time": 1792342386.1467547,
+  "end_time": 1792342388.869407,
+  "steps": [
+    {
+      "step_id": "step_1",
+      "goal": "Launch Notepad Application",
+      "start_time": 1792342386.3592045,
+      "end_time": 1792342388.8247595,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "Window title 'Notepad' matches expected substring 'Notepad'.",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 2.466
+    }
+  ],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [
+    {
+      "timestamp": 1792342388.8247595,
+      "reason": "STOP asserted after step 1"
+    },
+    {
+      "timestamp": 1792342388.869407,
+      "reason": "STOP immediately after completion of step_1"
+    }
+  ],
+  "final_verification": {
+    "reason": "STOP immediately after completion of step_1"
+  },
+  "final_status": "CANCELLED",
+  "total_duration_s": 2.723
+}

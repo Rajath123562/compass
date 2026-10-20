@@ -1,0 +1,15 @@
+{
+  "task_id": "task_b1d904e2b4",
+  "goal": "Interact with crashing app",
+  "start_time": 1792343098.797271,
+  "end_time": 1792343099.0886161,
+  "steps": [],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [],
+  "final_verification": {
+    "error": "Plan validation failed: Step 'step_1' validation failed: Action appears consequential ('Click crashing button') but risk_level is 'LOW'. Must be HIGH or CONSEQUENTIAL."
+  },
+  "final_status": "FAILED",
+  "total_duration_s": 0.291
+}

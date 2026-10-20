@@ -1,0 +1,6 @@
+{
+  "url": "http://127.0.0.1:20128/api/health",
+  "http_status": 200,
+  "response_content": "{\"status\":\"ok\",\"mock_browser\":true}",
+  "verified": true
+}

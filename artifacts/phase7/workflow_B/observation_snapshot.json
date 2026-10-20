@@ -1,0 +1,150 @@
+{
+  "observation_id": "786e8bb8-1682-4463-8e8d-b6172dcaaa46",
+  "timestamp": 1789892305.7205765,
+  "task_id": "wf_B",
+  "step_id": "step_1",
+  "monitor_id": 0,
+  "dpi_scaling": 1.0,
+  "screenshot_path": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\artifacts\\phase7\\workflow_B\\temp\\custom_canvas.png",
+  "screenshot_hash": "768f6a9b35aecf7c49db38be1bd6b74378966972137cab8b0a6c4ab20e11071f",
+  "window_hwnd": 0,
+  "window_title": "Desktop",
+  "window_bounds": {
+    "left": 0,
+    "top": 0,
+    "right": 1920,
+    "bottom": 1080,
+    "width": 1920,
+    "height": 1080,
+    "coordinate_space": "screen_physical"
+  },
+  "evidence_count": 3,
+  "evidence_items": [
+    {
+      "evidence_id": "288d64fe-a5e4-405f-91dc-2de6e5ad98e8",
+      "observation_id": "786e8bb8-1682-4463-8e8d-b6172dcaaa46",
+      "task_id": "wf_B",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Desktop",
+      "window_title": "Desktop",
+      "hwnd": 0,
+      "bounding_box": {
+        "left": 80,
+        "top": 117,
+        "right": 114,
+        "bottom": 125,
+        "width": 34,
+        "height": 8,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Custom",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "29c3a023-56a2-445f-9e96-9f7eb4be909e",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.71958,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "768f6a9b35aecf7c49db38be1bd6b74378966972137cab8b0a6c4ab20e11071f",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 0
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "7d9c586c-b476-48da-b5f7-7dff18741322",
+      "observation_id": "786e8bb8-1682-4463-8e8d-b6172dcaaa46",
+      "task_id": "wf_B",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Desktop",
+      "window_title": "Desktop",
+      "hwnd": 0,
+      "bounding_box": {
+        "left": 118,
+        "top": 117,
+        "right": 147,
+        "bottom": 125,
+        "width": 29,
+        "height": 8,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Button",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "0939c5d6-580f-46e1-aa2c-b2f48a3b7f6f",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.71958,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "768f6a9b35aecf7c49db38be1bd6b74378966972137cab8b0a6c4ab20e11071f",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 0
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "cb654a40-ade2-480c-850c-c74e40e6f3c7",
+      "observation_id": "786e8bb8-1682-4463-8e8d-b6172dcaaa46",
+      "task_id": "wf_B",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Desktop",
+      "window_title": "Desktop",
+      "hwnd": 0,
+      "bounding_box": {
+        "left": 80,
+        "top": 117,
+        "right": 147,
+        "bottom": 125,
+        "width": 67,
+        "height": 8,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Custom Button",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "54289cdd-80fc-4c71-9740-4b6175cf92d5",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.71958,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "768f6a9b35aecf7c49db38be1bd6b74378966972137cab8b0a6c4ab20e11071f",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 0
+      },
+      "is_untrusted": true
+    }
+  ],
+  "metadata": {
+    "capture_latency_ms": 31.2,
+    "uia_count": 0,
+    "ocr_count": 3,
+    "visual_count": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "task_id": "task_7670736dc5",
+  "goal": "Open Calculator and calculate",
+  "start_time": 1792395912.856035,
+  "end_time": 1792395914.8893614,
+  "steps": [
+    {
+      "step_id": "step_1",
+      "goal": "Launch Calculator Application",
+      "start_time": 1792395912.9462852,
+      "end_time": 1792395914.6964412,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "Window title 'Calculator' matches expected substring 'Calculator'.",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 1.75
+    },
+    {
+      "step_id": "step_2",
+      "goal": "Discover and Verify Calculator Controls",
+      "start_time": 1792395914.6964412,
+      "end_time": null,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": null,
+      "verification_details": null,
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "IN_PROGRESS",
+      "duration_s": 0.0
+    }
+  ],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [],
+  "final_verification": {
+    "error": "Execution engine unhandled error: VerificationEngine.verify_action() got an unexpected keyword argument 'action_type'"
+  },
+  "final_status": "FAILED",
+  "total_duration_s": 2.033
+}

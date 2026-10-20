@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-09-28T22:11:00.213121",
+  "total_duration_s": 89.78,
+  "overall_status": "PASS",
+  "hardware_profile": {
+    "os": "Windows",
+    "os_release": "10",
+    "os_version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "python_version": "3.11.9",
+    "ram_total_gb": 11.71,
+    "ram_available_gb": 0.94,
+    "cpu_logical_cores": 12,
+    "cpu_physical_cores": 8,
+    "gpu_name": "NVIDIA GeForce RTX 2050",
+    "gpu_vram_total_mb": 4096
+  },
+  "stages": [
+    {
+      "description": "Stage 1: Secret & Credential Zero-Leakage Audit",
+      "command": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe scripts/audit_security_secrets.py",
+      "success": true,
+      "returncode": 0,
+      "duration_s": 0.86,
+      "stdout": "Scanned 357 files.\nFound 0 secret violations.\n",
+      "stderr": ""
+    },
+    {
+      "description": "Stage 2: Comprehensive Repository File Inventory",
+      "command": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe scripts/build_repository_inventory.py",
+      "success": true,
+      "returncode": 0,
+      "duration_s": 0.48,
+      "stdout": "===========================================================================\n  COMPASS Phase 11 \u2014 Dynamic Repository Inventory Summary\n===========================================================================\n  Total Tracked Files:     354\n  Total Lines of Python:   39759\n  Python Files:            209\n  Test Files:              107\n  Test Functions Found:    622\n  Markdown Documents:      113\n  Frontend Files:          14\n  Inventory JSON saved to: C:\\Users\\RAJATH U\\Downloads\\personal assitant\\artifacts\\phase11\\repository_inventory.json\n===========================================================================\n",
+      "stderr": ""
+    },
+    {
+      "description": "Stage 3: Phase 12 Targeted Functional Loop & Injection Tests (11 test cases)",
+      "command": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe -m pytest planner/tests/test_phase12_functional_loop.py -v --tb=short",
+      "success": true,
+      "returncode": 0,
+      "duration_s": 1.14,
+      "stdout": "============================= test session starts =============================\nplatform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe\ncachedir: .pytest_cache\nrootdir: C:\\Users\\RAJATH U\\Downloads\\personal assitant\nconfigfile: pytest.ini\nplugins: anyio-4.15.1\ncollecting ... collected 11 items\n\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_pre_dispatch_target_revalidation_rejects_closed_window PASSED [  9%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_stale_observation_rejected_when_age_exceeds_threshold PASSED [ 18%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_action_success_does_not_equal_task_success_without_goal_verification PASSED [ 27%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_partial_completion_preserves_verified_steps PASSED [ 36%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_loop_detector_flags_repeated_identical_actions PASSED [ 45%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_stop_asserted_before_execution_halts_immediately PASSED [ 54%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_late_ai_response_neutralized_after_stop PASSED [ 63%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_malformed_ai_plan_bounds_rejected PASSED [ 72%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_unsafe_plan_triggers_high_risk_and_approval PASSED [ 81%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_approval_invalidated_when_target_context_changes PASSED [ 90%]\nplanner/tests/test_phase12_functional_loop.py::TestPhase12FunctionalLoop::test_checkpoint_tamper_detection PASSED [100%]\n\n============================= 11 passed in 0.60s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "description": "Stage 4: Phase 11 Defect Retention Verification Tests (24 test cases)",
+      "command": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe -m pytest planner/tests/test_phase11_defects.py -v --tb=short",
+      "success": true,
+      "returncode": 0,
+      "duration_s": 1.97,
+      "stdout": "ects::test_def_p11_02_cleanup_preserves_all_terminal_states[CANCELLED] PASSED [ 29%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_02_cleanup_preserves_all_terminal_states[BLOCKED] PASSED [ 33%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_02_cleanup_preserves_all_terminal_states[UNVERIFIED] PASSED [ 37%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_02_cleanup_preserves_all_terminal_states[AI_UNAVAILABLE] PASSED [ 41%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_02_cleanup_preserves_all_terminal_states[SAFETY_BLOCKED] PASSED [ 45%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_02_cleanup_forces_transitional_to_failed PASSED [ 50%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_03_load_workflow_from_db_handles_zero_priority PASSED [ 54%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_03_workflow_node_create_pydantic_validation PASSED [ 58%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[COMPLETED] PASSED [ 62%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[TASK_COMPLETED] PASSED [ 66%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[FAILED] PASSED [ 70%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[CANCELLED] PASSED [ 75%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[BLOCKED] PASSED [ 79%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[UNVERIFIED] PASSED [ 83%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[AI_UNAVAILABLE] PASSED [ 87%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_rejects_all_terminal_states[SAFETY_BLOCKED] PASSED [ 91%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_04_stop_task_is_idempotent_on_stopped_state PASSED [ 95%]\nplanner/tests/test_phase11_defects.py::TestPhase11Defects::test_def_p11_05_frontend_task_state_card_includes_task_completed PASSED [100%]\n\n============================= 24 passed in 1.41s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "description": "Stage 5: Full Multi-Phase Zero-Regression Pytest Suite (576+ tests)",
+      "command": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe -m pytest -q --tb=short",
+      "success": true,
+      "returncode": 0,
+      "duration_s": 65.72,
+      "stdout": "........................................................................ [ 12%]\n...............................................................ss....... [ 24%]\n......ss..ss.............................s.............................. [ 37%]\n........................................................................ [ 49%]\n........................................................................ [ 61%]\n........................................................................ [ 74%]\n........................................................................ [ 86%]\n........................................................................ [ 98%]\n.......                                                                  [100%]\n============================== warnings summary ===============================\n.venv\\Lib\\site-packages\\fastapi\\testclient.py:1\n  C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Lib\\site-packages\\fastapi\\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n.venv\\Lib\\site-packages\\starlette\\testclient.py:53\n  C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Lib\\site-packages\\starlette\\testclient.py:53: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.\n    _PortalFactoryType = Callable[[], AbstractContextManager[anyio.abc.BlockingPortal]]\n\nbackend/tests/test_failures.py::test_malformed_task_creation\nbackend/tests/test_phase2_api.py::TestAutomationEndpoints::test_click_without_element_returns_422\nbackend/tests/test_phase2_api.py::TestAutomationEndpoints::test_type_without_text_returns_422\nbackend/tests/test_phase2_api.py::TestAutomationEndpoints::test_key_without_key_returns_422\nbackend/tests/test_phase5_api.py::test_malformed_request_returns_422\nplanner/tests/test_api_planner.py::TestPlannerAPI::test_plan_requires_valid_goal\nplanner/tests/test_api_sse_phase6.py::test_api_create_task_malformed\n  C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py:59: StarletteDeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.\n    response = await handler(conn, exc)  # type: ignore[arg-type]\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n576 passed, 7 skipped, 9 warnings in 64.99s (0:01:04)\n",
+      "stderr": ""
+    },
+    {
+      "description": "Stage 6: Live Real Windows Desktop Workflows (A through X - 24 workflows)",
+      "command": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe scripts/test_real_windows_phase12.py",
+      "success": true,
+      "returncode": 0,
+      "duration_s": 10.04,
+      "stdout": "on workflow [wf_7e3c2e06f119]: Mid-task emergency STOP\n[PASS] Workflow P: STOP During Multi-Step Task (Universal Freeze) (0.04s) -> Workflow P: STOP during multi-step froze DAG workflow immediately.\n[2026-09-28 22:10:49] [INFO] [compass:goal_understanding:163] - GoalUnderstandingEngine parsed goal 'close all active notepad windows': app=Notepad, risk=LOW, ambiguous=False\n[PASS] Workflow Q: AI Unavailable (Deterministic Fallback) (0.0s) -> Workflow Q: Deterministic intent parser operated safely when AI was unavailable.\n[PASS] Workflow R: Malformed AI Output (Schema Rejection) (0.03s) -> Workflow R: Malformed AI/client schema safely rejected by Pydantic validation.\n[2026-09-28 22:10:49] [INFO] [compass:risk_classifier:150] - RiskClassifier classified action 'click' on 'Format Hard Disk Drive C:' as HIGH: [\"Target 'Format Hard Disk Drive C:' contains destructive keyword 'format'.\"]\n[PASS] Workflow S: Unsafe AI Output (Contextual Risk Interception) (0.0s) -> Workflow S: Unsafe action safely intercepted by contextual risk classifier.\n[PASS] Workflow T: Application Restart (Window Handle Drift Reconciliation) (2.24s) -> Workflow T: Application restart reconciled window handle drift (old=265728, new=1050678).\n[2026-09-28 22:10:52] [INFO] [compass:task_service:25] - Created task [task_cc6d4ec15a] with goal: 'Workflow U Backend Restart Audit'\n[PASS] Workflow U: Backend Restart (Zero Blind Resumption) (0.07s) -> Workflow U: Backend restart reconciled in-flight task safely to terminal state.\n[2026-09-28 22:10:52] [INFO] [compass:task_service:25] - Created task [task_469a50d5c7] with goal: 'Workflow V SSE Interruption'\n[PASS] Workflow V: SSE Interruption (Disconnect Tolerance) (0.04s) -> Workflow V: Event stream interruption tolerated with full database state integrity.\n[2026-09-28 22:10:52] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [wf_a3916c47cc7b] gen=1 -> artifacts\\checkpoints\\wf_wf_a3916c47cc7b.json\n[PASS] Workflow W: Checkpoint / Resume (State Reconstruction) (0.04s) -> Workflow W: Workflow checkpoint serialized and restored with verified milestone preserved.\n[PASS] Workflow X: Longer Multi-Step Task (5-Milestones & Telemetry) (0.01s) -> Workflow X: 5-milestone long task verified (duration=0.005s, memory_growth=0.0MB).\n===========================================================================\n  TOTAL: 24/24 PASS\n  Overall Real Windows Phase 12 Status: PASS\n===========================================================================\n",
+      "stderr": ""
+    },
+    {
+      "description": "Stage 7: Hardware-Safe Stability & Memory Bounds Verification",
+      "command": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\.venv\\Scripts\\python.exe scripts/test_stability_phase10.py",
+      "success": true,
+      "returncode": 0,
+      "duration_s": 7.78,
+      "stdout": "09-28 22:10:58] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_17] gen=1 -> artifacts\\checkpoints\\wf_stab_task_17.json\n[PASS] Task 17/25 | RAM: 94.0% | RSS: 35.4MB | CPU: 21.4% | VRAM: 0MB (0.002s)\n[2026-09-28 22:10:58] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_18] gen=1 -> artifacts\\checkpoints\\wf_stab_task_18.json\n[PASS] Task 18/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 17.9% | VRAM: 0MB (0.002s)\n[2026-09-28 22:10:58] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_19] gen=1 -> artifacts\\checkpoints\\wf_stab_task_19.json\n[PASS] Task 19/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 18.5% | VRAM: 0MB (0.0019s)\n[2026-09-28 22:10:59] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_20] gen=1 -> artifacts\\checkpoints\\wf_stab_task_20.json\n[PASS] Task 20/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 36.0% | VRAM: 0MB (0.001s)\n[2026-09-28 22:10:59] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_21] gen=1 -> artifacts\\checkpoints\\wf_stab_task_21.json\n[PASS] Task 21/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 10.3% | VRAM: 0MB (0.002s)\n[2026-09-28 22:10:59] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_22] gen=1 -> artifacts\\checkpoints\\wf_stab_task_22.json\n[PASS] Task 22/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 16.0% | VRAM: 0MB (0.001s)\n[2026-09-28 22:10:59] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_23] gen=1 -> artifacts\\checkpoints\\wf_stab_task_23.json\n[PASS] Task 23/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 12.9% | VRAM: 0MB (0.0021s)\n[2026-09-28 22:10:59] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_24] gen=1 -> artifacts\\checkpoints\\wf_stab_task_24.json\n[PASS] Task 24/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 27.3% | VRAM: 0MB (0.002s)\n[2026-09-28 22:11:00] [INFO] [compass:checkpoint_manager:236] - Workflow checkpoint saved for [stab_task_25] gen=1 -> artifacts\\checkpoints\\wf_stab_task_25.json\n[PASS] Task 25/25 | RAM: 94.2% | RSS: 35.4MB | CPU: 16.7% | VRAM: 0MB (0.002s)\n===========================================================================\n  Summary: 25/25 completed | Status: PASS\n  Memory Growth: 0.31 MB | VRAM Used: 0 MB\n  Report written to: C:\\Users\\RAJATH U\\Downloads\\personal assitant\\artifacts\\phase10\\stability_report.json\n===========================================================================\n",
+      "stderr": ""
+    }
+  ]
+}

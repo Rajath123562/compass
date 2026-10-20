@@ -1,0 +1,6 @@
+{
+  "action": "click",
+  "target": "Submit Order and Charge Card",
+  "is_repeatable": false,
+  "risk_level": "HIGH"
+}

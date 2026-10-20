@@ -1,0 +1,7 @@
+{
+  "goal": "Create and verify a secure project briefing document in Notepad",
+  "target_app": "Notepad",
+  "steps_completed": 2,
+  "final_verification_sha256": "8e1e2c7362aefe79eeeefc79b899c6c9c703275c936618fbf919e80a813a905c",
+  "sih_demonstration_passed": true
+}

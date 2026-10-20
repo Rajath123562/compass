@@ -1,0 +1,14 @@
+{
+  "attack_id": "20",
+  "name": "Secret Token Zero-Leakage Audit",
+  "status": "PASS",
+  "duration_s": 0.0069,
+  "details": "Sensitive credential tokens scrubbed and replaced with REDACTED in saved checkpoints.",
+  "evidence": {
+    "redacted_verified_state": {
+      "token": "[REDACTED_SECRET]",
+      "api_key": "[REDACTED_SECRET]"
+    }
+  },
+  "timestamp": 1790617016.4020007
+}

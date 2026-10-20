@@ -1,0 +1,11 @@
+{
+  "source_hwnd": 856098,
+  "exchange_verified": true,
+  "packet": {
+    "source_app": "Notepad",
+    "source_hwnd": 856098,
+    "target_app": "Calculator",
+    "payload": "Compute: 1024 * 4 = 4096",
+    "timestamp": 1790617023.2413707
+  }
+}

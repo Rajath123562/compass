@@ -1,0 +1,2195 @@
+{
+  "summary": {
+    "total_files": 398,
+    "total_lines_of_code": 41582,
+    "python_files_count": 214,
+    "test_files_count": 109,
+    "test_functions_count": 637,
+    "markdown_files_count": 152,
+    "frontend_files_count": 14
+  },
+  "inventory": {
+    "backend": [
+      {
+        "file": "backend/app/config.py",
+        "lines": 56,
+        "functions": 0,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/database.py",
+        "lines": 638,
+        "functions": 27,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/logging_config.py",
+        "lines": 84,
+        "functions": 3,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/main.py",
+        "lines": 112,
+        "functions": 6,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/models.py",
+        "lines": 175,
+        "functions": 2,
+        "classes": 10,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/__init__.py",
+        "lines": 4,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/automation.py",
+        "lines": 185,
+        "functions": 6,
+        "classes": 5,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/health.py",
+        "lines": 73,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/perception.py",
+        "lines": 231,
+        "functions": 5,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/planner.py",
+        "lines": 339,
+        "functions": 15,
+        "classes": 5,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/system.py",
+        "lines": 63,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/tasks.py",
+        "lines": 50,
+        "functions": 6,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/workflows.py",
+        "lines": 197,
+        "functions": 11,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/routers/__init__.py",
+        "lines": 3,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/services/task_service.py",
+        "lines": 82,
+        "functions": 6,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/app/services/__init__.py",
+        "lines": 3,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ],
+    "planner": [
+      {
+        "file": "planner/checkpoint_manager.py",
+        "lines": 273,
+        "functions": 8,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/circuit_breaker.py",
+        "lines": 98,
+        "functions": 7,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/confidence_engine.py",
+        "lines": 182,
+        "functions": 2,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/context_builder.py",
+        "lines": 135,
+        "functions": 4,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/crash_recovery.py",
+        "lines": 101,
+        "functions": 2,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/decision_engine.py",
+        "lines": 159,
+        "functions": 3,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/dependency_manager.py",
+        "lines": 168,
+        "functions": 5,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/dynamic_replanner.py",
+        "lines": 147,
+        "functions": 2,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/execution_controller.py",
+        "lines": 574,
+        "functions": 9,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/execution_engine.py",
+        "lines": 859,
+        "functions": 12,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/execution_trace.py",
+        "lines": 244,
+        "functions": 15,
+        "classes": 4,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/goal_understanding.py",
+        "lines": 174,
+        "functions": 2,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/human_approval.py",
+        "lines": 435,
+        "functions": 16,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/loop_detector.py",
+        "lines": 137,
+        "functions": 5,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/models.py",
+        "lines": 395,
+        "functions": 3,
+        "classes": 18,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/multi_step_verifier.py",
+        "lines": 236,
+        "functions": 4,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/planner_service.py",
+        "lines": 215,
+        "functions": 4,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/plan_validator.py",
+        "lines": 133,
+        "functions": 4,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/recovery_engine.py",
+        "lines": 533,
+        "functions": 6,
+        "classes": 4,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/reliability_monitor.py",
+        "lines": 153,
+        "functions": 5,
+        "classes": 4,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/resource_governor.py",
+        "lines": 254,
+        "functions": 18,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/risk_classifier.py",
+        "lines": 218,
+        "functions": 2,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/security_guards.py",
+        "lines": 130,
+        "functions": 4,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/stale_guard.py",
+        "lines": 167,
+        "functions": 3,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/target_resolver.py",
+        "lines": 235,
+        "functions": 5,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/task_decomposer.py",
+        "lines": 337,
+        "functions": 6,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/verification_engine.py",
+        "lines": 513,
+        "functions": 8,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/workflow_dag.py",
+        "lines": 307,
+        "functions": 9,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/workflow_models.py",
+        "lines": 487,
+        "functions": 15,
+        "classes": 7,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/workflow_orchestrator.py",
+        "lines": 694,
+        "functions": 17,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/workflow_scheduler.py",
+        "lines": 206,
+        "functions": 10,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/__init__.py",
+        "lines": 3,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ],
+    "perception": [
+      {
+        "file": "perception/context_analyzer.py",
+        "lines": 142,
+        "functions": 2,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/coordinate_mapper.py",
+        "lines": 285,
+        "functions": 9,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/element_filter.py",
+        "lines": 193,
+        "functions": 13,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/evidence_fusion.py",
+        "lines": 397,
+        "functions": 5,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/models.py",
+        "lines": 256,
+        "functions": 15,
+        "classes": 6,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/models_multimodal.py",
+        "lines": 394,
+        "functions": 19,
+        "classes": 11,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/multimodal_service.py",
+        "lines": 361,
+        "functions": 5,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/ocr_engine.py",
+        "lines": 574,
+        "functions": 23,
+        "classes": 5,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/perception_config.py",
+        "lines": 61,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/perception_security.py",
+        "lines": 127,
+        "functions": 7,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/screen_capture.py",
+        "lines": 502,
+        "functions": 10,
+        "classes": 2,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/service.py",
+        "lines": 240,
+        "functions": 11,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/temporal_comparator.py",
+        "lines": 213,
+        "functions": 6,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/uia_inspector.py",
+        "lines": 543,
+        "functions": 16,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/vision_router.py",
+        "lines": 109,
+        "functions": 4,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/__init__.py",
+        "lines": 4,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ],
+    "automation": [
+      {
+        "file": "automation/action_dispatcher.py",
+        "lines": 830,
+        "functions": 23,
+        "classes": 5,
+        "test_functions": 0
+      },
+      {
+        "file": "automation/action_log.py",
+        "lines": 139,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "automation/action_validator.py",
+        "lines": 107,
+        "functions": 6,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "automation/models.py",
+        "lines": 104,
+        "functions": 2,
+        "classes": 4,
+        "test_functions": 0
+      },
+      {
+        "file": "automation/safety.py",
+        "lines": 296,
+        "functions": 18,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "automation/__init__.py",
+        "lines": 4,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ],
+    "overlay": [
+      {
+        "file": "overlay/launcher.py",
+        "lines": 40,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "overlay/renderer.py",
+        "lines": 191,
+        "functions": 9,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "overlay/win32_helper.py",
+        "lines": 95,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "overlay/window.py",
+        "lines": 148,
+        "functions": 11,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "overlay/__init__.py",
+        "lines": 3,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ],
+    "providers": [
+      {
+        "file": "providers/ai_provider.py",
+        "lines": 145,
+        "functions": 11,
+        "classes": 6,
+        "test_functions": 0
+      },
+      {
+        "file": "providers/hardware_detector.py",
+        "lines": 69,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "providers/omniroute_provider.py",
+        "lines": 608,
+        "functions": 15,
+        "classes": 3,
+        "test_functions": 0
+      },
+      {
+        "file": "providers/screen_provider.py",
+        "lines": 53,
+        "functions": 5,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "providers/uia_provider.py",
+        "lines": 51,
+        "functions": 6,
+        "classes": 1,
+        "test_functions": 0
+      },
+      {
+        "file": "providers/__init__.py",
+        "lines": 5,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ],
+    "scripts": [
+      {
+        "file": "scripts/audit_phase2_verification.py",
+        "lines": 436,
+        "functions": 14,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/audit_phase3_acceptance.py",
+        "lines": 552,
+        "functions": 7,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/audit_phase4_acceptance.py",
+        "lines": 529,
+        "functions": 8,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/audit_security_secrets.py",
+        "lines": 69,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/benchmark_phase14.py",
+        "lines": 501,
+        "functions": 10,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/build_repository_inventory.py",
+        "lines": 136,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/evaluate_external_qa.py",
+        "lines": 192,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/measure_baseline.py",
+        "lines": 157,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase10_tests.py",
+        "lines": 436,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase11_tests.py",
+        "lines": 194,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase12_tests.py",
+        "lines": 201,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase13_tests.py",
+        "lines": 181,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase14_tests.py",
+        "lines": 183,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase1_tests.py",
+        "lines": 232,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase2_tests.py",
+        "lines": 433,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase3_tests.py",
+        "lines": 255,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase4_tests.py",
+        "lines": 306,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase5_tests.py",
+        "lines": 968,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase6_tests.py",
+        "lines": 431,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase7_tests.py",
+        "lines": 555,
+        "functions": 7,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/run_phase8_tests.py",
+        "lines": 556,
+        "functions": 7,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/start_compass.py",
+        "lines": 176,
+        "functions": 8,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/stop_compass.py",
+        "lines": 103,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/validate_env.py",
+        "lines": 213,
+        "functions": 9,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ],
+    "docs": [
+      {
+        "file": "README.md",
+        "lines": 108
+      },
+      {
+        "file": ".pytest_cache/README.md",
+        "lines": 8
+      },
+      {
+        "file": "docs/DATA_RETENTION_POLICY.md",
+        "lines": 37
+      },
+      {
+        "file": "docs/OPEN_SOURCE_NOTICES.md",
+        "lines": 30
+      },
+      {
+        "file": "docs/PHASE1_FOUNDATION.md",
+        "lines": 147
+      },
+      {
+        "file": "docs/PHASE2_ENGINE.md",
+        "lines": 246
+      },
+      {
+        "file": "docs/PHASE3_FINAL_CERTIFICATION.md",
+        "lines": 179
+      },
+      {
+        "file": "docs/PHASE3_INTELLIGENCE.md",
+        "lines": 184
+      },
+      {
+        "file": "docs/PHASE4_FINAL_CERTIFICATION.md",
+        "lines": 509
+      },
+      {
+        "file": "docs/PHASE4_REQUIREMENTS_TRACEABILITY.md",
+        "lines": 92
+      },
+      {
+        "file": "docs/PHASE_10_APPLICATION_COMPATIBILITY_MATRIX.md",
+        "lines": 43
+      },
+      {
+        "file": "docs/PHASE_10_BASELINE_AUDIT.md",
+        "lines": 137
+      },
+      {
+        "file": "docs/PHASE_10_CHANGELOG.md",
+        "lines": 26
+      },
+      {
+        "file": "docs/PHASE_10_EVIDENCE_INDEX.md",
+        "lines": 49
+      },
+      {
+        "file": "docs/PHASE_10_EXTERNAL_QA_EVALUATION.md",
+        "lines": 104
+      },
+      {
+        "file": "docs/PHASE_10_FAILURE_RECOVERY_REPORT.md",
+        "lines": 61
+      },
+      {
+        "file": "docs/PHASE_10_FINAL_REPORT.md",
+        "lines": 52
+      },
+      {
+        "file": "docs/PHASE_10_GAP_CLOSURE_REPORT.md",
+        "lines": 41
+      },
+      {
+        "file": "docs/PHASE_10_PERFORMANCE_REPORT.md",
+        "lines": 58
+      },
+      {
+        "file": "docs/PHASE_10_REQUIREMENTS.md",
+        "lines": 62
+      },
+      {
+        "file": "docs/PHASE_10_SECURITY_SAFETY.md",
+        "lines": 68
+      },
+      {
+        "file": "docs/PHASE_10_SIH_DEMO_REPORT.md",
+        "lines": 48
+      },
+      {
+        "file": "docs/PHASE_10_SIH_DEMO_SCRIPT.md",
+        "lines": 64
+      },
+      {
+        "file": "docs/PHASE_10_TECHNICAL_DESIGN.md",
+        "lines": 117
+      },
+      {
+        "file": "docs/PHASE_10_TEST_MATRIX.md",
+        "lines": 57
+      },
+      {
+        "file": "docs/PHASE_10_TEST_PLAN.md",
+        "lines": 88
+      },
+      {
+        "file": "docs/PHASE_10_TRACEABILITY_MATRIX.md",
+        "lines": 39
+      },
+      {
+        "file": "docs/PHASE_11_ARCHITECTURE_AUDIT.md",
+        "lines": 56
+      },
+      {
+        "file": "docs/PHASE_11_BASELINE_AUDIT.md",
+        "lines": 68
+      },
+      {
+        "file": "docs/PHASE_11_CHANGELOG.md",
+        "lines": 73
+      },
+      {
+        "file": "docs/PHASE_11_CODE_AUDIT.md",
+        "lines": 76
+      },
+      {
+        "file": "docs/PHASE_11_DEFECT_REGISTER.md",
+        "lines": 62
+      },
+      {
+        "file": "docs/PHASE_11_EVIDENCE_INDEX.md",
+        "lines": 29
+      },
+      {
+        "file": "docs/PHASE_11_FINAL_REPORT.md",
+        "lines": 62
+      },
+      {
+        "file": "docs/PHASE_11_GAP_CLOSURE_REPORT.md",
+        "lines": 28
+      },
+      {
+        "file": "docs/PHASE_11_OPTIMIZATION_CANDIDATES.md",
+        "lines": 37
+      },
+      {
+        "file": "docs/PHASE_11_PERFORMANCE_BASELINE.md",
+        "lines": 54
+      },
+      {
+        "file": "docs/PHASE_11_REAL_WINDOWS_VALIDATION.md",
+        "lines": 38
+      },
+      {
+        "file": "docs/PHASE_11_REGRESSION_REPORT.md",
+        "lines": 45
+      },
+      {
+        "file": "docs/PHASE_11_REQUIREMENT_TRACEABILITY.md",
+        "lines": 37
+      },
+      {
+        "file": "docs/PHASE_11_SAFETY_AUDIT.md",
+        "lines": 56
+      },
+      {
+        "file": "docs/PHASE_11_SECURITY_AUDIT.md",
+        "lines": 41
+      },
+      {
+        "file": "docs/PHASE_11_TEST_MATRIX.md",
+        "lines": 37
+      },
+      {
+        "file": "docs/PHASE_11_TEST_PLAN.md",
+        "lines": 33
+      },
+      {
+        "file": "docs/PHASE_12_AI_FAILURE_MATRIX.md",
+        "lines": 47
+      },
+      {
+        "file": "docs/PHASE_12_CHANGELOG.md",
+        "lines": 64
+      },
+      {
+        "file": "docs/PHASE_12_DEFECT_REGISTER.md",
+        "lines": 55
+      },
+      {
+        "file": "docs/PHASE_12_EVIDENCE_INDEX.md",
+        "lines": 46
+      },
+      {
+        "file": "docs/PHASE_12_FAILURE_INJECTION.md",
+        "lines": 51
+      },
+      {
+        "file": "docs/PHASE_12_FINAL_REPORT.md",
+        "lines": 98
+      },
+      {
+        "file": "docs/PHASE_12_GAP_CLOSURE_REPORT.md",
+        "lines": 32
+      },
+      {
+        "file": "docs/PHASE_12_LONG_RUN_REPORT.md",
+        "lines": 42
+      },
+      {
+        "file": "docs/PHASE_12_REAL_WINDOWS_VALIDATION.md",
+        "lines": 200
+      },
+      {
+        "file": "docs/PHASE_12_RECOVERY_REPORT.md",
+        "lines": 77
+      },
+      {
+        "file": "docs/PHASE_12_REGRESSION_REPORT.md",
+        "lines": 62
+      },
+      {
+        "file": "docs/PHASE_12_REQUIREMENTS.md",
+        "lines": 43
+      },
+      {
+        "file": "docs/PHASE_12_RESOURCE_REPORT.md",
+        "lines": 48
+      },
+      {
+        "file": "docs/PHASE_12_SECURITY_TESTING.md",
+        "lines": 45
+      },
+      {
+        "file": "docs/PHASE_12_STOP_VALIDATION.md",
+        "lines": 50
+      },
+      {
+        "file": "docs/PHASE_12_TEST_MATRIX.md",
+        "lines": 62
+      },
+      {
+        "file": "docs/PHASE_12_TEST_PLAN.md",
+        "lines": 52
+      },
+      {
+        "file": "docs/PHASE_13_ADVERSARIAL_TEST_PLAN.md",
+        "lines": 39
+      },
+      {
+        "file": "docs/PHASE_13_ATTACK_MATRIX.md",
+        "lines": 50
+      },
+      {
+        "file": "docs/PHASE_13_CHANGELOG.md",
+        "lines": 71
+      },
+      {
+        "file": "docs/PHASE_13_CONCURRENCY_RACE_REPORT.md",
+        "lines": 28
+      },
+      {
+        "file": "docs/PHASE_13_DEFECT_REGISTER.md",
+        "lines": 67
+      },
+      {
+        "file": "docs/PHASE_13_EVIDENCE_INDEX.md",
+        "lines": 42
+      },
+      {
+        "file": "docs/PHASE_13_FAILURE_INJECTION.md",
+        "lines": 30
+      },
+      {
+        "file": "docs/PHASE_13_FINAL_REPORT.md",
+        "lines": 109
+      },
+      {
+        "file": "docs/PHASE_13_GAP_CLOSURE_REPORT.md",
+        "lines": 37
+      },
+      {
+        "file": "docs/PHASE_13_LONG_RUN_REPORT.md",
+        "lines": 42
+      },
+      {
+        "file": "docs/PHASE_13_PROMPT_INJECTION.md",
+        "lines": 30
+      },
+      {
+        "file": "docs/PHASE_13_RECOVERY_REPORT.md",
+        "lines": 28
+      },
+      {
+        "file": "docs/PHASE_13_REGRESSION_REPORT.md",
+        "lines": 52
+      },
+      {
+        "file": "docs/PHASE_13_REQUIREMENTS.md",
+        "lines": 48
+      },
+      {
+        "file": "docs/PHASE_13_RESOURCE_STRESS_REPORT.md",
+        "lines": 44
+      },
+      {
+        "file": "docs/PHASE_13_SECURITY_ATTACKS.md",
+        "lines": 31
+      },
+      {
+        "file": "docs/PHASE_13_STOP_CANCELLATION.md",
+        "lines": 32
+      },
+      {
+        "file": "docs/PHASE_14_ARCHITECTURE_HOTSPOTS.md",
+        "lines": 57
+      },
+      {
+        "file": "docs/PHASE_14_BASELINE_PERFORMANCE.md",
+        "lines": 77
+      },
+      {
+        "file": "docs/PHASE_14_CODE_QUALITY_AUDIT.md",
+        "lines": 42
+      },
+      {
+        "file": "docs/PHASE_14_OPTIMIZATION_PLAN.md",
+        "lines": 62
+      },
+      {
+        "file": "docs/PHASE_14_REQUIREMENTS.md",
+        "lines": 76
+      },
+      {
+        "file": "docs/PHASE_5_CHANGELOG.md",
+        "lines": 95
+      },
+      {
+        "file": "docs/PHASE_5_EVIDENCE_INDEX.md",
+        "lines": 159
+      },
+      {
+        "file": "docs/PHASE_5_EXTERNAL_QA_EVALUATION.md",
+        "lines": 121
+      },
+      {
+        "file": "docs/PHASE_5_FAILURE_RECOVERY_SPEC.md",
+        "lines": 44
+      },
+      {
+        "file": "docs/PHASE_5_FINAL_REPORT.md",
+        "lines": 339
+      },
+      {
+        "file": "docs/PHASE_5_GAP_CLOSURE_REPORT.md",
+        "lines": 311
+      },
+      {
+        "file": "docs/PHASE_5_PERFORMANCE_REPORT.md",
+        "lines": 75
+      },
+      {
+        "file": "docs/PHASE_5_REQUIREMENTS.md",
+        "lines": 49
+      },
+      {
+        "file": "docs/PHASE_5_SECURITY_SAFETY.md",
+        "lines": 72
+      },
+      {
+        "file": "docs/PHASE_5_TECHNICAL_DESIGN.md",
+        "lines": 189
+      },
+      {
+        "file": "docs/PHASE_5_TEST_MATRIX.md",
+        "lines": 55
+      },
+      {
+        "file": "docs/PHASE_5_TEST_PLAN.md",
+        "lines": 131
+      },
+      {
+        "file": "docs/PHASE_6_CHANGELOG.md",
+        "lines": 47
+      },
+      {
+        "file": "docs/PHASE_6_EVIDENCE_INDEX.md",
+        "lines": 76
+      },
+      {
+        "file": "docs/PHASE_6_EXTERNAL_QA_EVALUATION.md",
+        "lines": 40
+      },
+      {
+        "file": "docs/PHASE_6_FAILURE_RECOVERY_SPEC.md",
+        "lines": 43
+      },
+      {
+        "file": "docs/PHASE_6_FINAL_REPORT.md",
+        "lines": 120
+      },
+      {
+        "file": "docs/PHASE_6_GAP_CLOSURE_REPORT.md",
+        "lines": 37
+      },
+      {
+        "file": "docs/PHASE_6_PERFORMANCE_REPORT.md",
+        "lines": 47
+      },
+      {
+        "file": "docs/PHASE_6_REQUIREMENTS.md",
+        "lines": 41
+      },
+      {
+        "file": "docs/PHASE_6_SECURITY_SAFETY.md",
+        "lines": 33
+      },
+      {
+        "file": "docs/PHASE_6_TECHNICAL_DESIGN.md",
+        "lines": 115
+      },
+      {
+        "file": "docs/PHASE_6_TEST_MATRIX.md",
+        "lines": 49
+      },
+      {
+        "file": "docs/PHASE_6_TEST_PLAN.md",
+        "lines": 71
+      },
+      {
+        "file": "docs/PHASE_7_CERTIFICATION.md",
+        "lines": 115
+      },
+      {
+        "file": "docs/PHASE_7_CHANGELOG.md",
+        "lines": 35
+      },
+      {
+        "file": "docs/PHASE_7_EVIDENCE_INDEX.md",
+        "lines": 82
+      },
+      {
+        "file": "docs/PHASE_7_EVIDENCE_SPEC.md",
+        "lines": 65
+      },
+      {
+        "file": "docs/PHASE_7_EXTERNAL_QA_EVALUATION.md",
+        "lines": 48
+      },
+      {
+        "file": "docs/PHASE_7_FAILURE_RECOVERY.md",
+        "lines": 59
+      },
+      {
+        "file": "docs/PHASE_7_FINAL_REPORT.md",
+        "lines": 167
+      },
+      {
+        "file": "docs/PHASE_7_GAP_CLOSURE.md",
+        "lines": 21
+      },
+      {
+        "file": "docs/PHASE_7_MODEL_CATALOG.md",
+        "lines": 48
+      },
+      {
+        "file": "docs/PHASE_7_MULTIMODAL_ARCHITECTURE.md",
+        "lines": 71
+      },
+      {
+        "file": "docs/PHASE_7_OCR_SPEC.md",
+        "lines": 81
+      },
+      {
+        "file": "docs/PHASE_7_OPEN_SOURCE_COMPONENT_AUDIT.md",
+        "lines": 74
+      },
+      {
+        "file": "docs/PHASE_7_PERFORMANCE_REPORT.md",
+        "lines": 63
+      },
+      {
+        "file": "docs/PHASE_7_REQUIREMENTS.md",
+        "lines": 45
+      },
+      {
+        "file": "docs/PHASE_7_REQUIREMENTS_TRACEABILITY.md",
+        "lines": 45
+      },
+      {
+        "file": "docs/PHASE_7_SECURITY_SAFETY.md",
+        "lines": 61
+      },
+      {
+        "file": "docs/PHASE_7_TECHNICAL_DESIGN.md",
+        "lines": 103
+      },
+      {
+        "file": "docs/PHASE_7_TEST_MATRIX.md",
+        "lines": 52
+      },
+      {
+        "file": "docs/PHASE_7_TEST_PLAN.md",
+        "lines": 39
+      },
+      {
+        "file": "docs/PHASE_8_AGENT_SPEC.md",
+        "lines": 75
+      },
+      {
+        "file": "docs/PHASE_8_AUTONOMOUS_ARCHITECTURE.md",
+        "lines": 98
+      },
+      {
+        "file": "docs/PHASE_8_CERTIFICATION.md",
+        "lines": 74
+      },
+      {
+        "file": "docs/PHASE_8_CHANGELOG.md",
+        "lines": 58
+      },
+      {
+        "file": "docs/PHASE_8_DAG_SPEC.md",
+        "lines": 104
+      },
+      {
+        "file": "docs/PHASE_8_EVIDENCE_INDEX.md",
+        "lines": 40
+      },
+      {
+        "file": "docs/PHASE_8_FAILURE_RECOVERY.md",
+        "lines": 49
+      },
+      {
+        "file": "docs/PHASE_8_FINAL_REPORT.md",
+        "lines": 42
+      },
+      {
+        "file": "docs/PHASE_8_OPEN_SOURCE_COMPONENT_AUDIT.md",
+        "lines": 32
+      },
+      {
+        "file": "docs/PHASE_8_PERFORMANCE_REPORT.md",
+        "lines": 44
+      },
+      {
+        "file": "docs/PHASE_8_RECOVERY_SPEC.md",
+        "lines": 84
+      },
+      {
+        "file": "docs/PHASE_8_REQUIREMENTS.md",
+        "lines": 50
+      },
+      {
+        "file": "docs/PHASE_8_REQUIREMENTS_TRACEABILITY.md",
+        "lines": 56
+      },
+      {
+        "file": "docs/PHASE_8_RESOURCE_GOVERNANCE.md",
+        "lines": 48
+      },
+      {
+        "file": "docs/PHASE_8_SECURITY_SAFETY.md",
+        "lines": 58
+      },
+      {
+        "file": "docs/PHASE_8_TECHNICAL_DESIGN.md",
+        "lines": 150
+      },
+      {
+        "file": "docs/PHASE_8_TEST_MATRIX.md",
+        "lines": 49
+      },
+      {
+        "file": "docs/PHASE_8_TEST_PLAN.md",
+        "lines": 48
+      },
+      {
+        "file": "docs/PHASE_8_WORKFLOW_SPEC.md",
+        "lines": 40
+      },
+      {
+        "file": "docs/PHASE_9_CRITICAL_INTEGRITY_MANIFEST.md",
+        "lines": 56
+      },
+      {
+        "file": "docs/PHASE_9_LOCK_HIERARCHY.md",
+        "lines": 55
+      },
+      {
+        "file": "docs/PHASE_9_RECOVERY_SEMANTICS.md",
+        "lines": 55
+      },
+      {
+        "file": "docs/PHASE_9_REPAIR_ALLOWLIST.md",
+        "lines": 90
+      },
+      {
+        "file": "docs/PHASE_9_REPOSITORY_AUDIT.md",
+        "lines": 51
+      },
+      {
+        "file": "docs/PHASE_9_STATE_AUTHORITY.md",
+        "lines": 68
+      },
+      {
+        "file": "docs/PHASE_9_TEST_ISOLATION_PLAN.md",
+        "lines": 54
+      }
+    ],
+    "frontend": [
+      {
+        "file": "frontend/index.html",
+        "lines": 15
+      },
+      {
+        "file": "frontend/package-lock.json",
+        "lines": 1740
+      },
+      {
+        "file": "frontend/package.json",
+        "lines": 19
+      },
+      {
+        "file": "frontend/powershell.cmd",
+        "lines": 3
+      },
+      {
+        "file": "frontend/vite.config.js",
+        "lines": 16
+      },
+      {
+        "file": "frontend/src/api.js",
+        "lines": 77
+      },
+      {
+        "file": "frontend/src/App.jsx",
+        "lines": 144
+      },
+      {
+        "file": "frontend/src/index.css",
+        "lines": 372
+      },
+      {
+        "file": "frontend/src/main.jsx",
+        "lines": 10
+      },
+      {
+        "file": "frontend/src/components/ErrorBanner.jsx",
+        "lines": 35
+      },
+      {
+        "file": "frontend/src/components/Header.jsx",
+        "lines": 43
+      },
+      {
+        "file": "frontend/src/components/SystemTelemetry.jsx",
+        "lines": 42
+      },
+      {
+        "file": "frontend/src/components/TaskEntry.jsx",
+        "lines": 73
+      },
+      {
+        "file": "frontend/src/components/TaskStateCard.jsx",
+        "lines": 161
+      }
+    ],
+    "tests": [
+      {
+        "file": "automation/tests/test_action_dispatcher.py",
+        "lines": 110,
+        "functions": 12,
+        "classes": 4,
+        "test_functions": 12
+      },
+      {
+        "file": "automation/tests/test_action_safety.py",
+        "lines": 72,
+        "functions": 11,
+        "classes": 4,
+        "test_functions": 11
+      },
+      {
+        "file": "automation/tests/test_action_validator.py",
+        "lines": 215,
+        "functions": 27,
+        "classes": 5,
+        "test_functions": 24
+      },
+      {
+        "file": "automation/tests/test_coordinate_safety.py",
+        "lines": 51,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "automation/tests/__init__.py",
+        "lines": 1,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "backend/tests/test_config.py",
+        "lines": 16,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 1
+      },
+      {
+        "file": "backend/tests/test_database.py",
+        "lines": 92,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "backend/tests/test_failures.py",
+        "lines": 49,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "backend/tests/test_health.py",
+        "lines": 30,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 1
+      },
+      {
+        "file": "backend/tests/test_phase2_api.py",
+        "lines": 135,
+        "functions": 19,
+        "classes": 2,
+        "test_functions": 18
+      },
+      {
+        "file": "backend/tests/test_phase5_api.py",
+        "lines": 141,
+        "functions": 8,
+        "classes": 0,
+        "test_functions": 8
+      },
+      {
+        "file": "backend/tests/test_secret_redaction.py",
+        "lines": 56,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "backend/tests/test_state_machine.py",
+        "lines": 238,
+        "functions": 11,
+        "classes": 0,
+        "test_functions": 11
+      },
+      {
+        "file": "backend/tests/test_system.py",
+        "lines": 26,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "backend/tests/test_tasks.py",
+        "lines": 57,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 1
+      },
+      {
+        "file": "backend/tests/__init__.py",
+        "lines": 3,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "overlay/tests/test_overlay.py",
+        "lines": 51,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "overlay/tests/test_renderer.py",
+        "lines": 85,
+        "functions": 12,
+        "classes": 2,
+        "test_functions": 11
+      },
+      {
+        "file": "overlay/tests/__init__.py",
+        "lines": 3,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "perception/tests/test_coordinate_mapper.py",
+        "lines": 120,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "perception/tests/test_element_filter.py",
+        "lines": 222,
+        "functions": 24,
+        "classes": 8,
+        "test_functions": 23
+      },
+      {
+        "file": "perception/tests/test_evidence_fusion.py",
+        "lines": 178,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "perception/tests/test_multimodal_evidence.py",
+        "lines": 189,
+        "functions": 6,
+        "classes": 0,
+        "test_functions": 6
+      },
+      {
+        "file": "perception/tests/test_multimodal_integration.py",
+        "lines": 136,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "perception/tests/test_ocr_engine.py",
+        "lines": 111,
+        "functions": 5,
+        "classes": 1,
+        "test_functions": 4
+      },
+      {
+        "file": "perception/tests/test_perception_config.py",
+        "lines": 75,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "perception/tests/test_perception_security.py",
+        "lines": 93,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "perception/tests/test_perception_service.py",
+        "lines": 74,
+        "functions": 9,
+        "classes": 1,
+        "test_functions": 7
+      },
+      {
+        "file": "perception/tests/test_screen_capture.py",
+        "lines": 172,
+        "functions": 16,
+        "classes": 5,
+        "test_functions": 15
+      },
+      {
+        "file": "perception/tests/test_temporal_comparator.py",
+        "lines": 124,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "perception/tests/test_uia_inspector.py",
+        "lines": 195,
+        "functions": 20,
+        "classes": 6,
+        "test_functions": 20
+      },
+      {
+        "file": "perception/tests/__init__.py",
+        "lines": 1,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "planner/tests/test_ai_untrusted_validation.py",
+        "lines": 125,
+        "functions": 10,
+        "classes": 1,
+        "test_functions": 10
+      },
+      {
+        "file": "planner/tests/test_api_planner.py",
+        "lines": 70,
+        "functions": 6,
+        "classes": 1,
+        "test_functions": 6
+      },
+      {
+        "file": "planner/tests/test_api_sse_phase6.py",
+        "lines": 55,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_approval_boundaries.py",
+        "lines": 117,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_cancellation_everywhere.py",
+        "lines": 68,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_checkpoint_resume.py",
+        "lines": 133,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_circuit_breaker.py",
+        "lines": 80,
+        "functions": 6,
+        "classes": 0,
+        "test_functions": 6
+      },
+      {
+        "file": "planner/tests/test_cleanup.py",
+        "lines": 213,
+        "functions": 12,
+        "classes": 0,
+        "test_functions": 11
+      },
+      {
+        "file": "planner/tests/test_concurrency_deep.py",
+        "lines": 255,
+        "functions": 14,
+        "classes": 0,
+        "test_functions": 6
+      },
+      {
+        "file": "planner/tests/test_confidence_engine.py",
+        "lines": 83,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_context_analyzer.py",
+        "lines": 59,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_context_builder.py",
+        "lines": 54,
+        "functions": 3,
+        "classes": 1,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_crash_recovery.py",
+        "lines": 100,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_crash_recovery_phase5.py",
+        "lines": 166,
+        "functions": 7,
+        "classes": 0,
+        "test_functions": 7
+      },
+      {
+        "file": "planner/tests/test_crash_restart_phase6.py",
+        "lines": 120,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_dependency_manager.py",
+        "lines": 121,
+        "functions": 8,
+        "classes": 0,
+        "test_functions": 8
+      },
+      {
+        "file": "planner/tests/test_dynamic_replanner.py",
+        "lines": 69,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "planner/tests/test_execution_engine.py",
+        "lines": 122,
+        "functions": 5,
+        "classes": 1,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_execution_trace.py",
+        "lines": 46,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "planner/tests/test_failures_extended.py",
+        "lines": 255,
+        "functions": 14,
+        "classes": 0,
+        "test_functions": 14
+      },
+      {
+        "file": "planner/tests/test_false_success.py",
+        "lines": 153,
+        "functions": 6,
+        "classes": 0,
+        "test_functions": 6
+      },
+      {
+        "file": "planner/tests/test_final_state_verification.py",
+        "lines": 122,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "planner/tests/test_goal_understanding.py",
+        "lines": 44,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_goal_verification.py",
+        "lines": 95,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_human_approval.py",
+        "lines": 353,
+        "functions": 17,
+        "classes": 0,
+        "test_functions": 16
+      },
+      {
+        "file": "planner/tests/test_idempotency_recovery.py",
+        "lines": 184,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_loop_termination.py",
+        "lines": 76,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_multi_step_stop.py",
+        "lines": 62,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_omniroute_failures_phase10.py",
+        "lines": 210,
+        "functions": 14,
+        "classes": 1,
+        "test_functions": 14
+      },
+      {
+        "file": "planner/tests/test_omniroute_provider.py",
+        "lines": 96,
+        "functions": 6,
+        "classes": 1,
+        "test_functions": 6
+      },
+      {
+        "file": "planner/tests/test_partial_completion.py",
+        "lines": 105,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_phase10_hardening.py",
+        "lines": 95,
+        "functions": 5,
+        "classes": 1,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_phase11_defects.py",
+        "lines": 227,
+        "functions": 11,
+        "classes": 1,
+        "test_functions": 9
+      },
+      {
+        "file": "planner/tests/test_phase12_functional_loop.py",
+        "lines": 245,
+        "functions": 12,
+        "classes": 1,
+        "test_functions": 11
+      },
+      {
+        "file": "planner/tests/test_phase13_adversarial.py",
+        "lines": 289,
+        "functions": 16,
+        "classes": 1,
+        "test_functions": 15
+      },
+      {
+        "file": "planner/tests/test_phase4_api.py",
+        "lines": 130,
+        "functions": 9,
+        "classes": 0,
+        "test_functions": 9
+      },
+      {
+        "file": "planner/tests/test_planner_schemas.py",
+        "lines": 88,
+        "functions": 6,
+        "classes": 1,
+        "test_functions": 6
+      },
+      {
+        "file": "planner/tests/test_recovery_engine.py",
+        "lines": 119,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_recovery_stages.py",
+        "lines": 235,
+        "functions": 11,
+        "classes": 0,
+        "test_functions": 11
+      },
+      {
+        "file": "planner/tests/test_resource_cleanup_phase6.py",
+        "lines": 61,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_resource_governor.py",
+        "lines": 38,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_risk_classifier.py",
+        "lines": 60,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_security_guards.py",
+        "lines": 155,
+        "functions": 7,
+        "classes": 0,
+        "test_functions": 7
+      },
+      {
+        "file": "planner/tests/test_security_phase5.py",
+        "lines": 220,
+        "functions": 11,
+        "classes": 0,
+        "test_functions": 11
+      },
+      {
+        "file": "planner/tests/test_security_phase6.py",
+        "lines": 133,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_stale_guard.py",
+        "lines": 101,
+        "functions": 8,
+        "classes": 0,
+        "test_functions": 8
+      },
+      {
+        "file": "planner/tests/test_target_resolver.py",
+        "lines": 44,
+        "functions": 5,
+        "classes": 1,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_task_decomposer.py",
+        "lines": 89,
+        "functions": 6,
+        "classes": 0,
+        "test_functions": 6
+      },
+      {
+        "file": "planner/tests/test_verification_engine.py",
+        "lines": 75,
+        "functions": 4,
+        "classes": 1,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_workflow_api.py",
+        "lines": 88,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_workflow_concurrency.py",
+        "lines": 119,
+        "functions": 6,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_workflow_dag.py",
+        "lines": 137,
+        "functions": 10,
+        "classes": 0,
+        "test_functions": 10
+      },
+      {
+        "file": "planner/tests/test_workflow_loop_detection.py",
+        "lines": 38,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "planner/tests/test_workflow_models.py",
+        "lines": 82,
+        "functions": 9,
+        "classes": 0,
+        "test_functions": 9
+      },
+      {
+        "file": "planner/tests/test_workflow_orchestrator.py",
+        "lines": 96,
+        "functions": 5,
+        "classes": 0,
+        "test_functions": 5
+      },
+      {
+        "file": "planner/tests/test_workflow_partial.py",
+        "lines": 35,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 1
+      },
+      {
+        "file": "planner/tests/test_workflow_pause_resume.py",
+        "lines": 42,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "planner/tests/test_workflow_recovery.py",
+        "lines": 66,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "planner/tests/test_workflow_resource.py",
+        "lines": 47,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_workflow_retry.py",
+        "lines": 61,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 2
+      },
+      {
+        "file": "planner/tests/test_workflow_scheduler.py",
+        "lines": 88,
+        "functions": 4,
+        "classes": 0,
+        "test_functions": 4
+      },
+      {
+        "file": "planner/tests/test_workflow_security.py",
+        "lines": 63,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 3
+      },
+      {
+        "file": "planner/tests/test_workflow_stop.py",
+        "lines": 41,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 1
+      },
+      {
+        "file": "planner/tests/test_workflow_timeout.py",
+        "lines": 31,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 1
+      },
+      {
+        "file": "providers/tests/test_providers.py",
+        "lines": 71,
+        "functions": 8,
+        "classes": 2,
+        "test_functions": 8
+      },
+      {
+        "file": "providers/tests/__init__.py",
+        "lines": 1,
+        "functions": 0,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scratch/test_diag_enum.py",
+        "lines": 30,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scratch/test_diag_wf_a.py",
+        "lines": 63,
+        "functions": 2,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scratch/test_inprocess_ocr.py",
+        "lines": 34,
+        "functions": 1,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/test_adversarial_phase13.py",
+        "lines": 618,
+        "functions": 24,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/test_real_windows_phase10.py",
+        "lines": 485,
+        "functions": 17,
+        "classes": 0,
+        "test_functions": 12
+      },
+      {
+        "file": "scripts/test_real_windows_phase12.py",
+        "lines": 785,
+        "functions": 29,
+        "classes": 0,
+        "test_functions": 24
+      },
+      {
+        "file": "scripts/test_real_windows_phase5.py",
+        "lines": 627,
+        "functions": 19,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/test_real_windows_phase6.py",
+        "lines": 423,
+        "functions": 15,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/test_real_windows_phase7.py",
+        "lines": 665,
+        "functions": 18,
+        "classes": 0,
+        "test_functions": 0
+      },
+      {
+        "file": "scripts/test_real_windows_phase8.py",
+        "lines": 692,
+        "functions": 28,
+        "classes": 0,
+        "test_functions": 18
+      },
+      {
+        "file": "scripts/test_stability_phase10.py",
+        "lines": 237,
+        "functions": 3,
+        "classes": 0,
+        "test_functions": 0
+      }
+    ]
+  }
+}

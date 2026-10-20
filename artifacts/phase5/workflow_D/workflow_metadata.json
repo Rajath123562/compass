@@ -1,0 +1,11 @@
+{
+  "workflow_id": "D",
+  "goal": "Detect target application crash and halt safely without executing against desktop",
+  "application": "notepad.exe",
+  "timestamp": 1789883910.5354023,
+  "latency_ms": 1496.91,
+  "diagnosis_strategy": "HALT",
+  "resulting_failure_state": "FailureClassification.APPLICATION_CLOSED",
+  "safe_halt_verified": true,
+  "status": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "elements": [
+    {
+      "name": "Save",
+      "automation_id": "btn_save",
+      "bounds": {
+        "left": 240,
+        "top": 220,
+        "right": 340,
+        "bottom": 260
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "workflow_id": "wf_e3ad4e8fe9bb",
+  "task_id": "task_e638aaee37b9",
+  "goal": "stop test",
+  "start_time": 1792342504.6009047,
+  "end_time": 1792342504.7708957,
+  "node_traces": [
+    {
+      "step_id": "A",
+      "goal": "Slow step",
+      "start_time": 1792342504.6349056,
+      "end_time": null,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": null,
+      "verification_details": null,
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "RUNNING",
+      "duration_s": 0.0
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342504.6009047,
+      "payload": {
+        "task_id": "task_e638aaee37b9",
+        "goal": "stop test"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342504.6009047,
+      "payload": {
+        "goal": "stop test",
+        "node_count": 1
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792342504.616905,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342504.6349056,
+      "payload": {
+        "node_id": "A",
+        "goal": "Slow step"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342504.6349056,
+      "payload": {
+        "node_id": "A",
+        "goal": "Slow step",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "workflow_stopped",
+      "timestamp": 1792342504.7708957,
+      "payload": {
+        "status": "STOPPED"
+      }
+    }
+  ],
+  "final_status": "STOPPED",
+  "total_duration_s": 0.17
+}

@@ -1,0 +1,11 @@
+{
+  "workflow_id": "G",
+  "goal": "Fallback to direct UIA InvokePattern when coordinate click is unverified",
+  "application": "desktop_app",
+  "timestamp": 1789883910.6569045,
+  "latency_ms": 38.0,
+  "stage": "STAGE_3_ALTERNATE",
+  "strategy": "SEMANTIC_INVOKE",
+  "semantic_fallback_success": true,
+  "status": "PASS"
+}

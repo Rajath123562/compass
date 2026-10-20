@@ -1,0 +1,7 @@
+{
+  "workflow": "I",
+  "name": "AI Unavailable",
+  "status": "PASS",
+  "vision_capability": "UNAVAILABLE",
+  "ocr_capability": "AVAILABLE"
+}

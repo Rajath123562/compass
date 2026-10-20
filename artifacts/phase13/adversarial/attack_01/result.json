@@ -1,0 +1,13 @@
+{
+  "attack_id": "01",
+  "name": "Malformed & Empty Goal Rejection",
+  "status": "PASS",
+  "duration_s": 0.0031,
+  "details": "Empty/whitespace goals flagged as ambiguous; oversized payload handled without buffer overflow.",
+  "evidence": {
+    "r1_ambiguous": true,
+    "r2_ambiguous": true,
+    "r3_app": "Notepad"
+  },
+  "timestamp": 1790617013.8893676
+}

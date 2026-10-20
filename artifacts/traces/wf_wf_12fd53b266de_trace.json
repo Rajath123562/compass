@@ -1,0 +1,149 @@
+{
+  "workflow_id": "wf_12fd53b266de",
+  "task_id": "task_9b306eb9804e",
+  "goal": "partial completion test",
+  "start_time": 1792485449.1330624,
+  "end_time": 1792485449.400636,
+  "node_traces": [
+    {
+      "step_id": "A",
+      "goal": "Branch A succeeds",
+      "start_time": 1792485449.1743264,
+      "end_time": 1792485449.1995003,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.025
+    },
+    {
+      "step_id": "B",
+      "goal": "Branch B fails",
+      "start_time": 1792485449.224425,
+      "end_time": 1792485449.2451441,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "FAILED",
+      "verification_details": "NON_RETRYABLE_ERROR",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "FAILED",
+      "duration_s": 0.021
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792485449.1330624,
+      "payload": {
+        "task_id": "task_9b306eb9804e",
+        "goal": "partial completion test"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792485449.1330624,
+      "payload": {
+        "goal": "partial completion test",
+        "node_count": 2
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792485449.1492927,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.1743264,
+      "payload": {
+        "node_id": "A",
+        "goal": "Branch A succeeds"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.1743264,
+      "payload": {
+        "node_id": "A",
+        "goal": "Branch A succeeds",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485449.1995003,
+      "payload": {
+        "node_id": "A",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485449.1995003,
+      "payload": {
+        "node_id": "A",
+        "result": {
+          "result": "success"
+        }
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.224425,
+      "payload": {
+        "node_id": "B",
+        "goal": "Branch B fails"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.224425,
+      "payload": {
+        "node_id": "B",
+        "goal": "Branch B fails",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_failed",
+      "timestamp": 1792485449.2451441,
+      "payload": {
+        "node_id": "B",
+        "status": "FAILED",
+        "verification_status": "FAILED"
+      }
+    },
+    {
+      "event": "node_failed",
+      "timestamp": 1792485449.2451441,
+      "payload": {
+        "node_id": "B",
+        "error": "NON_RETRYABLE_ERROR"
+      }
+    },
+    {
+      "event": "workflow_partially_completed",
+      "timestamp": 1792485449.400636,
+      "payload": {
+        "status": "PARTIALLY_COMPLETED"
+      }
+    }
+  ],
+  "final_status": "PARTIALLY_COMPLETED",
+  "total_duration_s": 0.268
+}

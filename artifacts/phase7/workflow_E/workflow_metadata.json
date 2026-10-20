@@ -1,0 +1,59 @@
+{
+  "workflow": "E",
+  "name": "DPI Test",
+  "status": "PASS",
+  "monitors": [
+    {
+      "monitor_id": 0,
+      "hmonitor": 65537,
+      "is_primary": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1536,
+        "bottom": 864,
+        "width": 1536,
+        "height": 864,
+        "coordinate_space": "screen_physical"
+      },
+      "work_area": {
+        "left": 0,
+        "top": 0,
+        "right": 1536,
+        "bottom": 816,
+        "width": 1536,
+        "height": 816,
+        "coordinate_space": "screen_physical"
+      },
+      "dpi": 96,
+      "scale_factor": 1.0
+    }
+  ],
+  "original_box": {
+    "left": 120,
+    "top": 160,
+    "right": 320,
+    "bottom": 260,
+    "width": 200,
+    "height": 100,
+    "coordinate_space": "screen_physical"
+  },
+  "scaled_125": {
+    "left": 96,
+    "top": 128,
+    "right": 256,
+    "bottom": 208,
+    "width": 160,
+    "height": 80,
+    "coordinate_space": "screen_logical_dpi"
+  },
+  "scaled_150": {
+    "left": 80,
+    "top": 106,
+    "right": 213,
+    "bottom": 173,
+    "width": 133,
+    "height": 67,
+    "coordinate_space": "screen_logical_dpi"
+  }
+}

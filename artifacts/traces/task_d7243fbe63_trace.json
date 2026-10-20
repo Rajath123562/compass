@@ -1,0 +1,20 @@
+{
+  "task_id": "task_d7243fbe63",
+  "goal": "Open Notepad",
+  "start_time": 1792317738.641801,
+  "end_time": 1792317738.6713805,
+  "steps": [],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [
+    {
+      "timestamp": 1792317738.6713805,
+      "reason": "STOP before understanding"
+    }
+  ],
+  "final_verification": {
+    "reason": "STOP before understanding"
+  },
+  "final_status": "CANCELLED",
+  "total_duration_s": 0.03
+}

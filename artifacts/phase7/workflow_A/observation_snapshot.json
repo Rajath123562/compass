@@ -1,0 +1,2205 @@
+{
+  "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+  "timestamp": 1789892305.6406796,
+  "task_id": "wf_A",
+  "step_id": "step_1",
+  "monitor_id": 0,
+  "dpi_scaling": 1.0,
+  "screenshot_path": "C:\\Users\\RAJATH U\\Downloads\\personal assitant\\artifacts\\phase7_screenshots\\window_1789892305195.png",
+  "screenshot_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+  "window_hwnd": 1317316,
+  "window_title": "Untitled - Notepad",
+  "window_bounds": {
+    "left": 100,
+    "top": 100,
+    "right": 900,
+    "bottom": 700,
+    "width": 800,
+    "height": 600,
+    "coordinate_space": "screen_physical"
+  },
+  "evidence_count": 51,
+  "evidence_items": [
+    {
+      "evidence_id": "1c9ccba6-2894-4ca7-95f9-6d5c22912a91",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 100,
+        "top": 100,
+        "right": 900,
+        "bottom": 700,
+        "width": 800,
+        "height": 600,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Untitled - Notepad",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "ca390e07-844b-4b65-a767-b06d9fc5e06e",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Window"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 1317316]",
+        "control_type": "Window",
+        "class_name": "Notepad"
+      },
+      "correlation_ids": [
+        "020fe7dc-6edb-466c-b59b-15246cb86324",
+        "b286213c-e69e-4459-9565-f3275a229cdb"
+      ],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "eb69d5db-e8ef-4132-8055-d92d8fbbd61d",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 106,
+        "top": 174,
+        "right": 893,
+        "bottom": 661,
+        "width": 787,
+        "height": 487,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "9660403e-51ad-442d-9fdb-4b41650ecbf7",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 3412244]",
+        "control_type": "Pane",
+        "class_name": "NotepadTextBox"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "af52e138-dc27-48cd-b6b1-e4a2a49f1844",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 106,
+        "top": 174,
+        "right": 893,
+        "bottom": 661,
+        "width": 787,
+        "height": 487,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Text editor",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "24863b0d-fa2a-4923-94de-abeb888efe98",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Document"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2952714]",
+        "control_type": "Document",
+        "class_name": "RichEditD2DPT"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "acd87293-5e1c-4954-8e32-51e3b7119ac9",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "3618ed19-8698-4a01-84ec-45a660d2959f",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Unknown(0)"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "0::",
+        "control_type": "Unknown(0)",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "d5ac6362-7c5b-4644-a004-339265949a84",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 146,
+        "top": 110,
+        "right": 433,
+        "bottom": 142,
+        "width": 287,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "6a8e531d-647c-4db0-88df-1033a29f6aac",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 727680]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "0bc5c2c3-cc35-4b06-8736-c703612b60a1",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 146,
+        "top": 110,
+        "right": 433,
+        "bottom": 142,
+        "width": 287,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "7b0b7d7f-060d-42b4-a1dd-fb907b1043bd",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 3018350]",
+        "control_type": "Pane",
+        "class_name": "InputSiteWindowClass"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "77382dbc-7198-42ab-911b-b36bc63f1ead",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 146,
+        "top": 110,
+        "right": 433,
+        "bottom": 142,
+        "width": 287,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "c2ffd8f3-4a4d-4763-b5af-11e80b7e0497",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Tab"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "Tabs",
+        "runtime_id": "[42, 3018350, 4, 1]",
+        "control_type": "Tab",
+        "class_name": "Microsoft.UI.Xaml.Controls.TabView"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "125e5101-e4ec-4a96-8ab1-6faa568e3dcd",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 106,
+        "top": 142,
+        "right": 893,
+        "bottom": 175,
+        "width": 787,
+        "height": 33,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "382e4402-22a6-470c-a225-3ec3e3e13895",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2430130]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "251b8051-8dc5-4fa9-9d44-9efffd144845",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 106,
+        "top": 142,
+        "right": 893,
+        "bottom": 175,
+        "width": 787,
+        "height": 33,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "b2652388-f5f3-45a6-9a00-e1318c1d9980",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118]",
+        "control_type": "Pane",
+        "class_name": "InputSiteWindowClass"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "83584a97-4777-4412-9b08-2c8680e9498d",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 106,
+        "top": 142,
+        "right": 265,
+        "bottom": 174,
+        "width": 159,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "30d634aa-3b14-4c2c-bb03-be86de0f6178",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "MenuBar"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "MenuBar",
+        "runtime_id": "[42, 2886118, 4, 9]",
+        "control_type": "MenuBar",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "5ca5aa6a-e834-4064-9a8c-7a4a8f534af1",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 335,
+        "top": 142,
+        "right": 392,
+        "bottom": 174,
+        "width": 57,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Headings",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "41f8f81d-e04d-4825-9ab6-63aefbd58b40",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 19]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "7307c475-d960-47b2-ac23-4ff107012b36",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 392,
+        "top": 142,
+        "right": 449,
+        "bottom": 174,
+        "width": 57,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Lists",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "7f37584d-6de0-4d6d-b29f-fa614320dba5",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 21]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "d9794a2b-1769-4557-bbf5-be46deb3a5fd",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 449,
+        "top": 142,
+        "right": 481,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Bold (Ctrl+B)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d00e6cde-3836-4f1c-9106-69f04449e0fc",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 23]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "928872bd-4815-4153-916a-7251b6d1d77c",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 481,
+        "top": 142,
+        "right": 513,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Italic (Ctrl+I)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "a0d2e62b-bade-4df9-8769-2fe889adcfcd",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 25]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "10ddb783-8424-4db4-8729-b6e64ac4393c",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 513,
+        "top": 142,
+        "right": 544,
+        "bottom": 174,
+        "width": 31,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Strikethrough (Ctrl+Shift+X)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "2178515f-2caa-4636-823e-6ca2b6804209",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 27]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "d7100bac-7edc-41c3-8698-c447b5c65c7d",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 545,
+        "top": 142,
+        "right": 577,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Link (Ctrl+K)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "a9d4feb1-37ea-44ca-b8fe-518b8bbc798e",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 29]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "6d507d22-7a80-4961-aee6-1d468086f0f1",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 577,
+        "top": 142,
+        "right": 633,
+        "bottom": 174,
+        "width": 56,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Table",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d31a41c8-4564-4f80-87d0-002a9394f50e",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 31]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "60bbf66b-c9d7-45a5-9bd4-65ee76d08b8d",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 633,
+        "top": 142,
+        "right": 665,
+        "bottom": 174,
+        "width": 32,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Clear formatting (Ctrl+Space)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "0b5bf6a5-363f-466a-ab7f-c087d8e39011",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2886118, 4, 33]",
+        "control_type": "Button",
+        "class_name": "ToggleButton"
+      },
+      "correlation_ids": [
+        "57fbf8ac-7417-41ee-af81-d816dbb12e5f",
+        "6c385e3c-6dc5-43a1-b9ef-8e42fa50ed01"
+      ],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "306e1377-4557-4119-b207-39286b8f95cf",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 726,
+        "top": 142,
+        "right": 783,
+        "bottom": 174,
+        "width": 57,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Writing tools",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "94aa7ab0-9da4-4435-b0ec-f92bf4c60ebf",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "RewriteDropDownButton",
+        "runtime_id": "[42, 2886118, 4, 35]",
+        "control_type": "Button",
+        "class_name": "Microsoft.UI.Xaml.Controls.DropDownButton"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "fb71c024-7879-4a2a-bdd6-a369d92d8735",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 786,
+        "top": 142,
+        "right": 816,
+        "bottom": 172,
+        "width": 30,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "What's new",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "46f50098-16de-4bfd-b47e-c15efec9635c",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "FREButton",
+        "runtime_id": "[42, 2886118, 4, 37]",
+        "control_type": "Button",
+        "class_name": "Button"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "5c229f51-5284-4a46-a4f2-fd850f16988c",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 821,
+        "top": 142,
+        "right": 851,
+        "bottom": 174,
+        "width": 30,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "User avatar",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d9ba707a-ca3b-408d-86d8-56e80bea8706",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "AvatarButton",
+        "runtime_id": "[42, 2886118, 4, 39]",
+        "control_type": "Button",
+        "class_name": "Button"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "8673c3af-e538-42e0-b7dc-a160233d3cae",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 855,
+        "top": 142,
+        "right": 885,
+        "bottom": 174,
+        "width": 30,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Settings",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "3786b4c3-49fe-4890-a358-453cc23513be",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "SettingsButton",
+        "runtime_id": "[42, 2886118, 4, 43]",
+        "control_type": "Button",
+        "class_name": "Button"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "5ac93e55-3093-46d8-b37b-e7c129cf4d40",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "9dbf618e-3e90-4b52-8d8e-16de14f6943a",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Window"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "PrivacyTeachingTip",
+        "runtime_id": "[42, 2886118, 4, 44]",
+        "control_type": "Window",
+        "class_name": "Microsoft.UI.Xaml.Controls.TeachingTip"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "53ff2e22-d593-4e80-be31-efe898238bdf",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "a98874fe-f4d8-4b55-bcc8-6dcd9ac960d8",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "PsDownloadDetailTeachingTip",
+        "runtime_id": "[42, 2886118, 4, 45]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Xaml.Controls.TeachingTip"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "0c467c38-c95c-4af9-b569-8dea3e0effb6",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Local AI model must complete downloading to use this feature while signed out.",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "d428cec8-f08a-45f9-907c-c36e248fea40",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "PsDownloadLightTeachingTip",
+        "runtime_id": "[42, 2886118, 4, 46]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Xaml.Controls.TeachingTip"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "6048879d-4719-488c-a260-0cb7ea8aaa28",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 106,
+        "top": 662,
+        "right": 893,
+        "bottom": 694,
+        "width": 787,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "17f3f024-efa7-4f4d-8a53-9a089645c357",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2626668]",
+        "control_type": "Pane",
+        "class_name": "Microsoft.UI.Content.DesktopChildSiteBridge"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "0450ffd0-317c-4390-a2c1-ab7b5dea5673",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 106,
+        "top": 662,
+        "right": 893,
+        "bottom": 694,
+        "width": 787,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "62f10712-eb2e-4eb3-ab78-8b80154e0e1c",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Pane"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 2167478]",
+        "control_type": "Pane",
+        "class_name": "InputSiteWindowClass"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "26d55db6-b29a-4ce3-bc86-2865fb89e50f",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 122,
+        "top": 670,
+        "right": 181,
+        "bottom": 686,
+        "width": 59,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Line 1,\nColumn 1",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "a486d276-23c1-4221-852b-b222f4f43131",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2167478, 4, 47]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "02d54425-9a55-45bc-99a3-e0fc92d09004",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 211,
+        "top": 670,
+        "right": 277,
+        "bottom": 686,
+        "width": 66,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "0 characters",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "eac70d25-795d-4756-a98c-fa1b470e9016",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2167478, 4, 48]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "97927ce8-dc57-4ba8-b990-bcdbad22efc6",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 365,
+        "top": 662,
+        "right": 427,
+        "bottom": 694,
+        "width": 62,
+        "height": 32,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Plain text",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "2fd763b9-4937-455a-8e5d-df215db69387",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2167478, 4, 49]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "05cd6299-141b-4989-83bc-1c123b785ae2",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 531,
+        "top": 670,
+        "right": 562,
+        "bottom": 686,
+        "width": 31,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Zoom",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "77bde145-95df-494d-8d3b-514ac54b5c1c",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2167478, 4, 50]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "4e9813bf-ba10-4efb-9dfa-45e053814adc",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 599,
+        "top": 670,
+        "right": 690,
+        "bottom": 686,
+        "width": 91,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": " Windows (CRLF)",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "a810e994-27ba-4af8-af3c-f0ce90f7a9e8",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2167478, 4, 51]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "b5e8d7df-6078-4f5a-ac6c-9ac586f9ee8f",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 758,
+        "top": 670,
+        "right": 794,
+        "bottom": 686,
+        "width": 36,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": " UTF-8",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "830d44a4-5293-4f0f-9ec7-161b929daf86",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Text"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "ContentTextBlock",
+        "runtime_id": "[42, 2167478, 4, 52]",
+        "control_type": "Text",
+        "class_name": "TextBlock"
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "74cc814c-375d-42c1-8a75-2420ac3056de",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Untitled - Notepad",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "559435e5-fc69-46a9-bdfe-13aa5a55543c",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.4627492,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "TitleBar"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 1317316, 3, -2147483647, 1317316, -2, 0]",
+        "control_type": "TitleBar",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "f0af590b-1a39-42e1-829b-970ed69ef6d3",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 107,
+        "top": 107,
+        "right": 129,
+        "bottom": 129,
+        "width": 22,
+        "height": 22,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "System",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "78a3307e-e29f-4152-a1f0-bf1caf66152e",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.463749,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "MenuBar"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "MenuBar",
+        "runtime_id": "[42, 1317316, 3, -2147483646, 31608, 19796271, 0]",
+        "control_type": "MenuBar",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "865db7bd-bf50-4804-88f5-0e1dbc11e33d",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 107,
+        "top": 107,
+        "right": 129,
+        "bottom": 129,
+        "width": 22,
+        "height": 22,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "System",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "f2a913b7-7ef1-4e17-99bd-3c4f8216e225",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.463749,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "MenuItem"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[]",
+        "control_type": "MenuItem",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "eadbe2c2-01ab-4c2b-81fa-d644cb519b7e",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 751,
+        "top": 101,
+        "right": 799,
+        "bottom": 131,
+        "width": 48,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Minimize",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "35dad294-dc39-4ebf-81f2-c3aeecdb64b8",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.463749,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 1317316, 3, -2147483647, 1317316, -2, 2]",
+        "control_type": "Button",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "60feb4d6-0a73-4a83-8430-2997e8f95d47",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 799,
+        "top": 101,
+        "right": 846,
+        "bottom": 131,
+        "width": 47,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Maximize",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "cecee044-4a9a-4f74-9165-ab8a98681d95",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.463749,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 1317316, 3, -2147483647, 1317316, -2, 3]",
+        "control_type": "Button",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "8c43ff65-f23f-4cc8-bcc8-15b808152914",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "UIA",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 846,
+        "top": 101,
+        "right": 894,
+        "bottom": 131,
+        "width": 48,
+        "height": 30,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Close",
+      "confidence": 1.0,
+      "provenance": {
+        "evidence_id": "9374bff4-290a-424d-8dec-5c476d34e444",
+        "source": "UIA",
+        "source_version": "UIA-3.0",
+        "timestamp": 1789892305.463749,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "hwnd": 1317316,
+          "control_type": "Button"
+        },
+        "is_expired": false
+      },
+      "uia_reference": {
+        "automation_id": "",
+        "runtime_id": "[42, 1317316, 3, -2147483647, 1317316, -2, 5]",
+        "control_type": "Button",
+        "class_name": ""
+      },
+      "correlation_ids": [],
+      "metadata": {},
+      "is_untrusted": false
+    },
+    {
+      "evidence_id": "83c0c765-ecae-4daf-9a7f-e92d0d7a2e39",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 126,
+        "top": 167,
+        "right": 151,
+        "bottom": 180,
+        "width": 25,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "File",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "39e899eb-0b24-4667-94ae-3733d4a3826d",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 0
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "59fa8ed0-cef1-4d45-aba2-9ac8af217516",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 126,
+        "top": 167,
+        "right": 151,
+        "bottom": 180,
+        "width": 25,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "File",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "a2b1bce6-402c-4d03-9852-614f79023c41",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 0
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "020fe7dc-6edb-466c-b59b-15246cb86324",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 179,
+        "top": 126,
+        "right": 233,
+        "bottom": 138,
+        "width": 54,
+        "height": 12,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Untitled",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "5eb52295-c8a6-49ff-a7e4-a376a273b064",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "1c9ccba6-2894-4ca7-95f9-6d5c22912a91",
+        "b286213c-e69e-4459-9565-f3275a229cdb"
+      ],
+      "metadata": {
+        "type": "word",
+        "line_index": 1
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "b286213c-e69e-4459-9565-f3275a229cdb",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 179,
+        "top": 126,
+        "right": 233,
+        "bottom": 138,
+        "width": 54,
+        "height": 12,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Untitled",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "6ccd4948-ab8b-4c9e-bde0-156fbd97dc66",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "1c9ccba6-2894-4ca7-95f9-6d5c22912a91",
+        "020fe7dc-6edb-466c-b59b-15246cb86324"
+      ],
+      "metadata": {
+        "type": "line",
+        "line_index": 1
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "bebb556c-b22f-4712-84f0-763978b37110",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 189,
+        "top": 167,
+        "right": 218,
+        "bottom": 180,
+        "width": 29,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Edit",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "73ccb781-8f09-40c7-bdb5-233d849542b4",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 2
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "80936d06-0f02-4eb7-bd10-88465b1d60ef",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 189,
+        "top": 167,
+        "right": 218,
+        "bottom": 180,
+        "width": 29,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "Edit",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "e6e256ac-a47a-409d-b0e6-aa5f6c4f3d32",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 2
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "69c68c24-5cb1-41bd-97f5-ec86163bf285",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 252,
+        "top": 167,
+        "right": 289,
+        "bottom": 180,
+        "width": 37,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "View",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "6e1d19b8-a9fd-4338-bf91-a8252f834934",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 3
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "ca1bc152-3873-44e5-885b-e8642bb0c114",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 252,
+        "top": 167,
+        "right": 289,
+        "bottom": 180,
+        "width": 37,
+        "height": 13,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "View",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "e9513844-a4b3-4421-96a4-885e368c7fcc",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 3
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "81dd39f6-7319-4531-b483-d8acf199e8f5",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 550,
+        "top": 164,
+        "right": 561,
+        "bottom": 180,
+        "width": 11,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "B",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "8746962b-26fa-435d-b8f3-af945575cb03",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "word",
+        "line_index": 4
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "b21aeb1b-046e-4b90-b973-a81d076f1ae1",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 550,
+        "top": 164,
+        "right": 561,
+        "bottom": 180,
+        "width": 11,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "B",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "49266a15-4626-45f5-a5f7-4b232591eb2e",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [],
+      "metadata": {
+        "type": "line",
+        "line_index": 4
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "57fbf8ac-7417-41ee-af81-d816dbb12e5f",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 628,
+        "top": 164,
+        "right": 644,
+        "bottom": 180,
+        "width": 16,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "S",
+      "confidence": 0.92,
+      "provenance": {
+        "evidence_id": "cd9034ce-3f85-4318-99df-24c7002f1ab7",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "60bbf66b-c9d7-45a5-9bd4-65ee76d08b8d",
+        "6c385e3c-6dc5-43a1-b9ef-8e42fa50ed01"
+      ],
+      "metadata": {
+        "type": "word",
+        "line_index": 5
+      },
+      "is_untrusted": true
+    },
+    {
+      "evidence_id": "6c385e3c-6dc5-43a1-b9ef-8e42fa50ed01",
+      "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+      "task_id": "wf_A",
+      "step_id": "step_1",
+      "source": "OCR",
+      "application": "Untitled - Notepad",
+      "window_title": "Untitled - Notepad",
+      "hwnd": 1317316,
+      "bounding_box": {
+        "left": 628,
+        "top": 164,
+        "right": 644,
+        "bottom": 180,
+        "width": 16,
+        "height": 16,
+        "coordinate_space": "screen_physical"
+      },
+      "extracted_text": "S",
+      "confidence": 0.95,
+      "provenance": {
+        "evidence_id": "9d7fc1d0-063b-442e-8a60-0351d8635eed",
+        "source": "OCR",
+        "source_version": "WinRT-11",
+        "timestamp": 1789892305.6366825,
+        "validity_duration_seconds": 10.0,
+        "capture_hash": "fc0691e7e4e6c1ae893cdbfb4c478dac42e7500082813e5f11099d24001fd6db",
+        "device_context": {
+          "backend": "WinRT-OCR"
+        },
+        "is_expired": false
+      },
+      "uia_reference": null,
+      "correlation_ids": [
+        "60bbf66b-c9d7-45a5-9bd4-65ee76d08b8d",
+        "57fbf8ac-7417-41ee-af81-d816dbb12e5f"
+      ],
+      "metadata": {
+        "type": "line",
+        "line_index": 5
+      },
+      "is_untrusted": true
+    }
+  ],
+  "metadata": {
+    "capture_latency_ms": 487.1,
+    "uia_count": 39,
+    "ocr_count": 12,
+    "visual_count": 0
+  }
+}

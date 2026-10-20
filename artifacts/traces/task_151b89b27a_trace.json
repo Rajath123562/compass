@@ -1,0 +1,20 @@
+{
+  "task_id": "task_151b89b27a",
+  "goal": "Open Notepad and type text",
+  "start_time": 1792342385.9413552,
+  "end_time": 1792342385.9924572,
+  "steps": [],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [
+    {
+      "timestamp": 1792342385.9924572,
+      "reason": "STOP before understanding"
+    }
+  ],
+  "final_verification": {
+    "reason": "STOP before understanding"
+  },
+  "final_status": "CANCELLED",
+  "total_duration_s": 0.051
+}

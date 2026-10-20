@@ -1,0 +1,52 @@
+{
+  "task_id": "task_5a8114e3d6",
+  "goal": "Open Notepad",
+  "start_time": 1792485406.8989613,
+  "end_time": 1792485410.6958601,
+  "steps": [
+    {
+      "step_id": "step_1",
+      "goal": "Launch Notepad Application",
+      "start_time": 1792485407.1204038,
+      "end_time": 1792485410.6958601,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "FAILED",
+      "verification_details": "Recovery/replanning exhausted: Dynamic replanning terminated: Cyclic replan detected: identical plan '3060d2d39d490886' regenerated.",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "FAILED",
+      "duration_s": 3.575
+    },
+    {
+      "step_id": "step_1",
+      "goal": "Launch Notepad Application",
+      "start_time": 1792485409.559294,
+      "end_time": null,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": null,
+      "verification_details": null,
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "IN_PROGRESS",
+      "duration_s": 0.0
+    }
+  ],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [],
+  "final_verification": {
+    "error": "Recovery/replanning exhausted: Dynamic replanning terminated: Cyclic replan detected: identical plan '3060d2d39d490886' regenerated."
+  },
+  "final_status": "FAILED",
+  "total_duration_s": 3.797
+}

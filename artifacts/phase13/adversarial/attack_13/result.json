@@ -1,0 +1,11 @@
+{
+  "attack_id": "13",
+  "name": "Emergency STOP Mid-DAG Universal Freeze",
+  "status": "PASS",
+  "duration_s": 0.0641,
+  "details": "Mid-workflow STOP froze active node, transitioned downstream pending nodes to STOPPED/CANCELLED.",
+  "evidence": {
+    "wf_status": "STOPPED"
+  },
+  "timestamp": 1790617014.0434427
+}

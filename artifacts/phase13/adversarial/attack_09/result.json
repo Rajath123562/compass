@@ -1,0 +1,13 @@
+{
+  "attack_id": "09",
+  "name": "Consequential Action Retry Defense",
+  "status": "PASS",
+  "duration_s": 0.0,
+  "details": "Non-repeatable consequential action failure strictly prohibited from automatic retry.",
+  "evidence": {
+    "success": false,
+    "strategy": "HALT_NON_REPEATABLE",
+    "is_terminal": true
+  },
+  "timestamp": 1790617013.922292
+}

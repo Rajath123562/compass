@@ -1,0 +1,4 @@
+[11:28:15] Starting Workflow A: Notepad typing & verification
+[11:28:22] Action dispatched: {'success': True, 'method': 'uia_value'}
+[11:28:22] Verification result: VERIFIED - Type action verified: expected text present in target control or UI.
+[11:28:23] Cleanup verification: notepad closed=True

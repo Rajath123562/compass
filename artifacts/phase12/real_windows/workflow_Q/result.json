@@ -1,0 +1,6 @@
+{
+  "goal": "close all active notepad windows",
+  "target_app": "Notepad",
+  "objective": "close all active notepad windows",
+  "deterministic_fallback_passed": true
+}

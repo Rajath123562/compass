@@ -1,0 +1,21 @@
+{
+  "workflow_id": "wf_sec",
+  "task_id": "t_sec",
+  "execution_generation": 1,
+  "status": "RUNNING",
+  "completed_node_ids": [],
+  "pending_node_ids": [],
+  "failed_node_ids": [],
+  "running_node_ids": [],
+  "node_states": {},
+  "retry_counts": {},
+  "resource_state": {
+    "api_key": "[REDACTED_SECRET]",
+    "auth_header": "[REDACTED_SECRET]",
+    "password": "[REDACTED_SECRET]",
+    "regular_text": "hello safe world"
+  },
+  "dag_state": {},
+  "timestamp": 1792485454.5237103,
+  "signature": "867b78abaa2f595df83d073ded016c98ede2994efb82780d9851028c91662552"
+}

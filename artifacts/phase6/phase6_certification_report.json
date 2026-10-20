@@ -1,0 +1,423 @@
+{
+  "certified": true,
+  "duration_s": 461.83,
+  "gates_passed": 34,
+  "total_gates": 34,
+  "gates": [
+    {
+      "gate_id": "GATE-01",
+      "name": "Unit Tests",
+      "metrics": {
+        "collected": 3,
+        "executed": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-02",
+      "name": "Integration Tests",
+      "metrics": {
+        "collected": 2,
+        "executed": 2,
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-03",
+      "name": "API/SSE Tests",
+      "metrics": {
+        "collected": 10,
+        "executed": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-04",
+      "name": "Task Decomposition",
+      "metrics": {
+        "collected": 6,
+        "executed": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-05",
+      "name": "State Machine",
+      "metrics": {
+        "collected": 4,
+        "executed": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-06",
+      "name": "Dependency/DAG",
+      "metrics": {
+        "collected": 8,
+        "executed": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-07",
+      "name": "Plan Validation",
+      "metrics": {
+        "collected": 6,
+        "executed": 2,
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-08",
+      "name": "Planner Tests",
+      "metrics": {
+        "collected": 11,
+        "executed": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-09",
+      "name": "Perception Tests",
+      "metrics": {
+        "collected": 65,
+        "executed": 59,
+        "passed": 59,
+        "failed": 0,
+        "skipped": 6,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-10",
+      "name": "Context Analysis",
+      "metrics": {
+        "collected": 3,
+        "executed": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-11",
+      "name": "Target Resolution",
+      "metrics": {
+        "collected": 12,
+        "executed": 12,
+        "passed": 12,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-12",
+      "name": "Validation Tests",
+      "metrics": {
+        "collected": 24,
+        "executed": 24,
+        "passed": 24,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-13",
+      "name": "Multi-Step Execution",
+      "metrics": {
+        "collected": 4,
+        "executed": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-14",
+      "name": "Step Verification",
+      "metrics": {
+        "collected": 9,
+        "executed": 9,
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-15",
+      "name": "Goal Verification",
+      "metrics": {
+        "collected": 7,
+        "executed": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-16",
+      "name": "Recovery Tests",
+      "metrics": {
+        "collected": 16,
+        "executed": 16,
+        "passed": 16,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-17",
+      "name": "Dynamic Replanning",
+      "metrics": {
+        "collected": 2,
+        "executed": 2,
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-18",
+      "name": "Checkpoint/Resume",
+      "metrics": {
+        "collected": 4,
+        "executed": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-19",
+      "name": "Loop Protection",
+      "metrics": {
+        "collected": 5,
+        "executed": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-20",
+      "name": "STOP Everywhere",
+      "metrics": {
+        "collected": 6,
+        "executed": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-21",
+      "name": "Security/Safety",
+      "metrics": {
+        "collected": 19,
+        "executed": 19,
+        "passed": 19,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-22",
+      "name": "Cleanup/Resource Governance",
+      "metrics": {
+        "collected": 18,
+        "executed": 18,
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-23",
+      "name": "Crash/Restart",
+      "metrics": {
+        "collected": 11,
+        "executed": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-24",
+      "name": "Failure Injection",
+      "metrics": {
+        "collected": 14,
+        "executed": 14,
+        "passed": 14,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-25",
+      "name": "Real Windows Acceptance",
+      "metrics": {
+        "collected": 10,
+        "passed": 10,
+        "failed": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-26",
+      "name": "Phase 1 Regression",
+      "metrics": {
+        "collected": 51,
+        "executed": 51,
+        "passed": 51,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-27",
+      "name": "Phase 2 Regression",
+      "metrics": {
+        "collected": 116,
+        "executed": 109,
+        "passed": 109,
+        "failed": 0,
+        "skipped": 7,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-28",
+      "name": "Phase 3 Regression",
+      "metrics": {
+        "collected": 15,
+        "executed": 15,
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-29",
+      "name": "Phase 4 Regression",
+      "metrics": {
+        "collected": 19,
+        "passed": 19,
+        "failed": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-30",
+      "name": "Phase 5 Regression",
+      "metrics": {
+        "collected": 24,
+        "passed": 24,
+        "failed": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-31",
+      "name": "Performance Budget",
+      "metrics": {
+        "rss_mb": 28.89
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-32",
+      "name": "Documentation Audit",
+      "metrics": {
+        "required": 12,
+        "missing": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-33",
+      "name": "Final Certification",
+      "metrics": {
+        "total_gates": 33,
+        "failed": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "gate_id": "GATE-34",
+      "name": "Git Freeze Verification",
+      "metrics": {
+        "branch": "phase-6-advanced-computer-use"
+      },
+      "status": "PASS"
+    }
+  ]
+}

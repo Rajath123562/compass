@@ -1,0 +1,12 @@
+{
+  "attack_id": "18",
+  "name": "Backend Reboot Orphan Task Sweep",
+  "status": "PASS",
+  "duration_s": 0.0322,
+  "details": "Orphan in-flight task safely swept to FAILED upon server restart; zero uncoordinated resumption.",
+  "evidence": {
+    "initial_state": "ACTING",
+    "final_state": "FAILED"
+  },
+  "timestamp": 1790617016.3553221
+}

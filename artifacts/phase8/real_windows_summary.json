@@ -1,0 +1,132 @@
+{
+  "total": 18,
+  "passed": 18,
+  "results": [
+    {
+      "workflow": "A",
+      "name": "Real Multi-Step Notepad Authoring",
+      "status": "PASS",
+      "duration_s": 0.99,
+      "detail": "Workflow A: status=COMPLETED"
+    },
+    {
+      "workflow": "B",
+      "name": "Real Calculator Calculation",
+      "status": "PASS",
+      "duration_s": 0.24,
+      "detail": "Workflow B: result=579"
+    },
+    {
+      "workflow": "C",
+      "name": "Cross-Application Notepad + Calculator",
+      "status": "PASS",
+      "duration_s": 0.37,
+      "detail": "Workflow C: status=COMPLETED"
+    },
+    {
+      "workflow": "D",
+      "name": "Long-Running Background File Monitor",
+      "status": "PASS",
+      "duration_s": 0.36,
+      "detail": "Workflow D: status=COMPLETED"
+    },
+    {
+      "workflow": "E",
+      "name": "Concurrent Non-UI Data Processing",
+      "status": "PASS",
+      "duration_s": 0.6,
+      "detail": "Workflow E: status=COMPLETED"
+    },
+    {
+      "workflow": "F",
+      "name": "Serialized UI Multi-Window",
+      "status": "PASS",
+      "duration_s": 0.48,
+      "detail": "Workflow F: status=COMPLETED"
+    },
+    {
+      "workflow": "G",
+      "name": "Universal STOP Interruption",
+      "status": "PASS",
+      "duration_s": 0.34,
+      "detail": "Workflow G: status=STOPPED"
+    },
+    {
+      "workflow": "H",
+      "name": "Controlled Pause and Resume",
+      "status": "PASS",
+      "duration_s": 0.69,
+      "detail": "Workflow H: status=COMPLETED"
+    },
+    {
+      "workflow": "I",
+      "name": "Crash Recovery and Generation Fencing",
+      "status": "PASS",
+      "duration_s": 0.24,
+      "detail": "Workflow I: recovered=True gen=2"
+    },
+    {
+      "workflow": "J",
+      "name": "Transient Failure and Exponential Backoff",
+      "status": "PASS",
+      "duration_s": 0.66,
+      "detail": "Workflow J: status=COMPLETED attempts=2"
+    },
+    {
+      "workflow": "K",
+      "name": "Failure Cascade and Blocked Dependent",
+      "status": "PASS",
+      "duration_s": 0.47,
+      "detail": "Workflow K: status=PARTIALLY_COMPLETED"
+    },
+    {
+      "workflow": "L",
+      "name": "Consequential Action Human Approval",
+      "status": "PASS",
+      "duration_s": 0.08,
+      "detail": "Workflow L: node_status=WAITING_APPROVAL"
+    },
+    {
+      "workflow": "M",
+      "name": "Resource Budget Enforcement",
+      "status": "PASS",
+      "duration_s": 0.01,
+      "detail": "Workflow M: bounds enforced properly (Workflow node count 35 exceeds maximum allowed 30.)"
+    },
+    {
+      "workflow": "N",
+      "name": "Loop Detection and Oscillation Prevention",
+      "status": "PASS",
+      "duration_s": 0.01,
+      "detail": "Workflow N: loop_detected=True"
+    },
+    {
+      "workflow": "O",
+      "name": "Truthful Final State Verification",
+      "status": "PASS",
+      "duration_s": 0.02,
+      "detail": "Workflow O: truthful_verified=True"
+    },
+    {
+      "workflow": "P",
+      "name": "Real OCR Multimodal Evidence Grounding",
+      "status": "PASS",
+      "duration_s": 1.64,
+      "detail": "Workflow P: ocr_available=True detected=0"
+    },
+    {
+      "workflow": "Q",
+      "name": "Secret Redaction in Multi-Step Workflow",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "detail": "Workflow Q: sanitized_trace=True"
+    },
+    {
+      "workflow": "R",
+      "name": "Clean Workspace Teardown and Resource Reclamation",
+      "status": "PASS",
+      "duration_s": 3.43,
+      "detail": "Workflow R: lingering=False rss=65.11MB"
+    }
+  ]
+}

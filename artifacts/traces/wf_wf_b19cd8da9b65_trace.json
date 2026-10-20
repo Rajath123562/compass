@@ -1,0 +1,161 @@
+{
+  "workflow_id": "wf_b19cd8da9b65",
+  "task_id": "task_7040a17d670f",
+  "goal": "pause resume test",
+  "start_time": 1792485449.476968,
+  "end_time": 1792485449.975287,
+  "node_traces": [
+    {
+      "step_id": "A",
+      "goal": "Step 1",
+      "start_time": 1792485449.518111,
+      "end_time": 1792485449.6004484,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.082
+    },
+    {
+      "step_id": "B",
+      "goal": "Step 2",
+      "start_time": 1792485449.7531722,
+      "end_time": 1792485449.8164902,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.063
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792485449.476968,
+      "payload": {
+        "task_id": "task_7040a17d670f",
+        "goal": "pause resume test"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792485449.476968,
+      "payload": {
+        "goal": "pause resume test",
+        "node_count": 2
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792485449.503243,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.518111,
+      "payload": {
+        "node_id": "A",
+        "goal": "Step 1"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.518111,
+      "payload": {
+        "node_id": "A",
+        "goal": "Step 1",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "workflow_paused",
+      "timestamp": 1792485449.5737941,
+      "payload": {}
+    },
+    {
+      "event": "workflow_resumed",
+      "timestamp": 1792485449.5924554,
+      "payload": {}
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485449.6004484,
+      "payload": {
+        "node_id": "A",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485449.6004484,
+      "payload": {
+        "node_id": "A",
+        "result": {
+          "output": "Executed action noop for node A"
+        }
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.7531722,
+      "payload": {
+        "node_id": "B",
+        "goal": "Step 2"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485449.7531722,
+      "payload": {
+        "node_id": "B",
+        "goal": "Step 2",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485449.8164902,
+      "payload": {
+        "node_id": "B",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485449.8164902,
+      "payload": {
+        "node_id": "B",
+        "result": {
+          "output": "Executed action noop for node B"
+        }
+      }
+    },
+    {
+      "event": "workflow_completed",
+      "timestamp": 1792485449.975287,
+      "payload": {
+        "status": "COMPLETED"
+      }
+    }
+  ],
+  "final_status": "COMPLETED",
+  "total_duration_s": 0.498
+}

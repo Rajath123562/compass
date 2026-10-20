@@ -1,0 +1,12 @@
+{
+  "attack_id": "07",
+  "name": "Target Element Destroyed Pre-Dispatch",
+  "status": "PASS",
+  "duration_s": 0.0,
+  "details": "Closed target window detected by pre-dispatch guard; zero blind clicks dispatched.",
+  "evidence": {
+    "is_fresh": false,
+    "reason": "Target window HWND 9999999 was closed or destroyed."
+  },
+  "timestamp": 1790617013.9003725
+}

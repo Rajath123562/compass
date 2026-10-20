@@ -1,0 +1,31 @@
+{
+  "milestones_count": 5,
+  "milestones": [
+    {
+      "milestone": 1,
+      "exists": true,
+      "sha256": "feb0db78c7e2ab97dabbe7cb35888863eb77af7afd618632bb2ea792b3fb3c3c"
+    },
+    {
+      "milestone": 2,
+      "exists": true,
+      "sha256": "707de7f2cce3cb4710ad21caa32b7db059f453902af0546f27d8c124a6d6d861"
+    },
+    {
+      "milestone": 3,
+      "exists": true,
+      "sha256": "c5b488ce4a64b2c3709e7614cdd63ffd42d2a8e611171c95cd599e41e8876f34"
+    },
+    {
+      "milestone": 4,
+      "exists": true,
+      "sha256": "2fe13072fa51ecddd6aa6c559a84185a2bf78525b236650139c3f596ee7eed58"
+    },
+    {
+      "milestone": 5,
+      "exists": true,
+      "sha256": "54487438911ee4e58dda8b3d636873b50d90102e3d684530b2fa7da6ce40c2ae"
+    }
+  ],
+  "success": true
+}

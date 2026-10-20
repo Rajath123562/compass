@@ -1,0 +1,34 @@
+{
+  "task_id": "task_e0ad659d87",
+  "goal": "Inspect desktop element",
+  "start_time": 1792485273.2758605,
+  "end_time": 1792485273.663097,
+  "steps": [
+    {
+      "step_id": "step_1",
+      "goal": "Inspect desktop element",
+      "start_time": 1792485273.5073802,
+      "end_time": null,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": null,
+      "verification_details": null,
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "IN_PROGRESS",
+      "duration_s": 0.0
+    }
+  ],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [],
+  "final_verification": {
+    "error": "Execution engine unhandled error: UIA RPC Server unavailable"
+  },
+  "final_status": "FAILED",
+  "total_duration_s": 0.387
+}

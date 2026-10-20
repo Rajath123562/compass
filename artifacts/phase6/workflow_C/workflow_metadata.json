@@ -1,0 +1,12 @@
+{
+  "workflow": "C",
+  "name": "Multi-step task with step-level verification",
+  "status": "PASS",
+  "duration_ms": 3724.41,
+  "result": {
+    "success": true,
+    "status": "TASK_COMPLETED",
+    "details": "Final goal verification confirmed for task [task_b3eeec2ad5]: All 2 steps verified."
+  },
+  "verification": "VERIFIED (Step 1 & Step 2 verified)"
+}

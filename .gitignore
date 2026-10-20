@@ -22,17 +22,10 @@ frontend/node_modules/
 frontend/dist/
 .npm/
 
-# Databases & Runtime State
-storage/*.db
+# Databases & Runtime State (Keep lock/wal out, keep db for backup)
 storage/*.db-journal
 storage/*.db-wal
 storage/*.db-shm
-*.sqlite
-*.sqlite3
-
-# Logs & Telemetry
-logs/
-*.log
 
 # Sensitive environment variables
 .env
@@ -40,7 +33,6 @@ logs/
 !.env.example
 
 # Temporary / Scratch artifacts
-artifacts/
 .kilo/
 $null
 127
@@ -48,4 +40,3 @@ powershell.cmd
 {p.name()}
 scratch_test_overlay.py
 .compass_pids.json
-test_open.txt

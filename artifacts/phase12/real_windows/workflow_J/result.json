@@ -1,0 +1,5 @@
+{
+  "verification_status": "FAILED",
+  "details": "Target dialog did not appear after button click",
+  "false_success_prevented": true
+}

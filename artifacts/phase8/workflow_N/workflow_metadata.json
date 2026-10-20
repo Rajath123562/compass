@@ -1,0 +1,4 @@
+{
+  "loop_hit": true,
+  "reason": "Loop detected: action 'type' failed 3 consecutive times on target 'field1'."
+}

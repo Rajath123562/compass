@@ -1,0 +1,12 @@
+{
+  "workflow_id": "F",
+  "goal": "Enforce strict prohibition of automatic retries on consequential actions",
+  "application": "banking_portal",
+  "timestamp": 1789883910.6178987,
+  "latency_ms": 36.49,
+  "stage": "STAGE_2_RETRY",
+  "strategy": "HALT_NON_REPEATABLE",
+  "is_terminal": true,
+  "blocked_ok": true,
+  "status": "PASS"
+}

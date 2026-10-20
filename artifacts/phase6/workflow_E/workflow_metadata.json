@@ -1,0 +1,8 @@
+{
+  "workflow": "E",
+  "name": "Failed intermediate step requiring recovery",
+  "status": "PASS",
+  "duration_ms": 1.36,
+  "plan_version": 2,
+  "verification": "VERIFIED (Completed steps preserved; remaining work adapted)"
+}

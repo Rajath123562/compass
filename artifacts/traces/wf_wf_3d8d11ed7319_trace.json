@@ -1,0 +1,151 @@
+{
+  "workflow_id": "wf_3d8d11ed7319",
+  "task_id": "task_f7c7cc2bd787",
+  "goal": "retry success test",
+  "start_time": 1792342503.5914721,
+  "end_time": 1792342503.9618642,
+  "node_traces": [
+    {
+      "step_id": "A",
+      "goal": "Retryable step",
+      "start_time": 1792342503.6335068,
+      "end_time": 1792342503.83795,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.204
+    },
+    {
+      "step_id": "A",
+      "goal": "Retryable step",
+      "start_time": 1792342503.816952,
+      "end_time": null,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": null,
+      "verification_details": null,
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "RUNNING",
+      "duration_s": 0.0
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342503.5914721,
+      "payload": {
+        "task_id": "task_f7c7cc2bd787",
+        "goal": "retry success test"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342503.5914721,
+      "payload": {
+        "goal": "retry success test",
+        "node_count": 1
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792342503.6144729,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342503.6335068,
+      "payload": {
+        "node_id": "A",
+        "goal": "Retryable step"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342503.6335068,
+      "payload": {
+        "node_id": "A",
+        "goal": "Retryable step",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_retrying",
+      "timestamp": 1792342503.634521,
+      "payload": {
+        "node_id": "A",
+        "status": "RETRYING",
+        "verification_status": "FAILED"
+      }
+    },
+    {
+      "event": "node_retry",
+      "timestamp": 1792342503.634521,
+      "payload": {
+        "node_id": "A",
+        "attempt": 1,
+        "max_attempts": 3,
+        "error": "PROVIDER_TIMEOUT"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342503.816952,
+      "payload": {
+        "node_id": "A",
+        "goal": "Retryable step"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342503.8199513,
+      "payload": {
+        "node_id": "A",
+        "goal": "Retryable step",
+        "attempt": 2
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792342503.8389537,
+      "payload": {
+        "node_id": "A",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792342503.8389537,
+      "payload": {
+        "node_id": "A",
+        "result": {
+          "output": "recovered"
+        }
+      }
+    },
+    {
+      "event": "workflow_completed",
+      "timestamp": 1792342503.9618642,
+      "payload": {
+        "status": "COMPLETED"
+      }
+    }
+  ],
+  "final_status": "COMPLETED",
+  "total_duration_s": 0.37
+}

@@ -1,0 +1,8 @@
+{
+  "workflow": "I",
+  "name": "Consequential action requiring safety block/approval",
+  "status": "PASS",
+  "duration_ms": 212.36,
+  "final_state": "SAFETY_BLOCKED",
+  "verification": "VERIFIED (Consequential destructive command strictly blocked by safety controls)"
+}

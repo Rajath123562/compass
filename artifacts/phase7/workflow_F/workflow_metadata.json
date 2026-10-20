@@ -1,0 +1,16 @@
+{
+  "workflow": "F",
+  "name": "Multi-Monitor Test",
+  "status": "PASS",
+  "virtual_screen": {
+    "left": 0,
+    "top": 0,
+    "right": 1536,
+    "bottom": 864,
+    "width": 1536,
+    "height": 864,
+    "coordinate_space": "screen_physical"
+  },
+  "monitor_count": 1,
+  "negative_coords_supported": true
+}

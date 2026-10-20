@@ -1,0 +1,20 @@
+{
+  "workflow_id": "wf-audit-1792402481322",
+  "task_id": "task_356eefd945ec",
+  "execution_generation": 1,
+  "status": "COMPLETED",
+  "completed_node_ids": [
+    "check_resources",
+    "capture_desktop",
+    "verify_state"
+  ],
+  "pending_node_ids": [],
+  "failed_node_ids": [],
+  "running_node_ids": [],
+  "node_states": {},
+  "retry_counts": {},
+  "resource_state": {},
+  "dag_state": {},
+  "timestamp": 1792402482.1668777,
+  "signature": "6c5cf30bbe896df7e56b26f8d68f52af746c5ca0cd1c56f1cacb04181917a1d3"
+}

@@ -1,0 +1,7 @@
+{
+  "workflow": "G",
+  "name": "Planner / AI unavailable deterministic fallback",
+  "status": "PASS",
+  "duration_ms": 127.84,
+  "verification": "VERIFIED (Deterministic keyboard/UIA fallback executed successfully)"
+}

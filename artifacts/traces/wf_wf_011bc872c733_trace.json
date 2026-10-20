@@ -1,0 +1,107 @@
+{
+  "workflow_id": "wf_011bc872c733",
+  "task_id": "task_e5bc410bbf2f",
+  "goal": "Test API pause",
+  "start_time": 1792413301.4989333,
+  "end_time": 1792413301.7525282,
+  "node_traces": [
+    {
+      "step_id": "s1",
+      "goal": "noop",
+      "start_time": 1792413301.537966,
+      "end_time": 1792413301.615024,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.077
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792413301.4989333,
+      "payload": {
+        "task_id": "task_e5bc410bbf2f",
+        "goal": "Test API pause"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792413301.4989333,
+      "payload": {
+        "goal": "Test API pause",
+        "node_count": 1
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792413301.5138862,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792413301.537966,
+      "payload": {
+        "node_id": "s1",
+        "goal": "noop"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792413301.5389786,
+      "payload": {
+        "node_id": "s1",
+        "goal": "noop",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "workflow_paused",
+      "timestamp": 1792413301.5644245,
+      "payload": {}
+    },
+    {
+      "event": "workflow_resumed",
+      "timestamp": 1792413301.5933685,
+      "payload": {}
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792413301.615024,
+      "payload": {
+        "node_id": "s1",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792413301.615024,
+      "payload": {
+        "node_id": "s1",
+        "result": {
+          "output": "Executed action noop for node s1"
+        }
+      }
+    },
+    {
+      "event": "workflow_completed",
+      "timestamp": 1792413301.7525282,
+      "payload": {
+        "status": "COMPLETED"
+      }
+    }
+  ],
+  "final_status": "COMPLETED",
+  "total_duration_s": 0.254
+}

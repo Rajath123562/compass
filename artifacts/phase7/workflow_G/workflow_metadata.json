@@ -1,0 +1,7 @@
+{
+  "workflow": "G",
+  "name": "Target Movement",
+  "status": "PASS",
+  "rejection_reason": "STALE_OBSERVATION: Target age 20.0s exceeds limit 5.0s",
+  "stale_flag": true
+}

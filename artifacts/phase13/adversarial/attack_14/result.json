@@ -1,0 +1,12 @@
+{
+  "attack_id": "14",
+  "name": "Late AI Response Neutralization",
+  "status": "PASS",
+  "duration_s": 0.022,
+  "details": "Late arriving LLM plan ignored and neutralized; cancelled terminal state preserved.",
+  "evidence": {
+    "late_plan_processed": false,
+    "state": "CANCELLED"
+  },
+  "timestamp": 1790617014.0664425
+}

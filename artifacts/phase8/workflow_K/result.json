@@ -1,0 +1,9 @@
+{
+  "workflow_id": "wf_7d24c0a672e8",
+  "status": "PARTIALLY_COMPLETED",
+  "nodes": {
+    "k_ok": "COMPLETED",
+    "k_fail": "FAILED",
+    "k_dep": "BLOCKED_BY_DEPENDENCY"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "strategy": "REOBSERVE_TARGET",
+  "preserve_completed_steps": true,
+  "resume_step": 1
+}

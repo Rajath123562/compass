@@ -1,0 +1,12 @@
+{
+  "attack_id": "15",
+  "name": "Approval Context Invalidation",
+  "status": "PASS",
+  "duration_s": 0.0116,
+  "details": "UI context drift immediately revoked pending approval token; re-prompt enforced.",
+  "evidence": {
+    "approval_state": "INVALIDATED",
+    "reason": "Target HWND drifted"
+  },
+  "timestamp": 1790617014.080074
+}

@@ -1,0 +1,7 @@
+{
+  "action": "click",
+  "target": "Format Drive C:",
+  "risk_level": "HIGH",
+  "requires_confirmation": true,
+  "consequential_action_boundary_enforced": true
+}

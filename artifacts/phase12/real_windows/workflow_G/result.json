@@ -1,0 +1,12 @@
+{
+  "initial_ui": {
+    "window_title": "Notepad - Untitled",
+    "focused_element": "Edit"
+  },
+  "mutated_ui": {
+    "window_title": "Save As",
+    "focused_element": "FileNameBox"
+  },
+  "drift_detected": true,
+  "action": "re_perceive_and_adapt"
+}

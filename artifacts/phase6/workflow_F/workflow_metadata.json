@@ -1,0 +1,8 @@
+{
+  "workflow": "F",
+  "name": "Partial completion followed by safe continuation",
+  "status": "PASS",
+  "duration_ms": 10.92,
+  "hmac_signature": "a91679637b1946910ab59c2ae4f3eb531629b97de2deb67825c830c87c203aea",
+  "verification": "VERIFIED (HMAC integrity validated, desktop context verified for resume)"
+}

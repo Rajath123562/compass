@@ -1,0 +1,15 @@
+{
+  "task_id": "task_8095dcc6bd",
+  "goal": "Open Notepad",
+  "start_time": 1792342446.0037682,
+  "end_time": 1792342446.4926164,
+  "steps": [],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [],
+  "final_verification": {
+    "error": "Task [task_8095dcc6bd] exceeded maximum duration budget (0.001s)."
+  },
+  "final_status": "FAILED",
+  "total_duration_s": 0.489
+}

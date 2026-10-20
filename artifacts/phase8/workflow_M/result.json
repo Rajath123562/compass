@@ -1,0 +1,5 @@
+{
+  "ok_nodes": true,
+  "bad_nodes_rejected": true,
+  "message": "Workflow node count 35 exceeds maximum allowed 30."
+}

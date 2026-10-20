@@ -1,0 +1,12 @@
+{
+  "attack_id": "06",
+  "name": "Target Element Drift & Stale Guard",
+  "status": "PASS",
+  "duration_s": 0.001,
+  "details": "Expired observation age caught before action dispatch; triggered re-perception.",
+  "evidence": {
+    "is_fresh": false,
+    "reason": "Observation is stale: age 8000.0ms exceeds maximum freshness threshold 2000.0ms."
+  },
+  "timestamp": 1790617013.8993585
+}

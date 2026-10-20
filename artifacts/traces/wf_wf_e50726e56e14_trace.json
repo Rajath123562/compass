@@ -1,0 +1,102 @@
+{
+  "workflow_id": "wf_e50726e56e14",
+  "task_id": "task_c6063104c6fb",
+  "goal": "timeout test",
+  "start_time": 1792485454.8387249,
+  "end_time": 1792485456.554987,
+  "node_traces": [
+    {
+      "step_id": "A",
+      "goal": "Slow step",
+      "start_time": 1792485454.8801677,
+      "end_time": 1792485456.4336984,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 1.554
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792485454.8387249,
+      "payload": {
+        "task_id": "task_c6063104c6fb",
+        "goal": "timeout test"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792485454.8387249,
+      "payload": {
+        "goal": "timeout test",
+        "node_count": 1
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792485454.855239,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485454.8801677,
+      "payload": {
+        "node_id": "A",
+        "goal": "Slow step"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792485454.8801677,
+      "payload": {
+        "node_id": "A",
+        "goal": "Slow step",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485456.4336984,
+      "payload": {
+        "node_id": "A",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792485456.4336984,
+      "payload": {
+        "node_id": "A",
+        "result": {}
+      }
+    },
+    {
+      "event": "workflow_timed_out",
+      "timestamp": 1792485456.554987,
+      "payload": {
+        "reason": "Workflow exceeded absolute deadline of 1792485455.2992013."
+      }
+    },
+    {
+      "event": "workflow_timed_out",
+      "timestamp": 1792485456.554987,
+      "payload": {
+        "status": "TIMED_OUT"
+      }
+    }
+  ],
+  "final_status": "TIMED_OUT",
+  "total_duration_s": 1.716
+}

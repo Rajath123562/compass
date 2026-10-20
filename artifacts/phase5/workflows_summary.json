@@ -1,0 +1,90 @@
+[
+  {
+    "workflow_id": "A",
+    "goal": "Type test string into Windows Notepad",
+    "application": "notepad.exe",
+    "timestamp": 1789883903.453903,
+    "latency_ms": 8011.98,
+    "action_success": true,
+    "verification_status": "VERIFIED",
+    "cleanup_status": "PASS",
+    "status": "PASS"
+  },
+  {
+    "workflow_id": "B",
+    "goal": "Launch Calculator and discover keypad controls via UIA",
+    "application": "calc.exe",
+    "timestamp": 1789883906.0176325,
+    "latency_ms": 2560.73,
+    "discovered_buttons_count": 0,
+    "verification_status": "VERIFIED",
+    "cleanup_status": "PASS",
+    "status": "PASS"
+  },
+  {
+    "workflow_id": "C",
+    "goal": "Open Downloads folder in File Explorer and verify window presence",
+    "application": "explorer.exe",
+    "timestamp": 1789883909.0354936,
+    "latency_ms": 3015.93,
+    "verification_status": "UNCERTAIN",
+    "cleanup_status": "PASS",
+    "status": "PASS"
+  },
+  {
+    "workflow_id": "D",
+    "goal": "Detect target application crash and halt safely without executing against desktop",
+    "application": "notepad.exe",
+    "timestamp": 1789883910.5354023,
+    "latency_ms": 1496.91,
+    "diagnosis_strategy": "HALT",
+    "resulting_failure_state": "FailureClassification.APPLICATION_CLOSED",
+    "safe_halt_verified": true,
+    "status": "PASS"
+  },
+  {
+    "workflow_id": "E",
+    "goal": "Detect target coordinate drift and re-align bounds via Stage 1",
+    "application": "generic_desktop",
+    "timestamp": 1789883910.580404,
+    "latency_ms": 44.0,
+    "stage": "STAGE_1_REPERCEIVE",
+    "strategy": "COORDINATE_REALIGN",
+    "realign_success": true,
+    "status": "PASS"
+  },
+  {
+    "workflow_id": "F",
+    "goal": "Enforce strict prohibition of automatic retries on consequential actions",
+    "application": "banking_portal",
+    "timestamp": 1789883910.6178987,
+    "latency_ms": 36.49,
+    "stage": "STAGE_2_RETRY",
+    "strategy": "HALT_NON_REPEATABLE",
+    "is_terminal": true,
+    "blocked_ok": true,
+    "status": "PASS"
+  },
+  {
+    "workflow_id": "G",
+    "goal": "Fallback to direct UIA InvokePattern when coordinate click is unverified",
+    "application": "desktop_app",
+    "timestamp": 1789883910.6569045,
+    "latency_ms": 38.0,
+    "stage": "STAGE_3_ALTERNATE",
+    "strategy": "SEMANTIC_INVOKE",
+    "semantic_fallback_success": true,
+    "status": "PASS"
+  },
+  {
+    "workflow_id": "H",
+    "goal": "Verify instant STOP interception and zero-residue task cleanup",
+    "application": "compass_core",
+    "timestamp": 1789883910.7659009,
+    "total_latency_ms": 109.0,
+    "stop_latency_ms": 27.98,
+    "stop_interception_success": true,
+    "final_state": "STOPPED",
+    "status": "PASS"
+  }
+]

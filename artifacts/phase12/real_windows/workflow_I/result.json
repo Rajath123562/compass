@@ -1,0 +1,5 @@
+{
+  "cause": "ACTION_FAILED",
+  "recommended_strategy": "REOBSERVE_AND_REPLAN",
+  "preserve_completed_steps": true
+}

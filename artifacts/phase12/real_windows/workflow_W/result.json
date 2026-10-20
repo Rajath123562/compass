@@ -1,0 +1,9 @@
+{
+  "workflow_id": "wf_61f46d4925a9",
+  "checkpoint_signature": "ab78da7c263b2432e559dd0118d70efed4d5d9ad6fd8f58f947bfd7b71ea364a",
+  "restored_ok": true,
+  "completed_nodes": [
+    "w1"
+  ],
+  "success": true
+}

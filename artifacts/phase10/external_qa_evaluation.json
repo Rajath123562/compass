@@ -1,0 +1,122 @@
+{
+  "host_hardware": {
+    "total_ram_gb": 11.71,
+    "available_ram_gb": 0.92,
+    "ram_used_percent": 92.1,
+    "docker_available": true
+  },
+  "benchmarks_reviewed_count": 6,
+  "benchmarks_blocked_by_resource_count": 6,
+  "benchmarks": [
+    {
+      "name": "Windows Agent Arena",
+      "classification": "SUPPLEMENTAL",
+      "status": "BLOCKED \u2014 RESOURCE CONSTRAINT",
+      "repository": "https://github.com/microsoft/WindowsAgentArena",
+      "license": "MIT",
+      "purpose": "Scalable benchmark platform for evaluating multimodal OS agents on Windows OS.",
+      "dependencies": [
+        "Azure OpenAI / GPT-4V",
+        "Windows 11 VM / Hyper-V",
+        "python >= 3.10"
+      ],
+      "hardware_requirements": "16+ GB RAM, Hyper-V nested virtualization, multi-core CPU.",
+      "windows_compatibility": "Native Windows VM required",
+      "reason": "Available system memory (0.92 GB) is below the required 8.0 GB for this external testbed.",
+      "evidence_note": "Host RAM constraint: 0.92 GB available < 8.0 GB threshold.",
+      "impact_on_certification": "NONE \u2014 Explicitly classified as supplemental; COMPASS-native validation authoritative."
+    },
+    {
+      "name": "OSWorld",
+      "classification": "SUPPLEMENTAL",
+      "status": "BLOCKED \u2014 RESOURCE CONSTRAINT",
+      "repository": "https://github.com/xlang-ai/OSWorld",
+      "license": "Apache-2.0",
+      "purpose": "Multimodal environment for evaluating agents on real operating systems.",
+      "dependencies": [
+        "Docker",
+        "KVM / QEMU",
+        "Python >= 3.10",
+        "FastAPI"
+      ],
+      "hardware_requirements": "16-32 GB RAM, 50 GB disk, KVM virtualization.",
+      "windows_compatibility": "Linux VM or Docker on Windows with nested KVM",
+      "reason": "Available system memory (0.92 GB) is below the required 8.0 GB for this external testbed.",
+      "evidence_note": "Host RAM constraint: 0.92 GB available < 8.0 GB threshold.",
+      "impact_on_certification": "NONE \u2014 Explicitly classified as supplemental; COMPASS-native validation authoritative."
+    },
+    {
+      "name": "WebArena",
+      "classification": "SUPPLEMENTAL",
+      "status": "BLOCKED \u2014 RESOURCE CONSTRAINT",
+      "repository": "https://github.com/web-arena-x/webarena",
+      "license": "Apache-2.0",
+      "purpose": "Realistic web environment benchmark for autonomous web agents.",
+      "dependencies": [
+        "Docker Compose",
+        "GitLab Container",
+        "Shopping Container",
+        "PostgreSQL"
+      ],
+      "hardware_requirements": "16 GB RAM minimum to run multi-container testbed.",
+      "windows_compatibility": "Requires Docker Desktop on Windows",
+      "reason": "Available system memory (0.92 GB) is below the required 6.0 GB for this external testbed.",
+      "evidence_note": "Host RAM constraint: 0.92 GB available < 6.0 GB threshold.",
+      "impact_on_certification": "NONE \u2014 Explicitly classified as supplemental; COMPASS-native validation authoritative."
+    },
+    {
+      "name": "CodeFuse Test-Agent",
+      "classification": "SUPPLEMENTAL",
+      "status": "BLOCKED \u2014 RESOURCE CONSTRAINT",
+      "repository": "https://github.com/codefuse-ai/Test-Agent",
+      "license": "Apache-2.0",
+      "purpose": "Multi-agent framework for automated software testing and QA.",
+      "dependencies": [
+        "Python >= 3.9",
+        "Pytest",
+        "Transformers / Ollama"
+      ],
+      "hardware_requirements": "8 GB RAM, optional GPU.",
+      "windows_compatibility": "Python native on Windows",
+      "reason": "Available system memory (0.92 GB) is below the required 2.0 GB for this external testbed.",
+      "evidence_note": "Host RAM constraint: 0.92 GB available < 2.0 GB threshold.",
+      "impact_on_certification": "NONE \u2014 Explicitly classified as supplemental; COMPASS-native validation authoritative."
+    },
+    {
+      "name": "BrowserGym",
+      "classification": "SUPPLEMENTAL",
+      "status": "BLOCKED \u2014 RESOURCE CONSTRAINT",
+      "repository": "https://github.com/ServiceNow/BrowserGym",
+      "license": "Apache-2.0",
+      "purpose": "Ecosystem and gym environment for web navigation and browser agents.",
+      "dependencies": [
+        "Playwright",
+        "Gymnasium",
+        "Chromium"
+      ],
+      "hardware_requirements": "8 GB RAM.",
+      "windows_compatibility": "Native Windows with Playwright",
+      "reason": "Available system memory (0.92 GB) is below the required 2.0 GB for this external testbed.",
+      "evidence_note": "Host RAM constraint: 0.92 GB available < 2.0 GB threshold.",
+      "impact_on_certification": "NONE \u2014 Explicitly classified as supplemental; COMPASS-native validation authoritative."
+    },
+    {
+      "name": "AgentBench",
+      "classification": "SUPPLEMENTAL",
+      "status": "BLOCKED \u2014 RESOURCE CONSTRAINT",
+      "repository": "https://github.com/THUDM/AgentBench",
+      "license": "Apache-2.0",
+      "purpose": "Multi-dimensional agent evaluation benchmark covering OS, DB, Web, and Code.",
+      "dependencies": [
+        "Docker",
+        "Python >= 3.9",
+        "LLM APIs"
+      ],
+      "hardware_requirements": "16 GB RAM, Docker daemon.",
+      "windows_compatibility": "Requires Docker on Windows",
+      "reason": "Available system memory (0.92 GB) is below the required 6.0 GB for this external testbed.",
+      "evidence_note": "Host RAM constraint: 0.92 GB available < 6.0 GB threshold.",
+      "impact_on_certification": "NONE \u2014 Explicitly classified as supplemental; COMPASS-native validation authoritative."
+    }
+  ]
+}

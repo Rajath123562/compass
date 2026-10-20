@@ -1,0 +1,151 @@
+{
+  "workflow_id": "wf_1cc6487f63bc",
+  "task_id": "task_4a569e594dcf",
+  "goal": "concurrent test",
+  "start_time": 1792396481.0893755,
+  "end_time": 1792396482.9749935,
+  "node_traces": [
+    {
+      "step_id": "read_file1",
+      "goal": "Read file 1",
+      "start_time": 1792396481.3914719,
+      "end_time": 1792396481.6703556,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.279
+    },
+    {
+      "step_id": "read_file2",
+      "goal": "Read file 2",
+      "start_time": 1792396481.80389,
+      "end_time": 1792396482.387197,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.583
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792396481.0893755,
+      "payload": {
+        "task_id": "task_4a569e594dcf",
+        "goal": "concurrent test"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792396481.0893755,
+      "payload": {
+        "goal": "concurrent test",
+        "node_count": 2
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792396481.121057,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792396481.3914719,
+      "payload": {
+        "node_id": "read_file1",
+        "goal": "Read file 1"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792396481.3914719,
+      "payload": {
+        "node_id": "read_file1",
+        "goal": "Read file 1",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792396481.6703556,
+      "payload": {
+        "node_id": "read_file1",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792396481.6703556,
+      "payload": {
+        "node_id": "read_file1",
+        "result": {
+          "output": "done read_file1"
+        }
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792396481.80389,
+      "payload": {
+        "node_id": "read_file2",
+        "goal": "Read file 2"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792396481.80389,
+      "payload": {
+        "node_id": "read_file2",
+        "goal": "Read file 2",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792396482.387197,
+      "payload": {
+        "node_id": "read_file2",
+        "status": "COMPLETED",
+        "verification_status": "VERIFIED"
+      }
+    },
+    {
+      "event": "node_completed",
+      "timestamp": 1792396482.387197,
+      "payload": {
+        "node_id": "read_file2",
+        "result": {
+          "output": "done read_file2"
+        }
+      }
+    },
+    {
+      "event": "workflow_completed",
+      "timestamp": 1792396482.9749935,
+      "payload": {
+        "status": "COMPLETED"
+      }
+    }
+  ],
+  "final_status": "COMPLETED",
+  "total_duration_s": 1.886
+}

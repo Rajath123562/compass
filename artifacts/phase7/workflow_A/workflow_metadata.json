@@ -1,0 +1,48 @@
+{
+  "workflow": "A",
+  "name": "UIA + OCR Agreement",
+  "status": "PASS",
+  "uia_elements": 39,
+  "ocr_elements": 12,
+  "target_resolved": {
+    "target_id": "daac3d23-da1b-4dbb-a4e7-bf109430fe0b",
+    "name": "File",
+    "bounding_box": {
+      "left": 126,
+      "top": 167,
+      "right": 151,
+      "bottom": 180,
+      "width": 25,
+      "height": 13,
+      "coordinate_space": "screen_physical"
+    },
+    "center_point": [
+      138,
+      173
+    ],
+    "confidence": 0.765,
+    "resolution_method": "ocr_text",
+    "evidence_ids": [
+      "83c0c765-ecae-4daf-9a7f-e92d0d7a2e39"
+    ],
+    "consistency": "OCR_ONLY",
+    "application": "Untitled - Notepad",
+    "window_title": "Untitled - Notepad",
+    "hwnd": 1317316,
+    "is_stale": false,
+    "observation_id": "d7255171-36a3-408d-b5f2-6e273de525d7",
+    "task_id": "wf_A",
+    "step_id": "step_1",
+    "monitor_id": 0,
+    "monitor_topology_fingerprint": "",
+    "dpi_context": 1.0,
+    "coordinate_space": "screen_physical",
+    "target_state": "active",
+    "evidence_fingerprint": "da0d24677465f04c",
+    "created_at": 1789892305.644675,
+    "reasons": [
+      "Exact OCR match: file"
+    ]
+  },
+  "consistency": "OCR_ONLY"
+}

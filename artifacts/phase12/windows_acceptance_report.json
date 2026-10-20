@@ -1,0 +1,176 @@
+{
+  "timestamp": 1790617028.8209844,
+  "total_workflows": 24,
+  "passed": 24,
+  "all_passed": true,
+  "workflows": [
+    {
+      "workflow": "A",
+      "name": "Basic Single-Step Task (Notepad & UIA)",
+      "status": "PASS",
+      "duration_s": 4.75,
+      "message": "Workflow A: Notepad launched (hwnd=921898) and perceived via UIA/screen capture."
+    },
+    {
+      "workflow": "B",
+      "name": "Text Entry (Safe Typing & Content Verification)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow B: Text entry verified without missing or duplicate characters."
+    },
+    {
+      "workflow": "C",
+      "name": "Multi-Step Workflow (3-Stage Execution)",
+      "status": "PASS",
+      "duration_s": 0.04,
+      "message": "Workflow C: Multi-step task executed with per-step dependency verification."
+    },
+    {
+      "workflow": "D",
+      "name": "File Workflow (Author -> Write -> SHA256)",
+      "status": "PASS",
+      "duration_s": 0.11,
+      "message": "Workflow D: File authored and cryptographically verified on disk via SHA256."
+    },
+    {
+      "workflow": "E",
+      "name": "Cross-Application Workflow (Notepad to Calculator)",
+      "status": "PASS",
+      "duration_s": 1.44,
+      "message": "Workflow E: Cross-application coordination verified (hwnd=856098)."
+    },
+    {
+      "workflow": "F",
+      "name": "Browser Workflow (Safe Local HTTP Interaction)",
+      "status": "PASS",
+      "duration_s": 2.05,
+      "message": "Workflow F: Safe web interaction verified (HTTP 200)."
+    },
+    {
+      "workflow": "G",
+      "name": "UI Change / Re-perception (State Drift Adaptation)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow G: Unexpected UI change detected; triggered re-perception."
+    },
+    {
+      "workflow": "H",
+      "name": "Target Disappears (Target Invalidation Safety)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow H: Disappeared target rejected; blind click prevented."
+    },
+    {
+      "workflow": "I",
+      "name": "Action Failure (Detection & Bounded Recovery)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow I: Action failure detected and classified into bounded recovery."
+    },
+    {
+      "workflow": "J",
+      "name": "Verification Failure (False Success Prevention)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow J: False success prevented when post-action state was absent."
+    },
+    {
+      "workflow": "K",
+      "name": "Partial Completion (Milestone Preservation)",
+      "status": "PASS",
+      "duration_s": 0.03,
+      "message": "Workflow K: Partial completion truthfully preserved step 1 on step 2 failure."
+    },
+    {
+      "workflow": "L",
+      "name": "Recovery (3-Stage Bounded Recovery Sequence)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow L: Bounded 3-stage failure recovery executed (REOBSERVE_TARGET)."
+    },
+    {
+      "workflow": "M",
+      "name": "Non-Repeatable Action (Consequential Guard)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow M: Non-repeatable consequential action strictly classified."
+    },
+    {
+      "workflow": "N",
+      "name": "Human Approval (Context-Bound Invalidation)",
+      "status": "PASS",
+      "duration_s": 0.02,
+      "message": "Workflow N: Human approval requested and context invalidation verified."
+    },
+    {
+      "workflow": "O",
+      "name": "STOP Before Action (Pre-execution Halt)",
+      "status": "PASS",
+      "duration_s": 0.03,
+      "message": "Workflow O: STOP asserted before action dispatch halted task cleanly."
+    },
+    {
+      "workflow": "P",
+      "name": "STOP During Multi-Step Task (Universal Freeze)",
+      "status": "PASS",
+      "duration_s": 0.05,
+      "message": "Workflow P: STOP during multi-step froze DAG workflow immediately."
+    },
+    {
+      "workflow": "Q",
+      "name": "AI Unavailable (Deterministic Fallback)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow Q: Deterministic intent parser operated safely when AI was unavailable."
+    },
+    {
+      "workflow": "R",
+      "name": "Malformed AI Output (Schema Rejection)",
+      "status": "PASS",
+      "duration_s": 0.03,
+      "message": "Workflow R: Malformed AI/client schema safely rejected by Pydantic validation."
+    },
+    {
+      "workflow": "S",
+      "name": "Unsafe AI Output (Contextual Risk Interception)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow S: Unsafe action safely intercepted by contextual risk classifier."
+    },
+    {
+      "workflow": "T",
+      "name": "Application Restart (Window Handle Drift Reconciliation)",
+      "status": "PASS",
+      "duration_s": 3.25,
+      "message": "Workflow T: Application restart reconciled window handle drift (old=1118452, new=724530)."
+    },
+    {
+      "workflow": "U",
+      "name": "Backend Restart (Zero Blind Resumption)",
+      "status": "PASS",
+      "duration_s": 0.04,
+      "message": "Workflow U: Backend restart reconciled in-flight task safely to terminal state."
+    },
+    {
+      "workflow": "V",
+      "name": "SSE Interruption (Disconnect Tolerance)",
+      "status": "PASS",
+      "duration_s": 0.04,
+      "message": "Workflow V: Event stream interruption tolerated with full database state integrity."
+    },
+    {
+      "workflow": "W",
+      "name": "Checkpoint / Resume (State Reconstruction)",
+      "status": "PASS",
+      "duration_s": 0.04,
+      "message": "Workflow W: Workflow checkpoint serialized and restored with verified milestone preserved."
+    },
+    {
+      "workflow": "X",
+      "name": "Longer Multi-Step Task (5-Milestones & Telemetry)",
+      "status": "PASS",
+      "duration_s": 0.0,
+      "message": "Workflow X: 5-milestone long task verified (duration=0.003s, memory_growth=0.0MB)."
+    }
+  ]
+}

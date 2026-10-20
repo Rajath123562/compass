@@ -1,0 +1,86 @@
+{
+  "Workflow_A": {
+    "workflow": "A",
+    "name": "Single-step task (Notepad launch & window verification)",
+    "status": "PASS",
+    "duration_ms": 2179.41,
+    "hwnd": 1509336,
+    "application": "notepad.exe",
+    "verification": "VERIFIED (Window detected and active)"
+  },
+  "Workflow_B": {
+    "workflow": "B",
+    "name": "Two-step task (Notepad launch & text typing)",
+    "status": "PASS",
+    "duration_ms": 2611.91,
+    "hwnd": 1313668,
+    "verification": "VERIFIED (Text typed into foreground window)"
+  },
+  "Workflow_C": {
+    "workflow": "C",
+    "name": "Multi-step task with step-level verification",
+    "status": "PASS",
+    "duration_ms": 3724.41,
+    "result": {
+      "success": true,
+      "status": "TASK_COMPLETED",
+      "details": "Final goal verification confirmed for task [task_b3eeec2ad5]: All 2 steps verified."
+    },
+    "verification": "VERIFIED (Step 1 & Step 2 verified)"
+  },
+  "Workflow_D": {
+    "workflow": "D",
+    "name": "Unexpected UI change requiring re-perception (Modal detection)",
+    "status": "PASS",
+    "duration_ms": 0.12,
+    "has_modal_dialog": true,
+    "active_dialog_title": "Confirm Replace",
+    "verification": "VERIFIED (Modal dialog identified with zero vision hallucination)"
+  },
+  "Workflow_E": {
+    "workflow": "E",
+    "name": "Failed intermediate step requiring recovery",
+    "status": "PASS",
+    "duration_ms": 1.36,
+    "plan_version": 2,
+    "verification": "VERIFIED (Completed steps preserved; remaining work adapted)"
+  },
+  "Workflow_F": {
+    "workflow": "F",
+    "name": "Partial completion followed by safe continuation",
+    "status": "PASS",
+    "duration_ms": 10.92,
+    "hmac_signature": "a91679637b1946910ab59c2ae4f3eb531629b97de2deb67825c830c87c203aea",
+    "verification": "VERIFIED (HMAC integrity validated, desktop context verified for resume)"
+  },
+  "Workflow_G": {
+    "workflow": "G",
+    "name": "Planner / AI unavailable deterministic fallback",
+    "status": "PASS",
+    "duration_ms": 127.84,
+    "verification": "VERIFIED (Deterministic keyboard/UIA fallback executed successfully)"
+  },
+  "Workflow_H": {
+    "workflow": "H",
+    "name": "Universal STOP during multi-step execution",
+    "status": "PASS",
+    "duration_ms": 57.55,
+    "final_state": "CANCELLED",
+    "verification": "VERIFIED (Instant halt mid-task, zero orphan threads)"
+  },
+  "Workflow_I": {
+    "workflow": "I",
+    "name": "Consequential action requiring safety block/approval",
+    "status": "PASS",
+    "duration_ms": 212.36,
+    "final_state": "SAFETY_BLOCKED",
+    "verification": "VERIFIED (Consequential destructive command strictly blocked by safety controls)"
+  },
+  "Workflow_J": {
+    "workflow": "J",
+    "name": "Final goal verification (File generation & disk verification)",
+    "status": "PASS",
+    "duration_ms": 1.06,
+    "verification": "VERIFIED (Goal verified by physical filesystem artifact confirmation)"
+  }
+}

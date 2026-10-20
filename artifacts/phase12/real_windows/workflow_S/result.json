@@ -1,0 +1,6 @@
+{
+  "target": "Format Hard Disk Drive C:",
+  "risk_level": "HIGH",
+  "requires_confirmation": true,
+  "safety_blocked": true
+}

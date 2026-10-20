@@ -1,0 +1,6 @@
+{
+  "step_1_status": "COMPLETED",
+  "step_2_status": "FAILED",
+  "workflow_status": "FAILED",
+  "completed_step_preserved": true
+}

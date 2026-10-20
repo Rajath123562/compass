@@ -1,0 +1,78 @@
+{
+  "workflow_id": "wf_8fb0aae74310",
+  "task_id": "task_032965522b9d",
+  "goal": "Test API stop",
+  "start_time": 1792342496.762724,
+  "end_time": 1792342496.862107,
+  "node_traces": [
+    {
+      "step_id": "s1",
+      "goal": "noop",
+      "start_time": 1792342496.8080878,
+      "end_time": null,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": null,
+      "verification_details": null,
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "RUNNING",
+      "duration_s": 0.0
+    }
+  ],
+  "events": [
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342496.762724,
+      "payload": {
+        "task_id": "task_032965522b9d",
+        "goal": "Test API stop"
+      }
+    },
+    {
+      "event": "workflow_created",
+      "timestamp": 1792342496.762724,
+      "payload": {
+        "goal": "Test API stop",
+        "node_count": 1
+      }
+    },
+    {
+      "event": "workflow_started",
+      "timestamp": 1792342496.7811015,
+      "payload": {
+        "generation": 1
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342496.8080878,
+      "payload": {
+        "node_id": "s1",
+        "goal": "noop"
+      }
+    },
+    {
+      "event": "node_started",
+      "timestamp": 1792342496.8080878,
+      "payload": {
+        "node_id": "s1",
+        "goal": "noop",
+        "attempt": 1
+      }
+    },
+    {
+      "event": "workflow_stopped",
+      "timestamp": 1792342496.862107,
+      "payload": {
+        "status": "STOPPED"
+      }
+    }
+  ],
+  "final_status": "STOPPED",
+  "total_duration_s": 0.099
+}

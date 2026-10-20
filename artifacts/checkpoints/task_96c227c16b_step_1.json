@@ -1,0 +1,23 @@
+{
+  "task_id": "task_96c227c16b",
+  "step_id": "step_1",
+  "completed_step_ids": [
+    "step_1"
+  ],
+  "verified_state": {
+    "step_id": "step_1",
+    "status": "VERIFIED"
+  },
+  "current_application": "Calculator",
+  "expected_window_title": "Calculator",
+  "expected_hwnd": null,
+  "timestamp": 1792312329.624946,
+  "observation_id": null,
+  "evidence_ids": [],
+  "evidence_fingerprint": null,
+  "perception_state": null,
+  "monitor_dpi_context": {},
+  "workflow_id": null,
+  "execution_generation": 1,
+  "signature": "d7ae59c6a35ea6d70c05b8e30915598037dfe850a811c6aa05ad27e9752a6c00"
+}

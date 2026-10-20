@@ -1,0 +1,68 @@
+{
+  "task_id": "task_1a58ce61b1",
+  "goal": "Open Notepad then type text",
+  "start_time": 1792328464.2031243,
+  "end_time": 1792328467.565699,
+  "steps": [
+    {
+      "step_id": "step_1",
+      "goal": "Launch Notepad Application",
+      "start_time": 1792328464.4258397,
+      "end_time": 1792328466.8832052,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "Window title 'Notepad' matches expected substring 'Notepad'.",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 2.457
+    },
+    {
+      "step_id": "step_2",
+      "goal": "Enter text into Notepad: 'text'",
+      "start_time": 1792328466.8842583,
+      "end_time": 1792328467.4389825,
+      "perception_summary": null,
+      "action_type": null,
+      "target_description": null,
+      "risk_level": null,
+      "approval_granted": true,
+      "action_dispatched": false,
+      "verification_status": "VERIFIED",
+      "verification_details": "Target control contains expected text: 'text'.",
+      "recovery_invoked": false,
+      "recovery_details": null,
+      "status": "COMPLETED",
+      "duration_s": 0.555
+    }
+  ],
+  "recovery_events": [],
+  "replan_events": [],
+  "stop_events": [],
+  "final_verification": {
+    "status": "VERIFIED",
+    "details": "Final goal verification confirmed for task [task_1a58ce61b1]: All 2 steps verified.",
+    "observed_state": {
+      "completed_steps_count": 2
+    },
+    "expected_state": {
+      "all_steps_completed": true
+    },
+    "evidence": {
+      "task_id": "task_1a58ce61b1",
+      "goal": "Open Notepad then type text"
+    },
+    "evidence_source": "WINDOW_STATE",
+    "verification_timestamp": 1792328467.4889047,
+    "observation_id": null,
+    "timestamp": 1792328467.4889047,
+    "duration_ms": 0.0
+  },
+  "final_status": "TASK_COMPLETED",
+  "total_duration_s": 3.363
+}

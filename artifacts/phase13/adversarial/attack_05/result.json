@@ -1,0 +1,13 @@
+{
+  "attack_id": "05",
+  "name": "Out-of-Bounds Coordinate Dispatch",
+  "status": "PASS",
+  "duration_s": 0.0061,
+  "details": "Negative coordinates, virtual desktop overflow, and negative bounds strictly rejected.",
+  "evidence": {
+    "v1_ok": false,
+    "v2_ok": false,
+    "v3_ok": false
+  },
+  "timestamp": 1790617013.8983738
+}

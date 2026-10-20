@@ -1,0 +1,23 @@
+{
+  "task_id": "task_83e5b712e6",
+  "step_id": "step_1",
+  "completed_step_ids": [
+    "step_1"
+  ],
+  "verified_state": {
+    "step_id": "step_1",
+    "status": "VERIFIED"
+  },
+  "current_application": "Desktop",
+  "expected_window_title": "Desktop",
+  "expected_hwnd": null,
+  "timestamp": 1792302097.320806,
+  "observation_id": null,
+  "evidence_ids": [],
+  "evidence_fingerprint": null,
+  "perception_state": null,
+  "monitor_dpi_context": {},
+  "workflow_id": null,
+  "execution_generation": 1,
+  "signature": "5d086719178887948d69308c77513f88c0a0ad8aaf82c5539d9d52cf9566718b"
+}
