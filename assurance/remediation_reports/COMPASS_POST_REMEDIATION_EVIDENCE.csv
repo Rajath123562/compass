@@ -1,0 +1,11 @@
+evidence_id,evidence_type,file_path,description,generated_by,verification_scope,integrity_hash_sha256
+EVID-001,JSON Report,assurance/reports/real_product_test_report.json,Live Windows 11 real product test report covering 18/18 passes across MockNotepad typing outside observer STOP controlled failure and memory stability,assurance/real_product_suite.py,Actual Product / Windows 11 E2E,fresh
+EVID-002,JSON Report,assurance/reports/release_gate_report.json,Fail-closed master release gate evaluation structured output with 8 mandatory gates,assurance/tools/release_gate.py,Certification Release Gate,fresh
+EVID-003,JSON Report,assurance/reports/dependency_report.json,Pip-audit and npm audit multi-ecosystem vulnerability scan report,assurance/tools/dependency_scanner.py,Dependency Security,fresh
+EVID-004,JSON Report,assurance/reports/secret_scan_report.json,Repository secret scan report covering assurance dotfiles and source with redaction,assurance/tools/secret_scanner.py,Secret Leakage Prevention,fresh
+EVID-005,Log File,brain/746326b3-8351-44f8-838b-d4069cbb93a1/.system_generated/tasks/task-589.log,Raw execution log of 695 pytest test runs on Windows 11 (693 passed 2 skipped),pytest 9.1.1,Full Regression Suite,fresh
+EVID-006,Log File,brain/746326b3-8351-44f8-838b-d4069cbb93a1/.system_generated/tasks/task-731.log,Raw execution log of real_product_suite.py on Windows 11 (18 passed 0 failed),real_product_suite.py,Live Windows E2E,fresh
+EVID-007,ZIP Distribution,dist/compass-source-clean.zip,Clean reproducible source archive without runtime databases or test logs (2361 files),scripts/package_source_distribution.py,Packaging & Provenance,4fc49f1fe53514c36685597b08a903878275b182b867dc574a0657d6cf712b87
+EVID-008,JSON Manifest,dist/SOURCE_PROVENANCE.json,Source tree file manifest and SHA-256 hashes for all 2361 source files,scripts/package_source_distribution.py,Provenance Verification,fresh
+EVID-009,JSON Report,artifacts/phase14/benchmark_comparison.json,Performance metrics and latencies across planning database safety action and stop,Phase 14 Benchmarks,Performance SLO Verification,fresh
+EVID-010,JSON Report,assurance/findings/finding_register.json,Hardened finding registry with atomic writes and quarantine backup,assurance/finding_schema.py,Assurance System Integrity,fresh

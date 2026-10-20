@@ -1,0 +1,35 @@
+{
+  "timestamp": 1789889502.8505707,
+  "hardware": {
+    "platform": "win32",
+    "python": "3.11.9",
+    "cpu_cores": 12,
+    "total_ram_gb": 11.71
+  },
+  "backend": {
+    "startup_time_ms": 1284.15,
+    "memory_rss_mb": 11.42,
+    "cpu_percent": 0.0
+  },
+  "overlay": {
+    "memory_rss_mb": 11.41
+  },
+  "total_combined_memory_mb": 22.83,
+  "api_latencies": {
+    "GET /api/health": {
+      "avg_ms": 20.0,
+      "min_ms": 13.99,
+      "max_ms": 35.52
+    },
+    "GET /api/system/info": {
+      "avg_ms": 26.84,
+      "min_ms": 3.29,
+      "max_ms": 35.94
+    },
+    "POST /api/tasks": {
+      "avg_ms": 24.0,
+      "min_ms": 12.68,
+      "max_ms": 37.88
+    }
+  }
+}

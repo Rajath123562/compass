@@ -1,0 +1,55 @@
+{
+  "GET /api/health": {
+    "mean_ms": 20.04,
+    "median_ms": 20.12,
+    "p95_ms": 28.71,
+    "min_ms": 13.38,
+    "max_ms": 38.66
+  },
+  "GET /api/system/info": {
+    "mean_ms": 7.17,
+    "median_ms": 7.4,
+    "p95_ms": 9.92,
+    "min_ms": 4.22,
+    "max_ms": 14.3
+  },
+  "GET /api/system/active_window": {
+    "mean_ms": 7.26,
+    "median_ms": 7.05,
+    "p95_ms": 12.29,
+    "min_ms": 3.7,
+    "max_ms": 14.39
+  },
+  "GET /api/ai/models": {
+    "mean_ms": 8.07,
+    "median_ms": 7.92,
+    "p95_ms": 14.52,
+    "min_ms": 3.82,
+    "max_ms": 19.16
+  },
+  "GET /api/tasks": {
+    "mean_ms": 13.0,
+    "median_ms": 13.14,
+    "p95_ms": 16.21,
+    "min_ms": 8.46,
+    "max_ms": 51.71
+  },
+  "task_lifecycle": {
+    "mean_ms": 125.93,
+    "median_ms": 121.58,
+    "p95_ms": 166.0
+  },
+  "memory": {
+    "rss_mb": 69.37,
+    "vms_mb": 47.88
+  },
+  "task_decomposition_deterministic": {
+    "mean_ms": 0.265,
+    "p95_ms": 0.184,
+    "steps_count": 2
+  },
+  "frontend_bundle": {
+    "js_kb": 372.99,
+    "css_kb": 60.22
+  }
+}

@@ -1,0 +1,12 @@
+# Security checklist
+- Secrets: none in code or Git history; `.env` in `.gitignore`; rotate any key that leaked.
+- Auth: strong password hashing, session expiry, brute-force protection, secure cookies (HttpOnly, Secure, SameSite).
+- Authorization: check ownership on every read/write by ID.
+- Injection: parameterized queries only; escape output; no `eval` or shell commands with user input.
+- XSS/CSRF: sanitize rendered user content; CSRF protection for cookie auth.
+- Uploads: limit type and size, rename files, store outside web root, scan if possible.
+- Transport: HTTPS everywhere; HSTS in production.
+- Headers: CSP, X-Content-Type-Options, frame protections.
+- Dependencies: run the audit command; remove unused packages.
+- Privacy: collect minimum data; do not log passwords, tokens, or personal data; explain data handling.
+- Backups and access: least-privilege database user, no default credentials.

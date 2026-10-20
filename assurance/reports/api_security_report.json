@@ -1,0 +1,1101 @@
+{
+  "timestamp": 1790696028.4208908,
+  "api_running": true,
+  "openapi_endpoints": 39,
+  "tests": {
+    "malformed_/api/tasks": {
+      "path": "/api/tasks",
+      "method": "POST",
+      "tests": [
+        {
+          "test": "empty_body",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "null_body",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "invalid_json",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 99,
+          "response_snippet": ""
+        },
+        {
+          "test": "array_instead_of_object",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "number_body",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "string_body",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "nested_bomb",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 99,
+          "response_snippet": ""
+        },
+        {
+          "test": "huge_string",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 127,
+          "response_snippet": ""
+        },
+        {
+          "test": "unicode_payload",
+          "endpoint": "POST /api/tasks",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 161,
+          "response_snippet": ""
+        },
+        {
+          "test": "sql_injection",
+          "endpoint": "POST /api/tasks",
+          "status_code": 201,
+          "safe": true,
+          "response_size": 154,
+          "response_snippet": ""
+        },
+        {
+          "test": "xss_payload",
+          "endpoint": "POST /api/tasks",
+          "status_code": 201,
+          "safe": true,
+          "response_size": 156,
+          "response_snippet": ""
+        },
+        {
+          "test": "path_traversal",
+          "endpoint": "POST /api/tasks",
+          "status_code": 201,
+          "safe": true,
+          "response_size": 153,
+          "response_snippet": ""
+        },
+        {
+          "test": "command_injection",
+          "endpoint": "POST /api/tasks",
+          "status_code": 201,
+          "safe": true,
+          "response_size": 143,
+          "response_snippet": ""
+        }
+      ],
+      "passed": true
+    },
+    "missing_fields_/api/tasks": {
+      "path": "/api/tasks",
+      "tests": [
+        {
+          "test": "empty_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "missing_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "null_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "empty_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "whitespace_goal",
+          "status_code": 201,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "invalid_types_/api/tasks": {
+      "path": "/api/tasks",
+      "tests": [
+        {
+          "test": "goal_as_number",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_boolean",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_array",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "extra_unknown_fields",
+          "status_code": 201,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "malformed_/api/planner/plan": {
+      "path": "/api/planner/plan",
+      "method": "POST",
+      "tests": [
+        {
+          "test": "empty_body",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "null_body",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "invalid_json",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 99,
+          "response_snippet": ""
+        },
+        {
+          "test": "array_instead_of_object",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "number_body",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "string_body",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "nested_bomb",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 99,
+          "response_snippet": ""
+        },
+        {
+          "test": "huge_string",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 127,
+          "response_snippet": ""
+        },
+        {
+          "test": "unicode_payload",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 161,
+          "response_snippet": ""
+        },
+        {
+          "test": "sql_injection",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 502,
+          "safe": true,
+          "response_size": 135,
+          "response_snippet": ""
+        },
+        {
+          "test": "xss_payload",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 502,
+          "safe": true,
+          "response_size": 135,
+          "response_snippet": ""
+        },
+        {
+          "test": "path_traversal",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 502,
+          "safe": true,
+          "response_size": 135,
+          "response_snippet": ""
+        },
+        {
+          "test": "command_injection",
+          "endpoint": "POST /api/planner/plan",
+          "status_code": 502,
+          "safe": true,
+          "response_size": 135,
+          "response_snippet": ""
+        }
+      ],
+      "passed": true
+    },
+    "missing_fields_/api/planner/plan": {
+      "path": "/api/planner/plan",
+      "tests": [
+        {
+          "test": "empty_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "missing_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "null_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "empty_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "whitespace_goal",
+          "status_code": 502,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "invalid_types_/api/planner/plan": {
+      "path": "/api/planner/plan",
+      "tests": [
+        {
+          "test": "goal_as_number",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_boolean",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_array",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "extra_unknown_fields",
+          "status_code": 502,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "malformed_/api/planner/task": {
+      "path": "/api/planner/task",
+      "method": "POST",
+      "tests": [
+        {
+          "test": "empty_body",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "null_body",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "invalid_json",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "array_instead_of_object",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "number_body",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "string_body",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "nested_bomb",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "huge_string",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "unicode_payload",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "sql_injection",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "xss_payload",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "path_traversal",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        },
+        {
+          "test": "command_injection",
+          "endpoint": "POST /api/planner/task",
+          "status_code": 404,
+          "safe": true,
+          "response_size": 53,
+          "response_snippet": ""
+        }
+      ],
+      "passed": true
+    },
+    "missing_fields_/api/planner/task": {
+      "path": "/api/planner/task",
+      "tests": [
+        {
+          "test": "empty_object",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "missing_goal",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "null_goal",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "empty_goal",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "whitespace_goal",
+          "status_code": 404,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "invalid_types_/api/planner/task": {
+      "path": "/api/planner/task",
+      "tests": [
+        {
+          "test": "goal_as_number",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "goal_as_boolean",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "goal_as_array",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "goal_as_object",
+          "status_code": 404,
+          "safe": true
+        },
+        {
+          "test": "extra_unknown_fields",
+          "status_code": 404,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "malformed_/api/automation/click": {
+      "path": "/api/automation/click",
+      "method": "POST",
+      "tests": [
+        {
+          "test": "empty_body",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "null_body",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "invalid_json",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 99,
+          "response_snippet": ""
+        },
+        {
+          "test": "array_instead_of_object",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "number_body",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "string_body",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "nested_bomb",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 102,
+          "response_snippet": ""
+        },
+        {
+          "test": "huge_string",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 102,
+          "response_snippet": ""
+        },
+        {
+          "test": "unicode_payload",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 102,
+          "response_snippet": ""
+        },
+        {
+          "test": "sql_injection",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 102,
+          "response_snippet": ""
+        },
+        {
+          "test": "xss_payload",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 102,
+          "response_snippet": ""
+        },
+        {
+          "test": "path_traversal",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 102,
+          "response_snippet": ""
+        },
+        {
+          "test": "command_injection",
+          "endpoint": "POST /api/automation/click",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 102,
+          "response_snippet": ""
+        }
+      ],
+      "passed": true
+    },
+    "missing_fields_/api/automation/click": {
+      "path": "/api/automation/click",
+      "tests": [
+        {
+          "test": "empty_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "missing_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "null_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "empty_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "whitespace_goal",
+          "status_code": 422,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "invalid_types_/api/automation/click": {
+      "path": "/api/automation/click",
+      "tests": [
+        {
+          "test": "goal_as_number",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_boolean",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_array",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "extra_unknown_fields",
+          "status_code": 422,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "malformed_/api/automation/type": {
+      "path": "/api/automation/type",
+      "method": "POST",
+      "tests": [
+        {
+          "test": "empty_body",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "null_body",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "invalid_json",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 99,
+          "response_snippet": ""
+        },
+        {
+          "test": "array_instead_of_object",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "number_body",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "string_body",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "nested_bomb",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 130,
+          "response_snippet": ""
+        },
+        {
+          "test": "huge_string",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 130,
+          "response_snippet": ""
+        },
+        {
+          "test": "unicode_payload",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 130,
+          "response_snippet": ""
+        },
+        {
+          "test": "sql_injection",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 130,
+          "response_snippet": ""
+        },
+        {
+          "test": "xss_payload",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 130,
+          "response_snippet": ""
+        },
+        {
+          "test": "path_traversal",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 130,
+          "response_snippet": ""
+        },
+        {
+          "test": "command_injection",
+          "endpoint": "POST /api/automation/type",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 130,
+          "response_snippet": ""
+        }
+      ],
+      "passed": true
+    },
+    "missing_fields_/api/automation/type": {
+      "path": "/api/automation/type",
+      "tests": [
+        {
+          "test": "empty_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "missing_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "null_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "empty_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "whitespace_goal",
+          "status_code": 422,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "invalid_types_/api/automation/type": {
+      "path": "/api/automation/type",
+      "tests": [
+        {
+          "test": "goal_as_number",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_boolean",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_array",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "extra_unknown_fields",
+          "status_code": 422,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "malformed_/api/automation/key": {
+      "path": "/api/automation/key",
+      "method": "POST",
+      "tests": [
+        {
+          "test": "empty_body",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "null_body",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 94,
+          "response_snippet": ""
+        },
+        {
+          "test": "invalid_json",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 99,
+          "response_snippet": ""
+        },
+        {
+          "test": "array_instead_of_object",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "number_body",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "string_body",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 147,
+          "response_snippet": ""
+        },
+        {
+          "test": "nested_bomb",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 98,
+          "response_snippet": ""
+        },
+        {
+          "test": "huge_string",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 98,
+          "response_snippet": ""
+        },
+        {
+          "test": "unicode_payload",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 98,
+          "response_snippet": ""
+        },
+        {
+          "test": "sql_injection",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 98,
+          "response_snippet": ""
+        },
+        {
+          "test": "xss_payload",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 98,
+          "response_snippet": ""
+        },
+        {
+          "test": "path_traversal",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 98,
+          "response_snippet": ""
+        },
+        {
+          "test": "command_injection",
+          "endpoint": "POST /api/automation/key",
+          "status_code": 422,
+          "safe": true,
+          "response_size": 98,
+          "response_snippet": ""
+        }
+      ],
+      "passed": true
+    },
+    "missing_fields_/api/automation/key": {
+      "path": "/api/automation/key",
+      "tests": [
+        {
+          "test": "empty_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "missing_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "null_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "empty_goal",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "whitespace_goal",
+          "status_code": 422,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "invalid_types_/api/automation/key": {
+      "path": "/api/automation/key",
+      "tests": [
+        {
+          "test": "goal_as_number",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_boolean",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_array",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "goal_as_object",
+          "status_code": 422,
+          "safe": true
+        },
+        {
+          "test": "extra_unknown_fields",
+          "status_code": 422,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "http_methods_root": {
+      "path": "/",
+      "tests": [
+        {
+          "method": "PUT",
+          "status_code": 405,
+          "safe": true
+        },
+        {
+          "method": "DELETE",
+          "status_code": 405,
+          "safe": true
+        },
+        {
+          "method": "PATCH",
+          "status_code": 405,
+          "safe": true
+        },
+        {
+          "method": "OPTIONS",
+          "status_code": 405,
+          "safe": true
+        },
+        {
+          "method": "HEAD",
+          "status_code": 405,
+          "safe": true
+        }
+      ],
+      "passed": true
+    },
+    "security_headers": {
+      "status": "EXECUTED",
+      "headers_present": {
+        "date": "Tue, 29 Sep 2026 15:34:00 GMT",
+        "server": "uvicorn",
+        "content-length": "96",
+        "content-type": "application/json",
+        "x-process-time-ms": "2.0"
+      },
+      "checks": {
+        "x_content_type_options": false,
+        "x_frame_options": false,
+        "strict_transport_security": false,
+        "content_security_policy": false,
+        "x_xss_protection": false,
+        "server_header_hidden": true,
+        "cors_configured": false
+      }
+    }
+  },
+  "summary": {
+    "total_tests": 143,
+    "passed": 143,
+    "failed": 0,
+    "pass_rate": 100.0
+  }
+}

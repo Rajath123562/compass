@@ -1,0 +1,11 @@
+# API / backend checklist
+- Define every endpoint: method, path, auth, request schema, response schema, error codes. Keep consistent naming and status codes.
+- Validate all input with a schema library; reject unknown fields.
+- Auth and authorization on every non-public route; test that user A cannot read user B.
+- Errors: consistent JSON error format; never leak stack traces or SQL.
+- Database: migrations, transactions for multi-step writes, indexes, no N+1 queries, connection handling.
+- Rate limiting, CORS restricted to known origins, request size limits, timeouts.
+- Idempotency for payments or retries; safe handling of duplicates.
+- Health endpoint, structured logs without secrets, graceful shutdown.
+- Docs: OpenAPI or a README table of endpoints with example requests.
+- Test: each endpoint for success, validation failure, unauthorized, not found.

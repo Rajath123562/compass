@@ -1,0 +1,12 @@
+# AI / LLM app checklist
+- Keep API keys server-side only. Never expose in frontend or Git.
+- Define model, token limits, timeouts, and a cost cap or usage limit per user.
+- Handle: API errors, rate limits (retry with backoff), empty or malformed output, refusals, and very long input.
+- Validate and parse model output (use structured output or JSON schema); never trust it blindly or run it as code.
+- Prompt injection: treat user and retrieved text as untrusted; do not let it change system instructions or trigger actions without checks.
+- Keep prompts in separate files/config, versioned and easy to edit.
+- Streaming responses: handle disconnects and partial output.
+- RAG: chunking strategy, embedding model pinned, source citations, handle "no relevant results".
+- Evaluate with a small test set of real examples (good, bad, tricky) and record results before and after changes.
+- Log inputs and outputs carefully, without sensitive data. Add user feedback (thumbs up/down) if useful.
+- Be explicit about limitations in the UI (AI can be wrong).

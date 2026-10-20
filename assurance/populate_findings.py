@@ -1,0 +1,144 @@
+"""
+COMPASS Continuous Production Assurance — Findings Initializer
+Populates the central finding register with verified audit findings.
+"""
+
+import sys
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT_DIR))
+
+from assurance.finding_schema import FindingRegistry
+
+
+def main():
+    reg = FindingRegistry()
+    reg.add(
+        source_tool="bandit",
+        subsystem="database",
+        category="injection",
+        severity="HIGH",
+        confidence="CONFIRMED",
+        title="Dynamic SQL Query Column Interpolation in update_workflow",
+        affected_component="backend.app.database.DatabaseManager.update_workflow",
+        file_path="backend/app/database.py",
+        line_number=516,
+        rule_id="B608",
+        description="kwargs keys were formatted directly into UPDATE SQL query without column allowlisting.",
+        reproduction_steps="Call update_workflow with arbitrary dictionary keys.",
+        impact="Potential SQL injection if caller passes untrusted dictionary keys.",
+        remediation="Enforced ALLOWED_WORKFLOW_COLUMNS allowlist validation.",
+        status="FIXED",
+        verification_status="VERIFIED",
+    )
+    reg.add(
+        source_tool="bandit",
+        subsystem="database",
+        category="injection",
+        severity="HIGH",
+        confidence="CONFIRMED",
+        title="Dynamic SQL Query Column Interpolation in update_workflow_node",
+        affected_component="backend.app.database.DatabaseManager.update_workflow_node",
+        file_path="backend/app/database.py",
+        line_number=634,
+        rule_id="B608",
+        description="kwargs keys were formatted directly into UPDATE SQL query without column allowlisting.",
+        reproduction_steps="Call update_workflow_node with arbitrary dictionary keys.",
+        impact="Potential SQL injection if caller passes untrusted dictionary keys.",
+        remediation="Enforced ALLOWED_WORKFLOW_NODE_COLUMNS allowlist validation.",
+        status="FIXED",
+        verification_status="VERIFIED",
+    )
+    reg.add(
+        source_tool="bandit",
+        subsystem="providers",
+        category="command_injection",
+        severity="HIGH",
+        confidence="CONFIRMED",
+        title="Subprocess call with shell=True in GPU hardware detection",
+        affected_component="providers.hardware_detector.get_system_hardware",
+        file_path="providers/hardware_detector.py",
+        line_number=53,
+        rule_id="B602",
+        description="powershell Get-CimInstance command executed with shell=True.",
+        impact="Subprocess shell invocation risk.",
+        remediation="Converted command to argument list executed directly without shell=True.",
+        status="FIXED",
+        verification_status="VERIFIED",
+    )
+    reg.add(
+        source_tool="bandit",
+        subsystem="scripts",
+        category="command_injection",
+        severity="MEDIUM",
+        confidence="CONFIRMED",
+        title="Subprocess call with shell=True in npm environment validation",
+        affected_component="scripts.validate_env.check_npm",
+        file_path="scripts/validate_env.py",
+        line_number=72,
+        rule_id="B602",
+        description="npm version checked via subprocess with shell=True.",
+        impact="Subprocess shell invocation risk.",
+        remediation="Resolved binary path with shutil.which and executed without shell.",
+        status="FIXED",
+        verification_status="VERIFIED",
+    )
+    reg.add(
+        source_tool="bandit",
+        subsystem="providers",
+        category="network_security",
+        severity="MEDIUM",
+        confidence="CONFIRMED",
+        title="urllib.request.urlopen without scheme verification",
+        affected_component="providers.omniroute_provider.OmniRouteProvider",
+        file_path="providers/omniroute_provider.py",
+        line_number=123,
+        rule_id="B310",
+        description="urllib urlopen called without strict scheme validation.",
+        impact="Unexpected URL scheme resolution if base_url is corrupted.",
+        remediation="Added strict http/https scheme validation before invocation.",
+        status="FIXED",
+        verification_status="VERIFIED",
+    )
+    reg.add(
+        source_tool="pip-audit",
+        subsystem="dependencies",
+        category="vulnerability",
+        severity="HIGH",
+        confidence="CONFIRMED",
+        title="Known vulnerabilities in pip 24.0 and setuptools 65.5.0",
+        affected_component=".venv",
+        file_path="requirements.txt",
+        line_number=1,
+        rule_id="CVE-2024-6345",
+        description="Outdated build/packaging dependencies had known CVEs (path traversal, ReDoS).",
+        impact="Vulnerabilities in package installer tooling.",
+        remediation="Upgraded pip to 26.2.1 and setuptools to 84.0.0 in .venv.",
+        status="FIXED",
+        verification_status="VERIFIED",
+    )
+    reg.add(
+        source_tool="npm-audit",
+        subsystem="frontend",
+        category="vulnerability",
+        severity="LOW",
+        confidence="CONFIRMED",
+        title="Vite dev server esbuild advisory (GHSA-67mh-4wv8-2f99)",
+        affected_component="frontend/node_modules/vite",
+        file_path="frontend/package.json",
+        line_number=17,
+        rule_id="GHSA-67mh-4wv8-2f99",
+        description="Development server esbuild version has moderate severity advisory.",
+        impact="Local development server cross-origin requests; mitigated by 127.0.0.1 localhost binding.",
+        remediation="Accepted development risk; production bundle is unaffected.",
+        status="OPEN",
+        verification_status="VERIFIED",
+    )
+    print(f"Registered {len(reg.get_all())} findings.")
+    summary = reg.summary()
+    print("Summary:", summary)
+
+
+if __name__ == "__main__":
+    main()

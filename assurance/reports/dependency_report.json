@@ -1,0 +1,23 @@
+{
+  "timestamp": 1791623797.6745691,
+  "tools": {
+    "pip_audit": {
+      "status": "EXECUTED",
+      "total_packages": 134,
+      "vulnerable_packages": 0,
+      "vulnerabilities": []
+    },
+    "npm_audit": {
+      "status": "EXECUTED",
+      "vulnerabilities_summary": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      },
+      "advisories_count": 0
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "timestamp": 1792399511.2452602,
+  "target": "COMPASS v2.0.0 Real-World Pilot Evaluation",
+  "categories": {
+    "Basic Tasks": [
+      {
+        "task_id": "TASK-B01",
+        "name": "Query Active Window Context",
+        "passed": true,
+        "duration_s": 0.067,
+        "detail": "App: Desktop Workspace, Title: 'Active Desktop Workspace', OS: Windows",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B02",
+        "name": "Open Approved Test Application",
+        "passed": true,
+        "duration_s": 1.206,
+        "detail": "Notepad HWND: 394138",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B03",
+        "name": "Locate Interface Element via UIA",
+        "passed": true,
+        "duration_s": 0.124,
+        "detail": "Found 1 editable control(s)",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B04",
+        "name": "Enter Text in Disposable Document",
+        "passed": true,
+        "duration_s": 3.546,
+        "detail": "Observed in window: 'COMPASS_PILOT_VERIFIED_TEXT_2026...', Action success: True",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B05",
+        "name": "Locate Safe Allowlist Target (Paint)",
+        "passed": true,
+        "duration_s": 2.167,
+        "detail": "Paint HWND: 459742",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B06",
+        "name": "Read Application Output via WinRT OCR",
+        "passed": true,
+        "duration_s": 1.379,
+        "detail": "OCR Extracted: 'COMPASSCCRVALIDATION'",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B07",
+        "name": "Navigate Controlled Local Web Console",
+        "passed": true,
+        "duration_s": 0.009,
+        "detail": "Vite console reachable on http://127.0.0.1:5173",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B08",
+        "name": "Inspect Dedicated Sandbox Directory",
+        "passed": true,
+        "duration_s": 0.001,
+        "detail": "Artifact written: pilot_manifest.json",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-B09",
+        "name": "Verify Newly Created Test Artifact",
+        "passed": true,
+        "duration_s": 0.01,
+        "detail": "Artifact content valid: True",
+        "evidence": {}
+      }
+    ],
+    "Multistep Tasks": [
+      {
+        "task_id": "TASK-M01",
+        "name": "Sequential Task Planning & Submission",
+        "passed": true,
+        "duration_s": 0.014,
+        "detail": "Task task_6583cd7eb2 registered with state STARTING",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-M02",
+        "name": "Workflow DAG Topological Dependency Validation",
+        "passed": true,
+        "duration_s": 0.062,
+        "detail": "Workflow ID: wf_3504f4ea0376, Status: 201",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-M03",
+        "name": "Multi-Round Temporal Perception Consistency",
+        "passed": true,
+        "duration_s": 1.557,
+        "detail": "Elements round 1: 1, round 2: 1",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-M04",
+        "name": "Recovery from Focus Shift (StaleGuard)",
+        "passed": true,
+        "duration_s": 4.27,
+        "detail": "Focus API call status: 200, Success: True",
+        "evidence": {}
+      }
+    ],
+    "Edge Cases": [
+      {
+        "task_id": "TASK-E01",
+        "name": "Invalid Window / Missing Target Rejection",
+        "passed": true,
+        "duration_s": 0.019,
+        "detail": "Safely handled invalid HWND with code 422",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-E02",
+        "name": "Whitespace-Only Goal Rejection",
+        "passed": true,
+        "duration_s": 0.002,
+        "detail": "Returned HTTP 422 (Expected 422)",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-E03",
+        "name": "Empty Goal String Rejection",
+        "passed": true,
+        "duration_s": 0.003,
+        "detail": "Returned HTTP 422 with Pydantic validation error",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-E04",
+        "name": "Preemption Latency Under 200ms",
+        "passed": true,
+        "duration_s": 0.06,
+        "detail": "Abort latency: 47.84ms, State: STOPPED",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-E05",
+        "name": "Consequential Risk Gating (del command)",
+        "passed": true,
+        "duration_s": 0.032,
+        "detail": "Risk level: HIGH, requires_confirmation: True",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-E06",
+        "name": "Sudden Target Window Disappearance",
+        "passed": true,
+        "duration_s": 1.532,
+        "detail": "Handled gracefully without backend crash: code 422",
+        "evidence": {}
+      },
+      {
+        "task_id": "TASK-E07",
+        "name": "Memory RSS Stability (<5MB growth across 5 cycles)",
+        "passed": true,
+        "duration_s": 0.099,
+        "detail": "Initial RSS: 72.79MB, Final: 73.25MB, Growth: 0.46MB",
+        "evidence": {}
+      }
+    ]
+  },
+  "metrics": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0,
+    "false_successes": 0,
+    "avg_preemption_ms": 47.84,
+    "memory_growth_mb": 0.46
+  }
+}

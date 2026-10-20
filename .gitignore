@@ -1,0 +1,51 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm/
+
+# Databases & Runtime State
+storage/*.db
+storage/*.db-journal
+storage/*.db-wal
+storage/*.db-shm
+*.sqlite
+*.sqlite3
+
+# Logs & Telemetry
+logs/
+*.log
+
+# Sensitive environment variables
+.env
+.env.*
+!.env.example
+
+# Temporary / Scratch artifacts
+artifacts/
+.kilo/
+$null
+127
+powershell.cmd
+{p.name()}
+scratch_test_overlay.py
+.compass_pids.json
+test_open.txt

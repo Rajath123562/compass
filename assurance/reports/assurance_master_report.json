@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-10-18T22:30:53.323213",
+  "mode": "quick",
+  "environment": {
+    "os": "Windows 10 (Build 10.0.26300)",
+    "python": "3.11.9",
+    "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "ram_total_gb": 11.71,
+    "ram_available_gb": 1.55
+  },
+  "stages": {
+    "inventory": {
+      "stage": 1,
+      "name": "inventory",
+      "description": "Application Inventory & Attack Surface Discovery",
+      "status": "PASS",
+      "duration_s": 28.25,
+      "returncode": 0,
+      "stdout_tail": "[Inventory] Discovering Python source files...\n  Found 377 Python files (184 test files)\n[Inventory] Discovering JavaScript/React files...\n  Found 23 frontend files\n[Inventory] Discovering API endpoints...\n  Found 49 API endpoints\n[Inventory] Discovering SSE endpoints...\n  Found 5 SSE-capable files\n[Inventory] Discovering Python dependencies...\n  Found 24 Python packages\n[Inventory] Discovering Node dependencies...\n  Found 9 Node packages\n[Inventory] Building attack surface map...\n  Found 809 dangerous code patterns\n\n[Inventory] Saved to: C:\\Users\\RAJATH U\\Downloads\\personal assitant\\assurance\\reports\\application_inventory.json\n",
+      "stderr_tail": ""
+    },
+    "sast": {
+      "stage": 2,
+      "name": "sast",
+      "description": "Static Application Security Testing (Bandit)",
+      "status": "PASS",
+      "duration_s": 4.31,
+      "returncode": 0,
+      "stdout_tail": "[SAST] Running Bandit on: backend, planner, perception, automation, providers, overlay\n[SAST] Report saved: C:\\Users\\RAJATH U\\Downloads\\personal assitant\\assurance\\reports\\sast_report.json\n[SAST] Bandit Status: EXECUTED, Findings: 0\n",
+      "stderr_tail": ""
+    },
+    "secret": {
+      "stage": 3,
+      "name": "secret",
+      "description": "Secret & Credential Leakage Scanning",
+      "status": "PASS",
+      "duration_s": 14.95,
+      "returncode": 0,
+      "stdout_tail": "[SecretScan] Scanning repository for leaked secrets...\n[SecretScan] Scanned 595 files, found 0 unverified secret(s), filtered 24 dummy fixture(s).\n[SecretScan] Report saved: C:\\Users\\RAJATH U\\Downloads\\personal assitant\\assurance\\reports\\secret_scan_report.json\n",
+      "stderr_tail": ""
+    },
+    "legacy_secret_audit": {
+      "stage": 4,
+      "name": "legacy_secret_audit",
+      "description": "Phase 1-14 Legacy Secret Audit",
+      "status": "PASS",
+      "duration_s": 5.12,
+      "returncode": 0,
+      "stdout_tail": "Scanned 1514 files.\nFound 0 secret violations.\n",
+      "stderr_tail": ""
+    },
+    "regression": {
+      "stage": 5,
+      "name": "regression",
+      "status": "TIMEOUT",
+      "duration_s": 300.14
+    },
+    "release_gate": {
+      "stage": 6,
+      "name": "release_gate",
+      "description": "Production Release Gate Evaluation",
+      "status": "PASS",
+      "duration_s": 0.46,
+      "returncode": 0,
+      "stdout_tail": "\nRelease Readiness: [PASS]\n  Warnings: git\n",
+      "stderr_tail": ""
+    }
+  },
+  "summary": {
+    "total_stages": 6,
+    "passed": 5,
+    "failed": 0,
+    "blocked": 1,
+    "skipped": 0,
+    "total_duration_s": 353.26,
+    "overall_status": "FAIL",
+    "total_findings": 7,
+    "open_findings": 1
+  }
+}

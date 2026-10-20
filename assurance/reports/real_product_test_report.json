@@ -1,0 +1,155 @@
+{
+  "timestamp": 1792399476.859817,
+  "target": "COMPASS Assembled Product (Backend + Frontend + Real Windows)",
+  "suites": {
+    "Suite 1: Normal Workflow": [
+      {
+        "test": "Launch Mock Notepad",
+        "passed": true,
+        "duration_s": 1.507,
+        "detail": "Mock Notepad (assurance/notepad.exe) launched and detected by external observer",
+        "evidence": {}
+      },
+      {
+        "test": "API Task Creation",
+        "passed": true,
+        "duration_s": 0.03,
+        "detail": "Task ID: task_9e0c9e967d",
+        "evidence": {}
+      },
+      {
+        "test": "Live AI Planning",
+        "passed": true,
+        "duration_s": 2.928,
+        "detail": "Status: 200, Generated plan with 2 step(s)",
+        "evidence": {}
+      },
+      {
+        "test": "Live Action Execution",
+        "passed": true,
+        "duration_s": 3.612,
+        "detail": "Typed 29 chars via Win32 API",
+        "evidence": {}
+      },
+      {
+        "test": "Independent Outside Observer Verification",
+        "passed": true,
+        "duration_s": 0.5,
+        "detail": "Observed in window: 'COMPASS_VERIFIED_GROUND_TRUTH...'",
+        "evidence": {
+          "hwnds": [
+            263070
+          ],
+          "observed_text": "COMPASS_VERIFIED_GROUND_TRUTH",
+          "expected_text": "COMPASS_VERIFIED_GROUND_TRUTH"
+        }
+      },
+      {
+        "test": "Process Cleanup",
+        "passed": true,
+        "duration_s": 0.1,
+        "detail": "Owned mock notepad (PID 24640) terminated cleanly",
+        "evidence": {}
+      }
+    ],
+    "Suite 2: Emergency STOP": [
+      {
+        "test": "Preemption Latency & State Transition",
+        "passed": true,
+        "duration_s": 0.051,
+        "detail": "Preemption latency: 50.85ms (Threshold: 500ms), State: STOPPED",
+        "evidence": {}
+      },
+      {
+        "test": "Post-STOP Execution Lockout",
+        "passed": true,
+        "duration_s": 0.028,
+        "detail": "Execution lockout response code: 400",
+        "evidence": {}
+      }
+    ],
+    "Suite 3: Controlled Failure": [
+      {
+        "test": "Live UIA Window Perception",
+        "passed": true,
+        "duration_s": 1.511,
+        "detail": "Foreground window captured via live API",
+        "evidence": {}
+      },
+      {
+        "test": "Safe Action Failure & Backend Resilience",
+        "passed": true,
+        "duration_s": 0.081,
+        "detail": "Action status: 422, Safely rejected: True, Backend alive: True",
+        "evidence": {}
+      }
+    ],
+    "Suite 4: Adversarial Break": [
+      {
+        "test": "Payload Defense: SQL Injection",
+        "passed": true,
+        "duration_s": 0.092,
+        "detail": "DB tables intact: True, HTTP 201",
+        "evidence": {}
+      },
+      {
+        "test": "Payload Defense: XSS Script Injection",
+        "passed": true,
+        "duration_s": 0.097,
+        "detail": "Fuzz payload handled without crash: HTTP 201",
+        "evidence": {}
+      },
+      {
+        "test": "Payload Defense: Path Traversal",
+        "passed": true,
+        "duration_s": 0.068,
+        "detail": "Path traversal handled safely: HTTP 201",
+        "evidence": {}
+      },
+      {
+        "test": "Payload Defense: Prompt Injection",
+        "passed": true,
+        "duration_s": 0.054,
+        "detail": "Hostile task state: None (not auto-executed on OS), HTTP 201",
+        "evidence": {}
+      },
+      {
+        "test": "Payload Defense: Huge Buffer",
+        "passed": true,
+        "duration_s": 0.065,
+        "detail": "Fuzz payload handled without crash: HTTP 422",
+        "evidence": {}
+      },
+      {
+        "test": "Payload Defense: Unicode & Null Byte",
+        "passed": true,
+        "duration_s": 0.082,
+        "detail": "Fuzz payload handled without crash: HTTP 201",
+        "evidence": {}
+      },
+      {
+        "test": "Payload Defense: Empty Whitespace",
+        "passed": true,
+        "duration_s": 0.015,
+        "detail": "Fuzz payload handled without crash: HTTP 422",
+        "evidence": {}
+      }
+    ],
+    "Suite 5: Long-Run Loop": [
+      {
+        "test": "Memory Stability Over 5 Rapid Cycles",
+        "passed": true,
+        "duration_s": 0.945,
+        "detail": "Initial RSS: 75.2MB, Final: 74.8MB, Growth: -0.39MB (Max allowed: 5.0MB)",
+        "evidence": {}
+      }
+    ]
+  },
+  "summary": {
+    "total": 18,
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "overall": "PASS"
+  }
+}

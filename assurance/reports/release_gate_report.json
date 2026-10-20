@@ -1,0 +1,86 @@
+{
+  "run_id": "78e8d025-85be-4ffe-a826-18b2b9b65d77",
+  "timestamp": 1792343206.5806298,
+  "source_identity": {
+    "commit_hash": "UNVERIFIED",
+    "tree_hash": "8af2dab9ec6f3aab"
+  },
+  "overall_readiness": "PASS",
+  "blocking_gates": [],
+  "warning_gates": [
+    "git"
+  ],
+  "mandatory_gates_count": 8,
+  "gates": {
+    "functional": {
+      "mandatory": true,
+      "status": "PASS",
+      "evidence": "artifacts/phase14/phase14_master_report.json",
+      "stages_passed": 9,
+      "stages_total": 9
+    },
+    "security": {
+      "mandatory": true,
+      "status": "PASS",
+      "open_critical": 0,
+      "open_high": 0,
+      "total_findings": 7,
+      "evidence": "assurance/findings/finding_register.json"
+    },
+    "sast": {
+      "mandatory": true,
+      "status": "PASS",
+      "findings_count": 0,
+      "evidence": "assurance/reports/sast_report.json"
+    },
+    "dependency": {
+      "mandatory": true,
+      "status": "PASS",
+      "pip_vulnerable_packages": 0,
+      "npm_critical": 0,
+      "npm_high": 0,
+      "evidence": "assurance/reports/dependency_report.json"
+    },
+    "secret_scan": {
+      "mandatory": true,
+      "status": "PASS",
+      "secrets_found": 0,
+      "evidence": "assurance/reports/secret_scan_report.json"
+    },
+    "api_security": {
+      "mandatory": true,
+      "status": "PASS",
+      "tests_passed": 143,
+      "tests_failed": 0,
+      "evidence": "assurance/reports/api_security_report.json"
+    },
+    "performance": {
+      "mandatory": true,
+      "status": "PASS",
+      "violations": [],
+      "metrics": {
+        "planning_latency_ms": 1.205,
+        "database_op_latency_ms": 15.207,
+        "safety_latency_ms": 0.008,
+        "action_latency_ms": 69.152,
+        "e2e_single_step_latency_ms": 65.897,
+        "replanning_latency_ms": 1.155,
+        "stop_latency_ms": 45.694,
+        "rss_growth_15_cycles_mb": 1.49
+      },
+      "evidence": "artifacts/phase14/benchmark_comparison.json"
+    },
+    "real_product": {
+      "mandatory": true,
+      "status": "PASS",
+      "total_tests": 18,
+      "failed_tests": 0,
+      "evidence": "assurance/reports/real_product_test_report.json"
+    },
+    "git": {
+      "mandatory": false,
+      "status": "WARN",
+      "uncommitted_changes": 80
+    }
+  }
+}
